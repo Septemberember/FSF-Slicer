@@ -1,0 +1,2880 @@
+{
+  "root": "/Users/liuyang/Documents/Codex/2026-08-11/wo-x/outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset",
+  "total": 301,
+  "parsed": 300,
+  "failed": 1,
+  "failures": [
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/PassPillowBranch_Mutant2.java",
+      "error": "Cannot parse outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/PassPillowBranch_Mutant2.java: "
+    }
+  ],
+  "programs": [
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/AbsSeq_Mutant1.java",
+      "class": "AbsSeq_Mutant1",
+      "method": "Abs",
+      "inputs": {
+        "num": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/AbsSeq_Mutant2.java",
+      "class": "AbsSeq_Mutant2",
+      "method": "Abs",
+      "inputs": {
+        "num": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/AbsSeq_Mutant3.java",
+      "class": "AbsSeq_Mutant3",
+      "method": "Abs",
+      "inputs": {
+        "num": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/AbsSeq_Mutant4.java",
+      "class": "AbsSeq_Mutant4",
+      "method": "Abs",
+      "inputs": {
+        "num": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/AbsSeq_Mutant5.java",
+      "class": "AbsSeq_Mutant5",
+      "method": "Abs",
+      "inputs": {
+        "num": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/Abs_Mutant2.java",
+      "class": "Abs_Mutant2",
+      "method": "Abs",
+      "inputs": {
+        "num": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/Abs_Mutant3.java",
+      "class": "Abs_Mutant3",
+      "method": "Abs",
+      "inputs": {
+        "num": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/Abs_Mutant4.java",
+      "class": "Abs_Mutant4",
+      "method": "Abs",
+      "inputs": {
+        "num": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/Abs_Mutant5.java",
+      "class": "Abs_Mutant5",
+      "method": "Abs",
+      "inputs": {
+        "num": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/Abs_Original.java",
+      "class": "Abs_Original",
+      "method": "Abs",
+      "inputs": {
+        "num": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/AltitudeController_Mutant1.java",
+      "class": "AltitudeController_Mutant1",
+      "method": "altitudeController",
+      "inputs": {
+        "currentHeight": "int",
+        "targetHeight": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/AltitudeController_Mutant2.java",
+      "class": "AltitudeController_Mutant2",
+      "method": "altitudeController",
+      "inputs": {
+        "currentHeight": "int",
+        "targetHeight": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/AltitudeController_Mutant3.java",
+      "class": "AltitudeController_Mutant3",
+      "method": "altitudeController",
+      "inputs": {
+        "currentHeight": "int",
+        "targetHeight": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/AltitudeController_Mutant4.java",
+      "class": "AltitudeController_Mutant4",
+      "method": "altitudeController",
+      "inputs": {
+        "currentHeight": "int",
+        "targetHeight": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/AltitudeController_Mutant5.java",
+      "class": "AltitudeController_Mutant5",
+      "method": "altitudeController",
+      "inputs": {
+        "currentHeight": "int",
+        "targetHeight": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/AltitudeController_Original.java",
+      "class": "AltitudeController_Original",
+      "method": "altitudeController",
+      "inputs": {
+        "currentHeight": "int",
+        "targetHeight": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/AreaCalculator.java",
+      "class": "AreaCalculator",
+      "method": "computeAreaValue",
+      "inputs": {
+        "length": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/Calculator_Mutant1.java",
+      "class": "Calculator_Mutant1",
+      "method": "calculate",
+      "inputs": {
+        "num1": "int",
+        "num2": "int",
+        "operator": "char"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/Calculator_Mutant2.java",
+      "class": "Calculator_Mutant2",
+      "method": "calculate",
+      "inputs": {
+        "num1": "int",
+        "num2": "int",
+        "operator": "char"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/Calculator_Mutant3.java",
+      "class": "Calculator_Mutant3",
+      "method": "calculate",
+      "inputs": {
+        "num1": "int",
+        "num2": "int",
+        "operator": "char"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/Calculator_Mutant4.java",
+      "class": "Calculator_Mutant4",
+      "method": "calculate",
+      "inputs": {
+        "num1": "int",
+        "num2": "int",
+        "operator": "char"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/Calculator_Mutant5.java",
+      "class": "Calculator_Mutant5",
+      "method": "calculate",
+      "inputs": {
+        "num1": "int",
+        "num2": "int",
+        "operator": "char"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/Calculator_Original.java",
+      "class": "Calculator_Original",
+      "method": "calculate",
+      "inputs": {
+        "num1": "int",
+        "num2": "int",
+        "operator": "char"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/ChangeCase_Mutant1.java",
+      "class": "ChangeCase_Mutant1",
+      "method": "changeCase",
+      "inputs": {
+        "c": "char"
+      },
+      "return": "char"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/ChangeCase_Mutant2.java",
+      "class": "ChangeCase_Mutant2",
+      "method": "changeCase",
+      "inputs": {
+        "c": "char"
+      },
+      "return": "char"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/ChangeCase_Mutant3.java",
+      "class": "ChangeCase_Mutant3",
+      "method": "changeCase",
+      "inputs": {
+        "c": "char"
+      },
+      "return": "char"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/ChangeCase_Mutant4.java",
+      "class": "ChangeCase_Mutant4",
+      "method": "changeCase",
+      "inputs": {
+        "c": "char"
+      },
+      "return": "char"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/ChangeCase_Mutant5.java",
+      "class": "ChangeCase_Mutant5",
+      "method": "changeCase",
+      "inputs": {
+        "c": "char"
+      },
+      "return": "char"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/ChangeCase_Original.java",
+      "class": "ChangeCase_Original",
+      "method": "changeCase",
+      "inputs": {
+        "c": "char"
+      },
+      "return": "char"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/CompressionRatio.java",
+      "class": "CompressionRatio",
+      "method": "calculateRatio",
+      "inputs": {
+        "fileSize": "int"
+      },
+      "return": "String"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/Conjunction_Mutant1.java",
+      "class": "Conjunction_Mutant1",
+      "method": "conjunctOf",
+      "inputs": {
+        "b1": "boolean",
+        "b2": "boolean"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/Conjunction_Mutant2.java",
+      "class": "Conjunction_Mutant2",
+      "method": "conjunctOf",
+      "inputs": {
+        "b1": "boolean",
+        "b2": "boolean"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/Conjunction_Mutant3.java",
+      "class": "Conjunction_Mutant3",
+      "method": "conjunctOf",
+      "inputs": {
+        "b1": "boolean",
+        "b2": "boolean"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/Conjunction_Mutant4.java",
+      "class": "Conjunction_Mutant4",
+      "method": "conjunctOf",
+      "inputs": {
+        "b1": "boolean",
+        "b2": "boolean"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/Conjunction_Mutant5.java",
+      "class": "Conjunction_Mutant5",
+      "method": "conjunctOf",
+      "inputs": {
+        "b1": "boolean",
+        "b2": "boolean"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/Conjunction_Original.java",
+      "class": "Conjunction_Original",
+      "method": "conjunctOf",
+      "inputs": {
+        "b1": "boolean",
+        "b2": "boolean"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/ConvertToKelvin_Mutant5.java",
+      "class": "ConvertToKelvin_Mutant5",
+      "method": "convertTemperature",
+      "inputs": {
+        "celsius": "double"
+      },
+      "return": "double"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/DataCompressor.java",
+      "class": "DataCompressor",
+      "method": "compressData",
+      "inputs": {
+        "inputSize": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/DensityEvaluator.java",
+      "class": "DensityEvaluator",
+      "method": "calculateDensity",
+      "inputs": {
+        "mass": "int",
+        "volume": "int"
+      },
+      "return": "double"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/Disjunction_Mutant1.java",
+      "class": "Disjunction_Mutant1",
+      "method": "disjunctOf",
+      "inputs": {
+        "b1": "boolean",
+        "b2": "boolean"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/Disjunction_Mutant2.java",
+      "class": "Disjunction_Mutant2",
+      "method": "disjunctOf",
+      "inputs": {
+        "b1": "boolean",
+        "b2": "boolean"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/Disjunction_Mutant3.java",
+      "class": "Disjunction_Mutant3",
+      "method": "disjunctOf",
+      "inputs": {
+        "b1": "boolean",
+        "b2": "boolean"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/Disjunction_Mutant4.java",
+      "class": "Disjunction_Mutant4",
+      "method": "disjunctOf",
+      "inputs": {
+        "b1": "boolean",
+        "b2": "boolean"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/Disjunction_Mutant5.java",
+      "class": "Disjunction_Mutant5",
+      "method": "disjunctOf",
+      "inputs": {
+        "b1": "boolean",
+        "b2": "boolean"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/Disjunction_Original.java",
+      "class": "Disjunction_Original",
+      "method": "disjunctOf",
+      "inputs": {
+        "b1": "boolean",
+        "b2": "boolean"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/DivisionCalculator.java",
+      "class": "DivisionCalculator",
+      "method": "calculateRatio",
+      "inputs": {
+        "numerator": "int",
+        "denominator": "int"
+      },
+      "return": "double"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/DivisionOverflow_Mutant4.java",
+      "class": "DivisionOverflow_Mutant4",
+      "method": "division_test_fail_overflow",
+      "inputs": {
+        "nom": "int",
+        "denom": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/EnergyMonitor.java",
+      "class": "EnergyMonitor",
+      "method": "calculateConsumption",
+      "inputs": {
+        "usage": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/FizzBuzz_Mutant1.java",
+      "class": "FizzBuzz_Mutant1",
+      "method": "fizzBuzz",
+      "inputs": {
+        "n": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/FizzBuzz_Mutant2.java",
+      "class": "FizzBuzz_Mutant2",
+      "method": "fizzBuzz",
+      "inputs": {
+        "n": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/FizzBuzz_Mutant3.java",
+      "class": "FizzBuzz_Mutant3",
+      "method": "fizzBuzz",
+      "inputs": {
+        "n": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/FizzBuzz_Mutant4.java",
+      "class": "FizzBuzz_Mutant4",
+      "method": "fizzBuzz",
+      "inputs": {
+        "n": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/FizzBuzz_Mutant5.java",
+      "class": "FizzBuzz_Mutant5",
+      "method": "fizzBuzz",
+      "inputs": {
+        "n": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/FizzBuzz_Original.java",
+      "class": "FizzBuzz_Original",
+      "method": "fizzBuzz",
+      "inputs": {
+        "n": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/FlowCalculator.java",
+      "class": "FlowCalculator",
+      "method": "computeFlow",
+      "inputs": {
+        "pressure": "int",
+        "rate": "int"
+      },
+      "return": "double"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/FlowCalculator_S.java",
+      "class": "FlowCalculator_S",
+      "method": "computeFlow",
+      "inputs": {
+        "pressure": "int",
+        "rate": "int"
+      },
+      "return": "double"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/FuelEfficiencyAnalyzer.java",
+      "class": "FuelEfficiencyAnalyzer",
+      "method": "analyzeEfficiency",
+      "inputs": {
+        "distance": "int",
+        "fuelUsed": "int"
+      },
+      "return": "double"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/FuelEfficiencyAnalyzer_S.java",
+      "class": "FuelEfficiencyAnalyzer_S",
+      "method": "analyzeEfficiency",
+      "inputs": {
+        "distance": "int",
+        "fuelUsed": "int"
+      },
+      "return": "double"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/GPSCheck_Mutant1.java",
+      "class": "GPSCheck_Mutant1",
+      "method": "GPSCheck",
+      "inputs": {
+        "satellites": "int",
+        "signalStrength": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/GPSCheck_Mutant2.java",
+      "class": "GPSCheck_Mutant2",
+      "method": "GPSCheck",
+      "inputs": {
+        "satellites": "int",
+        "signalStrength": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/GPSCheck_Mutant3.java",
+      "class": "GPSCheck_Mutant3",
+      "method": "GPSCheck",
+      "inputs": {
+        "satellites": "int",
+        "signalStrength": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/GPSCheck_Mutant4.java",
+      "class": "GPSCheck_Mutant4",
+      "method": "GPSCheck",
+      "inputs": {
+        "satellites": "int",
+        "signalStrength": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/GPSCheck_Mutant5.java",
+      "class": "GPSCheck_Mutant5",
+      "method": "GPSCheck",
+      "inputs": {
+        "satellites": "int",
+        "signalStrength": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/GPSCheck_Original.java",
+      "class": "GPSCheck_Original",
+      "method": "GPSCheck",
+      "inputs": {
+        "satellites": "int",
+        "signalStrength": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/Geofence_Mutant1.java",
+      "class": "Geofence_Mutant1",
+      "method": "geofence",
+      "inputs": {
+        "x": "int",
+        "y": "int",
+        "limitX": "int",
+        "limitY": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/Geofence_Mutant2.java",
+      "class": "Geofence_Mutant2",
+      "method": "geofence",
+      "inputs": {
+        "x": "int",
+        "y": "int",
+        "limitX": "int",
+        "limitY": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/Geofence_Mutant3.java",
+      "class": "Geofence_Mutant3",
+      "method": "geofence",
+      "inputs": {
+        "x": "int",
+        "y": "int",
+        "limitX": "int",
+        "limitY": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/Geofence_Mutant4.java",
+      "class": "Geofence_Mutant4",
+      "method": "geofence",
+      "inputs": {
+        "x": "int",
+        "y": "int",
+        "limitX": "int",
+        "limitY": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/Geofence_Mutant5.java",
+      "class": "Geofence_Mutant5",
+      "method": "geofence",
+      "inputs": {
+        "x": "int",
+        "y": "int",
+        "limitX": "int",
+        "limitY": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/Geofence_Original.java",
+      "class": "Geofence_Original",
+      "method": "geofence",
+      "inputs": {
+        "x": "int",
+        "y": "int",
+        "limitX": "int",
+        "limitY": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/GyroHealthCheck_Mutant1.java",
+      "class": "GyroHealthCheck_Mutant1",
+      "method": "gyroHealthCheck",
+      "inputs": {
+        "x": "int",
+        "y": "int",
+        "z": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/GyroHealthCheck_Mutant2.java",
+      "class": "GyroHealthCheck_Mutant2",
+      "method": "gyroHealthCheck",
+      "inputs": {
+        "x": "int",
+        "y": "int",
+        "z": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/GyroHealthCheck_Mutant3.java",
+      "class": "GyroHealthCheck_Mutant3",
+      "method": "gyroHealthCheck",
+      "inputs": {
+        "x": "int",
+        "y": "int",
+        "z": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/GyroHealthCheck_Mutant4.java",
+      "class": "GyroHealthCheck_Mutant4",
+      "method": "gyroHealthCheck",
+      "inputs": {
+        "x": "int",
+        "y": "int",
+        "z": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/GyroHealthCheck_Mutant5.java",
+      "class": "GyroHealthCheck_Mutant5",
+      "method": "gyroHealthCheck",
+      "inputs": {
+        "x": "int",
+        "y": "int",
+        "z": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/GyroHealthCheck_Original.java",
+      "class": "GyroHealthCheck_Original",
+      "method": "gyroHealthCheck",
+      "inputs": {
+        "x": "int",
+        "y": "int",
+        "z": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/HeatPredictor.java",
+      "class": "HeatPredictor",
+      "method": "predictHeat",
+      "inputs": {
+        "level": "int",
+        "factor": "int"
+      },
+      "return": "double"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/HeatPredictor_S.java",
+      "class": "HeatPredictor_S",
+      "method": "predictHeat",
+      "inputs": {
+        "level": "int",
+        "factor": "int"
+      },
+      "return": "double"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/IsCommonFactorBranch_Mutant1.java",
+      "class": "IsCommonFactorBranch_Mutant1",
+      "method": "isCommonFactor",
+      "inputs": {
+        "a": "int",
+        "b": "int",
+        "factor": "int"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/IsCommonFactorBranch_Mutant2.java",
+      "class": "IsCommonFactorBranch_Mutant2",
+      "method": "isCommonFactor",
+      "inputs": {
+        "a": "int",
+        "b": "int",
+        "factor": "int"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/IsCommonFactorBranch_Mutant3.java",
+      "class": "IsCommonFactorBranch_Mutant3",
+      "method": "isCommonFactor",
+      "inputs": {
+        "a": "int",
+        "b": "int",
+        "factor": "int"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/IsCommonFactorBranch_Mutant4.java",
+      "class": "IsCommonFactorBranch_Mutant4",
+      "method": "isCommonFactor",
+      "inputs": {
+        "a": "int",
+        "b": "int",
+        "factor": "int"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/IsCommonFactorBranch_Mutant5.java",
+      "class": "IsCommonFactorBranch_Mutant5",
+      "method": "isCommonFactor",
+      "inputs": {
+        "a": "int",
+        "b": "int",
+        "factor": "int"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/IsCommonFactorBranch_Original.java",
+      "class": "IsCommonFactorBranch_Original",
+      "method": "isCommonFactor",
+      "inputs": {
+        "a": "int",
+        "b": "int",
+        "factor": "int"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/IsCommonMultipleBranch_Mutant1.java",
+      "class": "IsCommonMultipleBranch_Mutant1",
+      "method": "isCommonMultiple",
+      "inputs": {
+        "a": "int",
+        "b": "int",
+        "m": "int"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/IsCommonMultipleBranch_Mutant2.java",
+      "class": "IsCommonMultipleBranch_Mutant2",
+      "method": "isCommonMultiple",
+      "inputs": {
+        "a": "int",
+        "b": "int",
+        "m": "int"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/IsCommonMultipleBranch_Mutant3.java",
+      "class": "IsCommonMultipleBranch_Mutant3",
+      "method": "isCommonMultiple",
+      "inputs": {
+        "a": "int",
+        "b": "int",
+        "m": "int"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/IsCommonMultipleBranch_Mutant5.java",
+      "class": "IsCommonMultipleBranch_Mutant5",
+      "method": "isCommonMultiple",
+      "inputs": {
+        "a": "int",
+        "b": "int",
+        "m": "int"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/LeapYear_Mutant1.java",
+      "class": "LeapYear_Mutant1",
+      "method": "isLeapYear",
+      "inputs": {
+        "year": "int"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/LeapYear_Mutant2.java",
+      "class": "LeapYear_Mutant2",
+      "method": "isLeapYear",
+      "inputs": {
+        "year": "int"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/LeapYear_Mutant3.java",
+      "class": "LeapYear_Mutant3",
+      "method": "isLeapYear",
+      "inputs": {
+        "year": "int"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/LeapYear_Mutant4.java",
+      "class": "LeapYear_Mutant4",
+      "method": "isLeapYear",
+      "inputs": {
+        "year": "int"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/LeapYear_Mutant5.java",
+      "class": "LeapYear_Mutant5",
+      "method": "isLeapYear",
+      "inputs": {
+        "year": "int"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/LeapYear_Original.java",
+      "class": "LeapYear_Original",
+      "method": "isLeapYear",
+      "inputs": {
+        "year": "int"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/MetricsCalculator_2.java",
+      "class": "MetricsCalculator_2",
+      "method": "computeScore",
+      "inputs": {
+        "limit": "int"
+      },
+      "return": "double"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/MultiSumRatio.java",
+      "class": "MultiSumRatio",
+      "method": "multiSumRatio",
+      "inputs": {
+        "x": "int",
+        "y": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/NegAbs_Mutant1.java",
+      "class": "NegAbs_Mutant1",
+      "method": "negAbs",
+      "inputs": {
+        "num": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/NegAbs_Mutant2.java",
+      "class": "NegAbs_Mutant2",
+      "method": "negAbs",
+      "inputs": {
+        "num": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/NegAbs_Mutant3.java",
+      "class": "NegAbs_Mutant3",
+      "method": "negAbs",
+      "inputs": {
+        "num": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/NegAbs_Mutant4.java",
+      "class": "NegAbs_Mutant4",
+      "method": "negAbs",
+      "inputs": {
+        "num": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/NegAbs_Mutant5.java",
+      "class": "NegAbs_Mutant5",
+      "method": "negAbs",
+      "inputs": {
+        "num": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/NegAbs_Original.java",
+      "class": "NegAbs_Original",
+      "method": "negAbs",
+      "inputs": {
+        "num": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/NumberOfCuts_Mutant1.java",
+      "class": "NumberOfCuts_Mutant1",
+      "method": "numberOfCuts",
+      "inputs": {
+        "n": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/NumberOfCuts_Mutant2.java",
+      "class": "NumberOfCuts_Mutant2",
+      "method": "numberOfCuts",
+      "inputs": {
+        "n": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/NumberOfCuts_Mutant3.java",
+      "class": "NumberOfCuts_Mutant3",
+      "method": "numberOfCuts",
+      "inputs": {
+        "n": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/NumberOfCuts_Mutant4.java",
+      "class": "NumberOfCuts_Mutant4",
+      "method": "numberOfCuts",
+      "inputs": {
+        "n": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/NumberOfCuts_Mutant5.java",
+      "class": "NumberOfCuts_Mutant5",
+      "method": "numberOfCuts",
+      "inputs": {
+        "n": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/NumberOfCuts_Original.java",
+      "class": "NumberOfCuts_Original",
+      "method": "numberOfCuts",
+      "inputs": {
+        "n": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/PassPillowBranch_Mutant1.java",
+      "class": "PassPillowBranch_Mutant1",
+      "method": "passPillow",
+      "inputs": {
+        "n": "int",
+        "time": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/PassPillowBranch_Mutant3.java",
+      "class": "PassPillowBranch_Mutant3",
+      "method": "passPillow",
+      "inputs": {
+        "n": "int",
+        "time": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/PassPillowBranch_Mutant4.java",
+      "class": "PassPillowBranch_Mutant4",
+      "method": "passPillow",
+      "inputs": {
+        "n": "int",
+        "time": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/PassPillowBranch_Mutant5.java",
+      "class": "PassPillowBranch_Mutant5",
+      "method": "passPillow",
+      "inputs": {
+        "n": "int",
+        "time": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/PassPillowBranch_Original.java",
+      "class": "PassPillowBranch_Original",
+      "method": "passPillow",
+      "inputs": {
+        "n": "int",
+        "time": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/PowerOfTwoBranch_Mutant1.java",
+      "class": "PowerOfTwoBranch_Mutant1",
+      "method": "isPowerOfTwo",
+      "inputs": {
+        "n": "int"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/PowerOfTwoBranch_Mutant2.java",
+      "class": "PowerOfTwoBranch_Mutant2",
+      "method": "isPowerOfTwo",
+      "inputs": {
+        "n": "int"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/PowerOfTwoBranch_Mutant3.java",
+      "class": "PowerOfTwoBranch_Mutant3",
+      "method": "isPowerOfTwo",
+      "inputs": {
+        "n": "int"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/PowerOfTwoBranch_Mutant4.java",
+      "class": "PowerOfTwoBranch_Mutant4",
+      "method": "isPowerOfTwo",
+      "inputs": {
+        "n": "int"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/PowerOfTwoBranch_Original.java",
+      "class": "PowerOfTwoBranch_Original",
+      "method": "isPowerOfTwo",
+      "inputs": {
+        "n": "int"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/ReLU_Mutant1.java",
+      "class": "ReLU_Mutant1",
+      "method": "computeReLU",
+      "inputs": {
+        "x": "double"
+      },
+      "return": "double"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/ReLU_Mutant2.java",
+      "class": "ReLU_Mutant2",
+      "method": "computeReLU",
+      "inputs": {
+        "x": "double"
+      },
+      "return": "double"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/ReLU_Mutant3.java",
+      "class": "ReLU_Mutant3",
+      "method": "computeReLU",
+      "inputs": {
+        "x": "double"
+      },
+      "return": "double"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/ReLU_Mutant4.java",
+      "class": "ReLU_Mutant4",
+      "method": "computeReLU",
+      "inputs": {
+        "x": "double"
+      },
+      "return": "double"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/ReLU_Original.java",
+      "class": "ReLU_Original",
+      "method": "computeReLU",
+      "inputs": {
+        "x": "double"
+      },
+      "return": "double"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/ResourceAllocator.java",
+      "class": "ResourceAllocator",
+      "method": "allocateResources",
+      "inputs": {
+        "request": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/SafeLanding_Mutant1.java",
+      "class": "SafeLanding_Mutant1",
+      "method": "safeLanding",
+      "inputs": {
+        "height": "int",
+        "speed": "int",
+        "tilt": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/SafeLanding_Mutant2.java",
+      "class": "SafeLanding_Mutant2",
+      "method": "safeLanding",
+      "inputs": {
+        "height": "int",
+        "speed": "int",
+        "tilt": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/SafeLanding_Mutant3.java",
+      "class": "SafeLanding_Mutant3",
+      "method": "safeLanding",
+      "inputs": {
+        "height": "int",
+        "speed": "int",
+        "tilt": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/SafeLanding_Mutant4.java",
+      "class": "SafeLanding_Mutant4",
+      "method": "safeLanding",
+      "inputs": {
+        "height": "int",
+        "speed": "int",
+        "tilt": "int"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/SafeLanding_Mutant5.java",
+      "class": "SafeLanding_Mutant5",
+      "method": "safeLanding",
+      "inputs": {
+        "height": "int",
+        "speed": "int",
+        "tilt": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/SafeLanding_Original.java",
+      "class": "SafeLanding_Original",
+      "method": "safeLanding",
+      "inputs": {
+        "height": "int",
+        "speed": "int",
+        "tilt": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/ScoreCalculator.java",
+      "class": "ScoreCalculator",
+      "method": "calculateBonus",
+      "inputs": {
+        "baseScore": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/SmallestEvenMulBranch_Mutant1.java",
+      "class": "SmallestEvenMulBranch_Mutant1",
+      "method": "smallestEvenMultiple",
+      "inputs": {
+        "n": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/SmallestEvenMulBranch_Mutant2.java",
+      "class": "SmallestEvenMulBranch_Mutant2",
+      "method": "smallestEvenMultiple",
+      "inputs": {
+        "n": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/SmallestEvenMulBranch_Mutant3.java",
+      "class": "SmallestEvenMulBranch_Mutant3",
+      "method": "smallestEvenMultiple",
+      "inputs": {
+        "n": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/SmallestEvenMulBranch_Mutant4.java",
+      "class": "SmallestEvenMulBranch_Mutant4",
+      "method": "smallestEvenMultiple",
+      "inputs": {
+        "n": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/SmallestEvenMulBranch_Mutant5.java",
+      "class": "SmallestEvenMulBranch_Mutant5",
+      "method": "smallestEvenMultiple",
+      "inputs": {
+        "n": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/SmallestEvenMulBranch_Original.java",
+      "class": "SmallestEvenMulBranch_Original",
+      "method": "smallestEvenMultiple",
+      "inputs": {
+        "n": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/TO_BASE.java",
+      "class": "TO_BASE",
+      "method": "to_base",
+      "inputs": {
+        "b": "int"
+      },
+      "return": "String"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/WindCompensation_Mutant1.java",
+      "class": "WindCompensation_Mutant1",
+      "method": "windCompensation",
+      "inputs": {
+        "windSpeed": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/WindCompensation_Mutant2.java",
+      "class": "WindCompensation_Mutant2",
+      "method": "windCompensation",
+      "inputs": {
+        "windSpeed": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/WindCompensation_Mutant3.java",
+      "class": "WindCompensation_Mutant3",
+      "method": "windCompensation",
+      "inputs": {
+        "windSpeed": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/WindCompensation_Mutant4.java",
+      "class": "WindCompensation_Mutant4",
+      "method": "windCompensation",
+      "inputs": {
+        "windSpeed": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/WindCompensation_Mutant5.java",
+      "class": "WindCompensation_Mutant5",
+      "method": "windCompensation",
+      "inputs": {
+        "windSpeed": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/WindCompensation_Original.java",
+      "class": "WindCompensation_Original",
+      "method": "windCompensation",
+      "inputs": {
+        "windSpeed": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/XOR_Mutant1.java",
+      "class": "XOR_Mutant1",
+      "method": "xor",
+      "inputs": {
+        "b1": "boolean",
+        "b2": "boolean"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/XOR_Mutant2.java",
+      "class": "XOR_Mutant2",
+      "method": "xor",
+      "inputs": {
+        "b1": "boolean",
+        "b2": "boolean"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/XOR_Mutant3.java",
+      "class": "XOR_Mutant3",
+      "method": "xor",
+      "inputs": {
+        "b1": "boolean",
+        "b2": "boolean"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/XOR_Mutant4.java",
+      "class": "XOR_Mutant4",
+      "method": "xor",
+      "inputs": {
+        "b1": "boolean",
+        "b2": "boolean"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/XOR_Mutant5.java",
+      "class": "XOR_Mutant5",
+      "method": "xor",
+      "inputs": {
+        "b1": "boolean",
+        "b2": "boolean"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Branched3/XOR_Original.java",
+      "class": "XOR_Original",
+      "method": "xor",
+      "inputs": {
+        "b1": "boolean",
+        "b2": "boolean"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Multi-path-Loop3/AddHalfSelf_Mutant1.java",
+      "class": "AddHalfSelf_Mutant1",
+      "method": "addHalfSelf",
+      "inputs": {
+        "x": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Multi-path-Loop3/AddHalfSelf_Mutant2.java",
+      "class": "AddHalfSelf_Mutant2",
+      "method": "addHalfSelf",
+      "inputs": {
+        "x": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Multi-path-Loop3/AddHalfSelf_Mutant3.java",
+      "class": "AddHalfSelf_Mutant3",
+      "method": "addHalfSelf",
+      "inputs": {
+        "x": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Multi-path-Loop3/AddHalfSelf_Mutant4.java",
+      "class": "AddHalfSelf_Mutant4",
+      "method": "addHalfSelf",
+      "inputs": {
+        "x": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Multi-path-Loop3/AddHalfSelf_Original.java",
+      "class": "AddHalfSelf_Original",
+      "method": "addHalfSelf",
+      "inputs": {
+        "x": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Multi-path-Loop3/GetLowCaseLoop_M1.java",
+      "class": "GetLowCaseLoop_M1",
+      "method": "getLowCase",
+      "inputs": {
+        "c": "char"
+      },
+      "return": "char"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Multi-path-Loop3/GetLowCaseLoop_M2.java",
+      "class": "GetLowCaseLoop_M2",
+      "method": "getLowCase",
+      "inputs": {
+        "c": "char"
+      },
+      "return": "char"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Multi-path-Loop3/GetLowCaseLoop_M3.java",
+      "class": "GetLowCaseLoop_M3",
+      "method": "getLowCase",
+      "inputs": {
+        "c": "char"
+      },
+      "return": "char"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Multi-path-Loop3/GetLowCaseLoop_M4.java",
+      "class": "GetLowCaseLoop_M4",
+      "method": "getLowCase",
+      "inputs": {
+        "c": "char"
+      },
+      "return": "char"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Multi-path-Loop3/GetLowCaseLoop_Original.java",
+      "class": "GetLowCaseLoop_Original",
+      "method": "getLowCase",
+      "inputs": {
+        "c": "char"
+      },
+      "return": "char"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Multi-path-Loop3/GetUpCaseLoop_Mutant1.java",
+      "class": "GetUpCaseLoop_Mutant1",
+      "method": "getUpCase",
+      "inputs": {
+        "c": "char"
+      },
+      "return": "char"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Multi-path-Loop3/GetUpCaseLoop_Mutant2.java",
+      "class": "GetUpCaseLoop_Mutant2",
+      "method": "getUpCase",
+      "inputs": {
+        "c": "char"
+      },
+      "return": "char"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Multi-path-Loop3/GetUpCaseLoop_Mutant3.java",
+      "class": "GetUpCaseLoop_Mutant3",
+      "method": "getUpCase",
+      "inputs": {
+        "c": "char"
+      },
+      "return": "char"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Multi-path-Loop3/GetUpCaseLoop_Mutant4.java",
+      "class": "GetUpCaseLoop_Mutant4",
+      "method": "getUpCase",
+      "inputs": {
+        "c": "char"
+      },
+      "return": "char"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Multi-path-Loop3/GetUpCaseLoop_Original.java",
+      "class": "GetUpCaseLoop",
+      "method": "getUpCase",
+      "inputs": {
+        "c": "char"
+      },
+      "return": "char"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Multi-path-Loop3/MixCollectSum.java",
+      "class": "MixCollectSum",
+      "method": "mixSum",
+      "inputs": {
+        "x": "int"
+      },
+      "return": "double"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Multi-path-Loop3/MultiPower2Ratio.java",
+      "class": "MultiPower2Ratio",
+      "method": "multiSumRatio",
+      "inputs": {
+        "x": "int",
+        "y": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Multi-path-Loop3/MySqrt_Mutant1.java",
+      "class": "MySqrt_Mutant1",
+      "method": "mySqrt",
+      "inputs": {
+        "x": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Multi-path-Loop3/MySqrt_Mutant3.java",
+      "class": "MySqrt_Mutant3",
+      "method": "mySqrt",
+      "inputs": {
+        "x": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Multi-path-Loop3/MySqrt_Mutant4.java",
+      "class": "MySqrt_Mutant4",
+      "method": "mySqrt",
+      "inputs": {
+        "x": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Multi-path-Loop3/MySqrt_Mutant5.java",
+      "class": "MySqrt_Mutant5",
+      "method": "mySqrt",
+      "inputs": {
+        "x": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Multi-path-Loop3/MySqrt_Original.java",
+      "class": "MySqrt_Original",
+      "method": "mySqrt",
+      "inputs": {
+        "x": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Multi-path-Loop3/PaymentProcessor.java",
+      "class": "PaymentProcessor",
+      "method": "calculateChange",
+      "inputs": {
+        "payment": "int"
+      },
+      "return": "String"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Multi-path-Loop3/PerformanceRater.java",
+      "class": "PerformanceRater",
+      "method": "calculateBonus",
+      "inputs": {
+        "sales": "int"
+      },
+      "return": "double"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Multi-path-Loop3/Power2Bit_S.java",
+      "class": "Power2Bit",
+      "method": "power2Bit",
+      "inputs": {
+        "n": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Multi-path-Loop3/ProductionScheduler.java",
+      "class": "ProductionScheduler",
+      "method": "calculateOutput",
+      "inputs": {
+        "hours": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Multi-path-Loop3/WaterFee_Mutant1.java",
+      "class": "WaterFee_Mutant1",
+      "method": "calcWaterFee",
+      "inputs": {
+        "tons": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Multi-path-Loop3/WaterFee_Mutant2.java",
+      "class": "WaterFee_Mutant2",
+      "method": "calcWaterFee",
+      "inputs": {
+        "tons": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Multi-path-Loop3/WaterFee_Mutant3.java",
+      "class": "WaterFee_Mutant3",
+      "method": "calcWaterFee",
+      "inputs": {
+        "tons": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Multi-path-Loop3/WaterFee_Mutant4.java",
+      "class": "WaterFee_Mutant4",
+      "method": "calcWaterFee",
+      "inputs": {
+        "tons": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Multi-path-Loop3/WaterFee_Original.java",
+      "class": "WaterFee_Original",
+      "method": "calcWaterFee",
+      "inputs": {
+        "tons": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Nested-Loop3/AddLoopFor_Mutant2.java",
+      "class": "AddLoopFor_Mutant2",
+      "method": "addLoop",
+      "inputs": {
+        "x": "int",
+        "y": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Nested-Loop3/AddLoopFor_Mutant3.java",
+      "class": "AddLoopFor_Mutant3",
+      "method": "addLoop",
+      "inputs": {
+        "x": "int",
+        "y": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Nested-Loop3/AddLoopFor_Mutant4.java",
+      "class": "AddLoopFor_Mutant4",
+      "method": "addLoop",
+      "inputs": {
+        "x": "int",
+        "y": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Nested-Loop3/AddLoopFor_Original.java",
+      "class": "AddLoopFor_Original",
+      "method": "addLoop",
+      "inputs": {
+        "x": "int",
+        "y": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Nested-Loop3/AddLoop_Mutant1.java",
+      "class": "AddLoop_Mutant1",
+      "method": "AddLoop",
+      "inputs": {
+        "x": "int",
+        "y": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Nested-Loop3/AddLoop_Mutant2.java",
+      "class": "AddLoop_Mutant2",
+      "method": "AddLoop",
+      "inputs": {
+        "x": "int",
+        "y": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Nested-Loop3/AddLoop_Mutant3.java",
+      "class": "AddLoop_Mutant3",
+      "method": "AddLoop",
+      "inputs": {
+        "x": "int",
+        "y": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Nested-Loop3/AddLoop_Mutant4.java",
+      "class": "AddLoop_Mutant4",
+      "method": "AddLoop",
+      "inputs": {
+        "x": "int",
+        "y": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Nested-Loop3/AddLoop_Mutant5.java",
+      "class": "AddLoop_Mutant5",
+      "method": "AddLoop",
+      "inputs": {
+        "x": "int",
+        "y": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Nested-Loop3/AddLoop_Original.java",
+      "class": "AddLoop_Original",
+      "method": "AddLoop",
+      "inputs": {
+        "x": "int",
+        "y": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Nested-Loop3/DigitRoot_Original.java",
+      "class": "DigitRoot_Original",
+      "method": "function",
+      "inputs": {
+        "num": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Nested-Loop3/MulLoop_Mutant1.java",
+      "class": "MulLoop_Mutant1",
+      "method": "mulLoop",
+      "inputs": {
+        "a": "int",
+        "b": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Nested-Loop3/MulLoop_Mutant2.java",
+      "class": "MulLoop_Mutant2",
+      "method": "mulLoop",
+      "inputs": {
+        "a": "int",
+        "b": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Nested-Loop3/MulLoop_Mutant3.java",
+      "class": "MulLoop_Mutant3",
+      "method": "mulLoop",
+      "inputs": {
+        "a": "int",
+        "b": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Nested-Loop3/MulLoop_Mutant4.java",
+      "class": "MulLoop_Mutant4",
+      "method": "mulLoop",
+      "inputs": {
+        "a": "int",
+        "b": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Nested-Loop3/MulLoop_Mutant5.java",
+      "class": "MulLoop_Mutant5",
+      "method": "mulLoop",
+      "inputs": {
+        "a": "int",
+        "b": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Nested-Loop3/MulLoop_Original.java",
+      "class": "MulLoop_Original",
+      "method": "mulLoop",
+      "inputs": {
+        "a": "int",
+        "b": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Nested-Loop3/ProductionScheduler.java",
+      "class": "ProductionScheduler",
+      "method": "calculateOutput",
+      "inputs": {
+        "hours": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Nested-Loop3/Return100Nested_Mutant1.java",
+      "class": "Return100Nested_Mutant1",
+      "method": "return100",
+      "inputs": {},
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Nested-Loop3/Return100Nested_Mutant2.java",
+      "class": "Return100Nested_Mutant2",
+      "method": "return100",
+      "inputs": {},
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Nested-Loop3/Return100Nested_Mutant3.java",
+      "class": "Return100Nested_Mutant3",
+      "method": "return100",
+      "inputs": {},
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Nested-Loop3/Return100Nested_Mutant4.java",
+      "class": "Return100Nested_Mutant4",
+      "method": "return100",
+      "inputs": {},
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Nested-Loop3/Return100Nested_Mutant5.java",
+      "class": "Return100Nested_Mutant5",
+      "method": "return100",
+      "inputs": {},
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Nested-Loop3/Return100Nested_Original.java",
+      "class": "Return100Nested_Original",
+      "method": "return100",
+      "inputs": {},
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Nested-Loop3/SpeedEstimator.java",
+      "class": "SpeedEstimator",
+      "method": "estimateSpeed",
+      "inputs": {
+        "distance": "int",
+        "time": "int"
+      },
+      "return": "double"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Nested-Loop3/StudentGrader.java",
+      "class": "StudentGrader",
+      "method": "calculateGrade",
+      "inputs": {
+        "score": "int"
+      },
+      "return": "String"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Nested-Loop3/SubLoop_Mutant1.java",
+      "class": "SubLoop_Mutant1",
+      "method": "subLoop",
+      "inputs": {
+        "x": "int",
+        "y": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Nested-Loop3/SubLoop_Mutant2.java",
+      "class": "SubLoop_Mutant2",
+      "method": "subLoop",
+      "inputs": {
+        "x": "int",
+        "y": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Nested-Loop3/SubLoop_Mutant5.java",
+      "class": "SubLoop_Mutant5",
+      "method": "subLoop",
+      "inputs": {
+        "x": "int",
+        "y": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Nested-Loop3/SubLoop_Original.java",
+      "class": "SubLoop_Original",
+      "method": "subLoop",
+      "inputs": {
+        "x": "int",
+        "y": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Nested-Loop3/TaxCalculator.java",
+      "class": "TaxCalculator",
+      "method": "calculateTax",
+      "inputs": {
+        "income": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Nested-Loop3/TemperatureAnalyzer.java",
+      "class": "TemperatureAnalyzer",
+      "method": "analyzeTemperature",
+      "inputs": {
+        "modifier": "int"
+      },
+      "return": "double"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Nested-Loop3/TemperatureConverter.java",
+      "class": "TemperatureConverter",
+      "method": "convertTemperature",
+      "inputs": {
+        "celsius": "int",
+        "base": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Nested-Loop3/TrafficController.java",
+      "class": "TrafficController",
+      "method": "calculateFlow",
+      "inputs": {
+        "vehicles": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Nested-Loop3/VoltageCalculator.java",
+      "class": "VoltageCalculator",
+      "method": "computeVoltage",
+      "inputs": {
+        "resistance": "int"
+      },
+      "return": "double"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/Abs_Mutant1.java",
+      "class": "Abs_Mutant1",
+      "method": "Abs",
+      "inputs": {
+        "num": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/CanWinNim_Mutant1.java",
+      "class": "CanWinNim_Mutant1",
+      "method": "canWinNim",
+      "inputs": {
+        "n": "int"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/CanWinNim_Mutant2.java",
+      "class": "CanWinNim_Mutant2",
+      "method": "canWinNim",
+      "inputs": {
+        "n": "int"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/CanWinNim_Mutant3.java",
+      "class": "CanWinNim_Mutant3",
+      "method": "canWinNim",
+      "inputs": {
+        "n": "int"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/CanWinNim_Mutant4.java",
+      "class": "CanWinNim_Mutant4",
+      "method": "canWinNim",
+      "inputs": {
+        "n": "int"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/CanWinNim_Mutant5.java",
+      "class": "CanWinNim_Mutant5",
+      "method": "canWinNim",
+      "inputs": {
+        "n": "int"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/CanWinNim_Original.java",
+      "class": "CanWinNim_Original",
+      "method": "canWinNim",
+      "inputs": {
+        "n": "int"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/ConvertToFahrenheit_Mutant1.java",
+      "class": "ConvertToFahrenheit_Mutant1",
+      "method": "convertTemperature",
+      "inputs": {
+        "celsius": "double"
+      },
+      "return": "double"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/ConvertToFahrenheit_Mutant2.java",
+      "class": "ConvertToFahrenheit_Mutant2",
+      "method": "convertTemperature",
+      "inputs": {
+        "celsius": "double"
+      },
+      "return": "double"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/ConvertToFahrenheit_Mutant3.java",
+      "class": "ConvertToFahrenheit_Mutant3",
+      "method": "convertTemperature",
+      "inputs": {
+        "celsius": "double"
+      },
+      "return": "double"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/ConvertToFahrenheit_Mutant4.java",
+      "class": "ConvertToFahrenheit_Mutant4",
+      "method": "convertTemperature",
+      "inputs": {
+        "celsius": "double"
+      },
+      "return": "double"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/ConvertToFahrenheit_Mutant5.java",
+      "class": "ConvertToFahrenheit_Mutant5",
+      "method": "convertTemperature",
+      "inputs": {
+        "celsius": "double"
+      },
+      "return": "double"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/ConvertToFahrenheit_Original.java",
+      "class": "ConvertToFahrenheit_Original",
+      "method": "convertTemperature",
+      "inputs": {
+        "celsius": "double"
+      },
+      "return": "double"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/ConvertToKelvin_Mutant1.java",
+      "class": "ConvertToKelvin_Mutant1",
+      "method": "convertTemperature",
+      "inputs": {
+        "celsius": "double"
+      },
+      "return": "double"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/ConvertToKelvin_Mutant2.java",
+      "class": "ConvertToKelvin_Mutant2",
+      "method": "convertTemperature",
+      "inputs": {
+        "celsius": "double"
+      },
+      "return": "double"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/ConvertToKelvin_Mutant4.java",
+      "class": "ConvertToKelvin_Mutant4",
+      "method": "convertTemperature",
+      "inputs": {
+        "celsius": "double"
+      },
+      "return": "double"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/ConvertToKelvin_Original.java",
+      "class": "ConvertToKelvin_Original",
+      "method": "convertTemperature",
+      "inputs": {
+        "celsius": "double"
+      },
+      "return": "double"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/DivisionOverflow_Mutant1.java",
+      "class": "DivisionOverflow_Mutant1",
+      "method": "division_test_fail_overflow",
+      "inputs": {
+        "nom": "int",
+        "denom": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/DivisionOverflow_Mutant2.java",
+      "class": "DivisionOverflow_Mutant2",
+      "method": "division_test_fail_overflow",
+      "inputs": {
+        "nom": "int",
+        "denom": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/DivisionOverflow_Mutant3.java",
+      "class": "DivisionOverflow_Mutant3",
+      "method": "division_test_fail_overflow",
+      "inputs": {
+        "nom": "int",
+        "denom": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/DivisionOverflow_Mutant5.java",
+      "class": "DivisionOverflow_Mutant5",
+      "method": "division_test_fail_overflow",
+      "inputs": {
+        "nom": "int",
+        "denom": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/DivisionOverflow_Original.java",
+      "class": "DivisionOverflow_Original",
+      "method": "division_test_fail_overflow",
+      "inputs": {
+        "nom": "int",
+        "denom": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/DivisorGame_Mutant1.java",
+      "class": "DivisorGame_Mutant1",
+      "method": "divisorGame",
+      "inputs": {
+        "n": "int"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/DivisorGame_Mutant2.java",
+      "class": "DivisorGame_Mutant2",
+      "method": "divisorGame",
+      "inputs": {
+        "n": "int"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/DivisorGame_Mutant3.java",
+      "class": "DivisorGame_Mutant3",
+      "method": "divisorGame",
+      "inputs": {
+        "n": "int"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/DivisorGame_Mutant4.java",
+      "class": "DivisorGame_Mutant4",
+      "method": "divisorGame",
+      "inputs": {
+        "n": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/DivisorGame_Mutant5.java",
+      "class": "DivisorGame_Mutant5",
+      "method": "divisorGame",
+      "inputs": {
+        "n": "int"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/DivisorGame_Original.java",
+      "class": "DivisorGame_Original",
+      "method": "divisorGame",
+      "inputs": {
+        "n": "int"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/IsCommonFactor_Mutant1.java",
+      "class": "IsCommonFactor_Mutant1",
+      "method": "isCommonFactor",
+      "inputs": {
+        "a": "int",
+        "b": "int",
+        "factor": "int"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/IsCommonFactor_Mutant2.java",
+      "class": "IsCommonFactor_Mutant2",
+      "method": "isCommonFactor",
+      "inputs": {
+        "a": "int",
+        "b": "int",
+        "factor": "int"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/IsCommonFactor_Mutant3.java",
+      "class": "IsCommonFactor_Mutant3",
+      "method": "isCommonFactor",
+      "inputs": {
+        "a": "int",
+        "b": "int",
+        "factor": "int"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/IsCommonFactor_Mutant4.java",
+      "class": "IsCommonFactor_Mutant4",
+      "method": "isCommonFactor",
+      "inputs": {
+        "a": "int",
+        "b": "int",
+        "factor": "int"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/IsCommonFactor_Mutant5.java",
+      "class": "IsCommonFactor_Mutant5",
+      "method": "isCommonFactor",
+      "inputs": {
+        "a": "int",
+        "b": "int",
+        "factor": "int"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/IsCommonFactor_Original.java",
+      "class": "IsCommonFactor_Original",
+      "method": "isCommonFactor",
+      "inputs": {
+        "a": "int",
+        "b": "int",
+        "factor": "int"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/IsCommonMultiple_Mutant1.java",
+      "class": "IsCommonMultiple_Mutant1",
+      "method": "isCommonMultiple",
+      "inputs": {
+        "a": "int",
+        "b": "int",
+        "m": "int"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/IsCommonMultiple_Mutant2.java",
+      "class": "IsCommonMultiple_Mutant2",
+      "method": "isCommonMultiple",
+      "inputs": {
+        "a": "int",
+        "b": "int",
+        "m": "int"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/IsCommonMultiple_Mutant3.java",
+      "class": "IsCommonMultiple_Mutant3",
+      "method": "isCommonMultiple",
+      "inputs": {
+        "a": "int",
+        "b": "int",
+        "m": "int"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/IsCommonMultiple_Mutant4.java",
+      "class": "IsCommonMultiple_Mutant4",
+      "method": "isCommonMultiple",
+      "inputs": {
+        "a": "int",
+        "b": "int",
+        "m": "int"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/IsCommonMultiple_Mutant5.java",
+      "class": "IsCommonMultiple_Mutant5",
+      "method": "isCommonMultiple",
+      "inputs": {
+        "a": "int",
+        "b": "int",
+        "m": "int"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/IsCommonMultiple_Original.java",
+      "class": "IsCommonMultiple_Original",
+      "method": "isCommonMultiple",
+      "inputs": {
+        "a": "int",
+        "b": "int",
+        "m": "int"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/NotCommonFactor_Mutant1.java",
+      "class": "NotCommonFactor_Mutant1",
+      "method": "notCommonFactor",
+      "inputs": {
+        "a": "int",
+        "b": "int",
+        "factor": "int"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/NotCommonFactor_Mutant2.java",
+      "class": "NotCommonFactor_Mutant2",
+      "method": "notCommonFactor",
+      "inputs": {
+        "a": "int",
+        "b": "int",
+        "factor": "int"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/NotCommonFactor_Mutant3.java",
+      "class": "NotCommonFactor_Mutant3",
+      "method": "notCommonFactor",
+      "inputs": {
+        "a": "int",
+        "b": "int",
+        "factor": "int"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/NotCommonFactor_Mutant4.java",
+      "class": "NotCommonFactor_Mutant4",
+      "method": "notCommonFactor",
+      "inputs": {
+        "a": "int",
+        "b": "int",
+        "factor": "int"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/NotCommonFactor_Mutant5.java",
+      "class": "NotCommonFactor_Mutant5",
+      "method": "notCommonFactor",
+      "inputs": {
+        "a": "int",
+        "b": "int",
+        "factor": "int"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/PowerOfTwo_Mutant1.java",
+      "class": "PowerOfTwo_Mutant1",
+      "method": "isPowerOfTwo",
+      "inputs": {
+        "n": "int"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/PowerOfTwo_Mutant3.java",
+      "class": "PowerOfTwo_Mutant3",
+      "method": "isPowerOfTwo",
+      "inputs": {
+        "n": "int"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/PowerOfTwo_Original.java",
+      "class": "PowerOfTwo_Original",
+      "method": "isPowerOfTwo",
+      "inputs": {
+        "n": "int"
+      },
+      "return": "boolean"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/ReLUSeq_Mutant1.java",
+      "class": "ReLUSeq_Mutant1",
+      "method": "computeReLU",
+      "inputs": {
+        "x": "double"
+      },
+      "return": "double"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/ReLUSeq_Mutant2.java",
+      "class": "ReLUSeq_Mutant2",
+      "method": "computeReLU",
+      "inputs": {
+        "x": "double"
+      },
+      "return": "double"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/ReLUSeq_Mutant3.java",
+      "class": "ReLUSeq_Mutant3",
+      "method": "computeReLU",
+      "inputs": {
+        "x": "double"
+      },
+      "return": "double"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/ReLUSeq_Mutant4.java",
+      "class": "ReLUSeq_Mutant4",
+      "method": "computeReLU",
+      "inputs": {
+        "x": "double"
+      },
+      "return": "double"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/ReLUSeq_Mutant5.java",
+      "class": "ReLUSeq_Mutant5",
+      "method": "computeReLU",
+      "inputs": {
+        "x": "double"
+      },
+      "return": "double"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/ReLUSeq_Original.java",
+      "class": "ReLUSeq_Original",
+      "method": "computeReLU",
+      "inputs": {
+        "x": "double"
+      },
+      "return": "double"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/ReLU_Mutant5.java",
+      "class": "ReLU_Mutant5",
+      "method": "computeReLU",
+      "inputs": {
+        "x": "double"
+      },
+      "return": "double"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/SmallestEvenMul_Mutant1.java",
+      "class": "SmallestEvenMul_Mutant1",
+      "method": "smallestEvenMultiple",
+      "inputs": {
+        "n": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/SmallestEvenMul_Mutant2.java",
+      "class": "SmallestEvenMul_Mutant2",
+      "method": "smallestEvenMultiple",
+      "inputs": {
+        "n": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/SmallestEvenMul_Mutant3.java",
+      "class": "SmallestEvenMul_Mutant3",
+      "method": "smallestEvenMultiple",
+      "inputs": {
+        "n": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/SmallestEvenMul_Mutant4.java",
+      "class": "SmallestEvenMul_Mutant4",
+      "method": "smallestEvenMultiple",
+      "inputs": {
+        "n": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/SmallestEvenMul_Mutant5.java",
+      "class": "SmallestEvenMul_Mutant5",
+      "method": "smallestEvenMultiple",
+      "inputs": {
+        "n": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/SmallestEvenMul_Original.java",
+      "class": "SmallestEvenMul_Original",
+      "method": "smallestEvenMultiple",
+      "inputs": {
+        "n": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/SpeedCalculator.java",
+      "class": "SpeedCalculator",
+      "method": "calculateSpeed",
+      "inputs": {
+        "time": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Sequential3/SpeedCalculator_S.java",
+      "class": "SpeedCalculator_S",
+      "method": "calculateSpeed",
+      "inputs": {
+        "time": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Single-path-Loop3/EchoIntLoop_Mutant1.java",
+      "class": "EchoIntLoop_Mutant1",
+      "method": "echo",
+      "inputs": {
+        "x": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Single-path-Loop3/EchoIntLoop_Mutant2.java",
+      "class": "EchoIntLoop_Mutant2",
+      "method": "echo",
+      "inputs": {
+        "x": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Single-path-Loop3/EchoIntLoop_Mutant3.java",
+      "class": "EchoIntLoop_Mutant3",
+      "method": "echo",
+      "inputs": {
+        "x": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Single-path-Loop3/EchoIntLoop_Mutant4.java",
+      "class": "EchoIntLoop_Mutant4",
+      "method": "echo",
+      "inputs": {
+        "x": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Single-path-Loop3/EchoIntLoop_Mutant5.java",
+      "class": "EchoIntLoop_Mutant5",
+      "method": "echo",
+      "inputs": {
+        "x": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Single-path-Loop3/EchoIntLoop_Original.java",
+      "class": "EchoIntLoop_Original",
+      "method": "echo",
+      "inputs": {
+        "x": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Single-path-Loop3/MemoryAllocator.java",
+      "class": "MemoryAllocator",
+      "method": "allocateMemory",
+      "inputs": {
+        "processSize": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Single-path-Loop3/MetricsCalculator.java",
+      "class": "MetricsCalculator",
+      "method": "computeScore",
+      "inputs": {
+        "value": "int",
+        "limit": "int"
+      },
+      "return": "double"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Single-path-Loop3/MixCollectSum.java",
+      "class": "MixCollectSum",
+      "method": "mixSum",
+      "inputs": {
+        "x": "int"
+      },
+      "return": "double"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Single-path-Loop3/MixCollectSum_2.java",
+      "class": "MixCollectSum_2",
+      "method": "mixSum",
+      "inputs": {
+        "x": "int"
+      },
+      "return": "double"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Single-path-Loop3/MyPower_Mutant1.java",
+      "class": "MyPower_Mutant1",
+      "method": "power",
+      "inputs": {
+        "x": "int",
+        "n": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Single-path-Loop3/MyPower_Mutant2.java",
+      "class": "MyPower_Mutant2",
+      "method": "power",
+      "inputs": {
+        "x": "int",
+        "n": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Single-path-Loop3/MyPower_Mutant3.java",
+      "class": "MyPower_Mutant3",
+      "method": "power",
+      "inputs": {
+        "x": "int",
+        "n": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Single-path-Loop3/MyPower_Mutant4.java",
+      "class": "MyPower_Mutant4",
+      "method": "power",
+      "inputs": {
+        "x": "int",
+        "n": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Single-path-Loop3/MyPower_Mutant5.java",
+      "class": "MyPower_Mutant5",
+      "method": "power",
+      "inputs": {
+        "x": "int",
+        "n": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Single-path-Loop3/MyPower_Original.java",
+      "class": "MyPower_Original",
+      "method": "power",
+      "inputs": {
+        "x": "int",
+        "n": "int"
+      },
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Single-path-Loop3/Return100_Mutant1.java",
+      "class": "Return100_Mutant1",
+      "method": "return100",
+      "inputs": {},
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Single-path-Loop3/Return100_Mutant2.java",
+      "class": "Return100_Mutant2",
+      "method": "return100",
+      "inputs": {},
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Single-path-Loop3/Return100_Mutant3.java",
+      "class": "Return100_Mutant3",
+      "method": "return100",
+      "inputs": {},
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Single-path-Loop3/Return100_Mutant4.java",
+      "class": "Return100_Mutant4",
+      "method": "return100",
+      "inputs": {},
+      "return": "int"
+    },
+    {
+      "file": "outputs/FSF-Slicer-TBFV/datasets/PCaE-Dataset/Single-path-Loop3/Return100_Original.java",
+      "class": "Return100_Original",
+      "method": "return100",
+      "inputs": {},
+      "return": "int"
+    }
+  ]
+}
