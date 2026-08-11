@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fsf-slicer-tbfv"
+version = "1.0.0"
+description = "FSF-guided Java program slicing and testing-based formal verification"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "FSF-Slicer-TBFV Reproduction"}]
+dependencies = [
+  "javalang==0.13.0",
+  "PyYAML>=6.0",
+  "setuptools<81",
+  "z3-solver==4.12.2.0",
+]
+
+[project.scripts]
+fsf-tbfv = "fsf_tool.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["fsf_tool*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+filterwarnings = ["ignore:pkg_resources is deprecated as an API.*:UserWarning"]

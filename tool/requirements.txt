@@ -1,0 +1,4 @@
+javalang==0.13.0
+PyYAML>=6.0
+setuptools<81
+z3-solver==4.12.2.0
