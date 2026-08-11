@@ -1,59 +1,59 @@
 # FSF-Slicer-TBFV
 
-这是论文 **FSF-Guided Program Slicing for Testing-Based Formal Verification of Functional Soundness and Completeness** 的独立可运行复现。工具以 Java 源文件和 Functional Scenario Form（FSF）为输入，生成每个场景对应的可执行 Java 切片，并按照论文的 TBFV 流程判断 functional soundness 与 functional completeness。
+This project is an independent, executable reproduction of the paper **FSF-Guided Program Slicing for Testing-Based Formal Verification of Functional Soundness and Completeness**. The tool accepts a Java source file and a Functional Scenario Form (FSF) specification as input, generates an executable Java slice for each scenario, and evaluates functional soundness and functional completeness according to the TBFV workflow described in the paper.
 
-本项目默认完全离线：Java 解析、PDG、切片、测试生成、符号路径推导和 Z3 验证均在本地完成。LLM 只用于可选的 `suggest-fsf` 草拟命令；它不会参与最终形式化判定，也不会保存 API key。
+The project runs entirely offline by default: Java parsing, PDG construction, program slicing, test generation, symbolic path derivation, and Z3 verification are all performed locally. An LLM is used only by the optional `suggest-fsf` drafting command; it does not participate in the final formal judgments, and the tool never stores API keys.
 
-## 已实现能力
+## Implemented Capabilities
 
-- Java 方法解析、方法/参数/返回类型核验。
-- FSF YAML 解析与严格预检：变量约束、`T` 可满足性、`T` 互斥性、场景族输入覆盖、`D` 输出约束与重叠提示。
-- 控制流/程序依赖图的保守构建：参数、DEF/USE、数据依赖、控制依赖、输出位置。
-- 论文中的 FSF-guided slicing：`ForwardSlice(input) ∩ BackwardSlice(output)`、依赖闭包、`T` 下不可达分支证明与剪枝、Java 源码重建。
-- 对每个切片调用 `javac`，把“形式上的切片”升级为经过编译验证的可执行切片。
-- TBFV 迭代：Z3 生成满足 `T ∧ ¬C₁ ∧ ... ∧ ¬Cₖ` 的测试，具体/符号同步执行，记录路径条件 `Cᵢ` 和输出状态表示 `y=fᵢ(x)`。
-- Soundness 判定：`T ∧ Cᵢ ⇒ D(fᵢ(x)/y)`。
-- Completeness 判定：`∃x(T ∧ D) ⇒ ∨ᵢ∃x(T ∧ Cᵢ ∧ y=fᵢ(x))`。
-- `sound / locally_sound / unsound`、`complete / locally_complete / incomplete / inconclusive` 分级，不把路径/循环截断伪装成全局证明。
-- 原程序与切片使用相同参数重复验证，报告判断保持情况。
-- LOC、可执行语句数、圈复杂度、路径数、路径条件、测试数据、反例和耗时的 JSON + HTML 报告。
-- 可选 OpenAI-compatible LLM FSF 草拟；必须显式传入 `--allow-llm`，密钥只从环境变量读取。
-- 随包数据集检查命令；当前提供的数据集中 301 个 Java 文件有 300 个可以被解析，唯一失败文件本身缺少类结束大括号，`javac` 同样拒绝该文件。
+- Java method parsing and validation of method names, parameters, and return types.
+- FSF YAML parsing and strict pre-validation, including variable constraints, satisfiability of `T`, mutual exclusivity of testing conditions, input-domain coverage of the scenario family, output constraints in `D`, and overlap warnings.
+- Conservative construction of control-flow and program dependence graphs, including parameters, DEF/USE sets, data dependencies, control dependencies, and output locations.
+- FSF-guided slicing as described in the paper: `ForwardSlice(input) ∩ BackwardSlice(output)`, dependence closure, proof and pruning of unreachable branches under `T`, and Java source reconstruction.
+- Invocation of `javac` for every generated slice, turning a syntactic slice into a compilation-validated executable slice.
+- TBFV iteration: Z3 generates tests satisfying `T ∧ ¬C₁ ∧ ... ∧ ¬Cₖ`; concrete and symbolic execution proceed in parallel to record path condition `Cᵢ` and output state representation `y=fᵢ(x)`.
+- Soundness judgment: `T ∧ Cᵢ ⇒ D(fᵢ(x)/y)`.
+- Completeness judgment: `∃x(T ∧ D) ⇒ ∨ᵢ∃x(T ∧ Cᵢ ∧ y=fᵢ(x))`.
+- Graded outcomes—`sound / locally_sound / unsound` and `complete / locally_complete / incomplete / inconclusive`—without presenting path or loop truncation as a global proof.
+- Repeated verification of the original program and its slice under identical parameters, with preservation of judgments reported explicitly.
+- JSON and HTML reports covering LOC, executable statement count, cyclomatic complexity, path count, path conditions, test data, counterexamples, and execution time.
+- Optional FSF drafting through an OpenAI-compatible LLM. The `--allow-llm` flag is required explicitly, and the API key is read only from an environment variable.
+- A bundled dataset inspection command. Of the 301 Java files in the supplied dataset, 300 can be parsed. The only failing file is itself missing the closing brace of its class, and `javac` rejects it as well.
 
-## 环境
+## Requirements
 
 - Python 3.10+
-- Java/JDK 17+（只在切片编译验证时需要）
-- macOS、Linux 或 Windows
+- Java/JDK 17+ (required only for compilation validation of generated slices)
+- macOS, Linux, or Windows
 
-核心依赖固定在 `requirements.txt`：`javalang`、`PyYAML`、`z3-solver`。
+The core dependencies are pinned in `requirements.txt`: `javalang`, `PyYAML`, and `z3-solver`.
 
-## 安装
+## Installation
 
-macOS / Linux：
+macOS / Linux:
 
 ```bash
 ./install.sh
 .venv/bin/fsf-tbfv doctor
 ```
 
-Windows PowerShell：
+Windows PowerShell:
 
 ```powershell
 ./install.ps1
 .venv/Scripts/fsf-tbfv.exe doctor
 ```
 
-也可以手动安装：
+Manual installation is also supported:
 
 ```bash
 python3 -m venv .venv
 .venv/bin/python -m pip install -e .
 ```
 
-## 立即运行
+## Quick Start
 
-完整切片 + TBFV + 原程序对照 + 报告：
+Run the complete workflow—slicing, TBFV, comparison with the original program, and report generation:
 
 ```bash
 .venv/bin/fsf-tbfv analyze \
@@ -62,7 +62,7 @@ python3 -m venv .venv
   --output demo-output
 ```
 
-结果包括：
+The output includes:
 
 ```text
 demo-output/
@@ -73,7 +73,7 @@ demo-output/
     └── T_positive/UserInputProgram.java
 ```
 
-论文中的 calculator 场景也已经准备好：
+The calculator scenario from the paper is also included:
 
 ```bash
 .venv/bin/fsf-tbfv analyze \
@@ -82,20 +82,21 @@ demo-output/
   --output calculator-output
 ```
 
-## 命令
+## Commands
 
 ```text
-doctor          检查 Python、Z3、javalang、javac
-init-fsf        从 Java 方法生成可编辑的 FSF YAML 骨架
-validate-fsf    检查 FSF 语法、变量、互斥性和输入域覆盖
-slice           只执行 FSF-guided slicing，并编译切片
-verify          只对给定程序执行 TBFV
-analyze         完整流水线：校验、切片、编译、TBFV、原/切片对照、报告
-dataset-check   扫描一个 Java 数据集，列出可解析项和失败原因
-suggest-fsf     可选 LLM 草拟 FSF；形式化校验仍由本地工具完成
+doctor          Check Python, Z3, javalang, and javac
+init-fsf        Generate an editable FSF YAML scaffold from a Java method
+validate-fsf    Validate FSF syntax, variables, exclusivity, and input-domain coverage
+slice           Run only FSF-guided slicing and compile the generated slices
+verify          Run only TBFV on the given program
+analyze         Run the full pipeline: validation, slicing, compilation, TBFV,
+                original/slice comparison, and report generation
+dataset-check   Scan a Java dataset and list parseable files and failure reasons
+suggest-fsf     Optionally draft an FSF with an LLM; formal validation remains local
 ```
 
-为任意 Java 文件建立 FSF：
+Create an FSF scaffold for any Java file:
 
 ```bash
 .venv/bin/fsf-tbfv init-fsf \
@@ -104,7 +105,7 @@ suggest-fsf     可选 LLM 草拟 FSF；形式化校验仍由本地工具完成
   --output fizzbuzz.fsf.yaml
 ```
 
-数据集审计：
+Inspect the dataset:
 
 ```bash
 .venv/bin/fsf-tbfv dataset-check \
@@ -112,7 +113,7 @@ suggest-fsf     可选 LLM 草拟 FSF；形式化校验仍由本地工具完成
   --output dataset-check.json
 ```
 
-## FSF 文件
+## FSF File
 
 ```yaml
 method: calculate
@@ -134,32 +135,32 @@ analysis:
   compile_slices: true
 ```
 
-表达式使用 Java 风格：`&&`、`||`、`!`、比较、`+ - * / %`、位运算、三目表达式和 `Math.abs/min/max`。`int` 与 `long` 使用 Java 有符号位向量语义，包括溢出和负数余数。`float/double` 在验证层使用精确实数近似；因此依赖 IEEE-754 NaN、Infinity、舍入误差的结论应视为模型近似。
+Expressions use Java-style syntax: `&&`, `||`, `!`, comparisons, `+ - * / %`, bitwise operations, ternary expressions, and `Math.abs/min/max`. The `int` and `long` types use Java signed bit-vector semantics, including overflow and negative remainders. At the verification layer, `float` and `double` are modeled using exact real-number approximations; conclusions that depend on IEEE-754 NaN, Infinity, or rounding behavior should therefore be treated as model approximations.
 
-输入 `min/max` 定义本次 TBFV 的分析域。论文中的测试阶段同样需要可终止的测试条件，例如把 `x>0` 收窄为 `0<x<=500`。若未填写，工具默认对数值输入采用 `[-100,100]`。输出 `min/max` 不是 soundness 所必需，但在带溢出的 completeness 公式中可以明确待分析的输出域。
+Input `min/max` values define the analysis domain for the current TBFV run. The testing stage in the paper likewise requires a terminating testing condition—for example, narrowing `x>0` to `0<x<=500`. If no bounds are provided, the tool uses `[-100,100]` for numeric inputs by default. Output `min/max` values are not required for soundness, but they can define the output domain explicitly in completeness formulas involving overflow.
 
-## 判断含义
+## Judgment Semantics
 
-- `sound`：所有 `T` 输入均被完整路径覆盖，每条路径都满足 `D`。
-- `locally_sound`：所有已探索路径满足 `D`，但路径条件尚未覆盖全部 `T`。
-- `unsound`：存在由 Z3 给出的输入反例，使程序输出违反 `D`，或执行触发未由场景允许的异常。
-- `complete`：`D` 允许的每个输出都能由某个已探索的 `T` 输入产生。
-- `incomplete`：路径已经覆盖全部 `T`，但存在 `D` 允许而程序不可达的输出反例。
-- `locally_complete`：在已探索区域内发现未覆盖输出，但由于 `T` 尚未完整覆盖，不能作全局 incomplete 判断。
-- `inconclusive`：遇到超时或当前标量 Java 模型不支持的语法/调用。
+- `sound`: All inputs satisfying `T` are covered by complete paths, and every path satisfies `D`.
+- `locally_sound`: Every explored path satisfies `D`, but the derived path conditions do not yet cover all of `T`.
+- `unsound`: Z3 provides an input counterexample for which the program output violates `D`, or execution raises an exception not permitted by the scenario.
+- `complete`: Every output permitted by `D` can be produced by at least one explored input satisfying `T`.
+- `incomplete`: The paths cover all of `T`, but there is an output permitted by `D` that the program cannot reach.
+- `locally_complete`: An uncovered output is found in the explored region, but a global `incomplete` judgment cannot be made because `T` has not been fully covered.
+- `inconclusive`: A timeout occurs, or the current scalar Java model does not support the relevant syntax or invocation.
 
-## 有界性与可信边界
+## Bounds and Trust Boundary
 
-TBFV 的优势是不用人工提供循环不变式；代价是它依赖测试诱导路径。工具严格遵守论文的“全路径覆盖后才给全局判断”原则：
+The advantage of TBFV is that it does not require manually supplied loop invariants; the trade-off is that it relies on test-induced paths. The tool strictly follows the paper's rule that global judgments may be issued only after complete path coverage:
 
-- 达到 `max_paths` 或 `max_loop_iterations` 时，报告会标记 partial/local 或 inconclusive。
-- Z3 `unknown` 不会被当作 `unsat`。
-- 每个切片会被 `javac` 编译；编译失败保留完整错误信息。
-- 原程序和切片默认在相同 FSF、输入域、路径上限和 solver 配置下分别验证。
+- When `max_paths` or `max_loop_iterations` is reached, the report marks the result as partial/local or inconclusive.
+- A Z3 result of `unknown` is never treated as `unsat`.
+- Every generated slice is compiled with `javac`; complete compiler diagnostics are retained when compilation fails.
+- By default, the original program and its slice are verified separately under the same FSF, input domain, path limit, and solver configuration.
 
-当前执行器面向论文和 PCaE 数据集中的标量 Java 子集，支持顺序、分支、`switch`、`while`、`do-while`、普通 `for`、`break/continue/return/throw`、整数/实数/布尔/字符以及常见 `Math` 函数。数组、集合、对象图、递归、跨方法符号执行、字符串语义和复杂库调用会明确返回 `inconclusive`；切片器仍会进行保守依赖分析。论文自身也把复杂数据结构、方法调用和丰富 Java 特性列为当前方法的扩展方向。
+The current executor targets the scalar Java subset used in the paper and PCaE dataset. It supports sequential code, branches, `switch`, `while`, `do-while`, conventional `for` loops, `break/continue/return/throw`, integer/real/Boolean/character values, and common `Math` functions. Arrays, collections, object graphs, recursion, interprocedural symbolic execution, string semantics, and complex library calls explicitly produce `inconclusive`; the slicer still performs conservative dependency analysis. The paper itself also identifies complex data structures, method invocations, and richer Java language features as directions for future extension.
 
-## 可选 LLM
+## Optional LLM Integration
 
 ```bash
 export FSF_LLM_API_KEY='...'
@@ -172,14 +173,13 @@ export FSF_LLM_API_KEY='...'
   --allow-llm
 ```
 
-生成后必须运行 `validate-fsf` 或 `analyze`。LLM 输出不是证明；Z3 与路径验证结果才是工具的判定依据。
+After generation, you must run `validate-fsf` or `analyze`. LLM output is not a proof; the judgments produced by Z3 and path verification are authoritative.
 
-## 测试
+## Testing
 
 ```bash
 .venv/bin/python -m pip install pytest
 .venv/bin/python -m pytest
 ```
 
-更详细的论文到实现映射见 `docs/ALGORITHM.md`，FSF 字段说明见 `docs/FSF_FORMAT.md`，材料审计与复现边界见 `docs/REPRODUCTION_NOTES.md`。
-
+For a detailed mapping between the paper and the implementation, see `docs/ALGORITHM.md`. For the FSF field reference, see `docs/FSF_FORMAT.md`. For the material audit and reproduction boundaries, see `docs/REPRODUCTION_NOTES.md`.
