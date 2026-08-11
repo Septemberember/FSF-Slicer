@@ -1,0 +1,7 @@
+category,programs,tasks,average_fsfs,loc_ratio,executable_statement_ratio,cyclomatic_complexity_ratio
+Branched,100,339,3.39,0.469,0.3546,0.3478
+Sequential,63,137,2.17,0.993,1,1
+Single-path-Loop,21,57,2.71,0.734,0.5998,0.7
+Multi-path-Loop,31,104,3.35,0.578,0.5,0.5553
+Nested-Loop,35,103,2.94,0.513,0.4875,0.4702
+Overall,250,740,2.96,0.6079,0.5319,0.5419

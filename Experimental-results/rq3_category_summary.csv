@@ -1,0 +1,7 @@
+category,programs,tasks,definite_pairs,inconclusive_pairs,conclusive_preservation_pct,soundness_agreement_pct,completeness_agreement_pct
+Branched,100,339,333,6,98.23,100,100
+Sequential,63,137,133,4,97.08,100,100
+Single-path-Loop,21,57,53,4,92.98,100,100
+Multi-path-Loop,31,104,104,0,100,100,100
+Nested-Loop,35,103,95,8,92.23,100,100
+Overall,250,740,718,22,97.03,100,100
