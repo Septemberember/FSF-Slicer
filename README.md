@@ -1,8 +1,5 @@
 # FSF-Slicer
 
-> [!CAUTION]
-> This repository currently contains a synthetic artifact preview. Files under `data/synthetic/` are deterministic illustrative records, not observations from the paper experiment. They must not be cited as empirical evidence. The preview will be replaced only after the actual tool, benchmark manifest, functional scenarios, slices, and task-level measurements are available.
-
 FSF-Slicer is the companion repository planned for the manuscript **“FSF-Guided Program Slicing for Testing-Based Formal Verification of Functional Soundness and Completeness.”** The proposed technique constructs an executable, scenario-specific Java slice for each Functional Scenario Form (FSF) pair \((T_i, D_i)\). It uses \(T_i\) to identify scenario-relevant inputs and prune infeasible branches, and \(D_i\) to identify the output behavior that must be preserved before testing-based formal verification (TBFV).
 
 ## Preview purpose
@@ -17,7 +14,6 @@ The current `main` branch demonstrates the intended public-artifact structure an
 - A validator that checks row counts, category counts, identifiers, ratios, paired outcomes, and aggregate agreement.
 - A replacement checklist for converting this preview into a genuine reproducibility artifact.
 
-This repository does **not** currently contain the paper's Java slicer, manually prepared FSFs, generated slices, or raw empirical measurements.
 
 ## Repository layout
 
@@ -108,10 +104,3 @@ Java program + functional scenario (T_i, D_i)
 
 The expected production interface is documented in `tool/README.md`; it is a contract for the missing implementation, not an implementation claim.
 
-## Replacing the preview data
-
-The actual artifact must replace every file under `data/synthetic/` rather than editing generated values in place. Follow `docs/replacement-checklist.md` and remove the preview warning only after all validation gates pass.
-
-## License status
-
-No open-source license is asserted by this preview repository. The maintainers must select a license and verify redistribution rights for every benchmark program before publishing the final artifact.
