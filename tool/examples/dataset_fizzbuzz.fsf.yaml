@@ -1,0 +1,25 @@
+method: fizzBuzz
+inputs:
+  n: {type: int, min: -30, max: 30}
+outputs:
+  return_value: {type: int, source: return, min: 0, max: 8}
+scenarios:
+  - id: T_3_and_5
+    T: "n % 3 == 0 && n % 5 == 0"
+    D: "return_value == 8"
+  - id: T_3_only
+    T: "n % 3 == 0 && n % 5 != 0"
+    D: "return_value == 3"
+  - id: T_5_only
+    T: "n % 3 != 0 && n % 5 == 0"
+    D: "return_value == 5"
+  - id: T_neither
+    T: "n % 3 != 0 && n % 5 != 0"
+    D: "return_value == 0"
+analysis:
+  max_paths: 16
+  max_loop_iterations: 16
+  solver_timeout_ms: 10000
+  compare_original: true
+  compile_slices: true
+

@@ -1,0 +1,30 @@
+method: calculate
+inputs:
+  num1: {type: int, min: -20, max: 20}
+  num2: {type: int, min: -20, max: 20}
+  operator: {type: char, min: 37, max: 47}
+outputs:
+  return_value: {type: int, source: return}
+scenarios:
+  - id: T_add
+    T: "operator == '+'"
+    D: "return_value == num1 + num2"
+  - id: T_sub
+    T: "operator == '-'"
+    D: "return_value == num1 - num2"
+  - id: T_mul
+    T: "operator == '*'"
+    D: "return_value == num1 * num2"
+  - id: T_div
+    T: "operator == '/' && num2 != 0"
+    D: "return_value == num1 / num2"
+  - id: T_mod
+    T: "operator == '%' && num2 != 0"
+    D: "return_value == num1 % num2"
+analysis:
+  max_paths: 32
+  max_loop_iterations: 64
+  solver_timeout_ms: 10000
+  compare_original: true
+  compile_slices: true
+
