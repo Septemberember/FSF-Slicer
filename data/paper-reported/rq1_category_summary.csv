@@ -1,7 +1,0 @@
-category,programs,tasks,average_fsfs,loc_ratio,executable_statement_ratio,cyclomatic_complexity_ratio,source
-Branched,100,339,3.39,0.4690,0.3546,0.3478,MANUSCRIPT_TABLE_2
-Sequential,63,137,2.17,0.9930,1.0000,1.0000,MANUSCRIPT_TABLE_2
-Single-path-Loop,21,57,2.71,0.7340,0.5998,0.7000,MANUSCRIPT_TABLE_2
-Multi-path-Loop,31,104,3.35,0.5780,0.5000,0.5553,MANUSCRIPT_TABLE_2
-Nested-Loop,35,103,2.94,0.5130,0.4875,0.4702,MANUSCRIPT_TABLE_2
-Overall,250,740,2.96,0.6079,0.5319,0.5419,MANUSCRIPT_TABLE_2

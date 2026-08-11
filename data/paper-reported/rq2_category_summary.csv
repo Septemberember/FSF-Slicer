@@ -1,7 +1,0 @@
-category,programs,tasks,dynamic_execution_ratio,path_derivation_ratio,smt_solving_ratio,total_time_ratio,source
-Branched,100,339,0.653,0.721,0.660,0.682,MANUSCRIPT_TABLE_3
-Sequential,63,137,0.943,0.982,0.964,0.971,MANUSCRIPT_TABLE_3
-Single-path-Loop,21,57,0.893,0.849,0.863,0.874,MANUSCRIPT_TABLE_3
-Multi-path-Loop,31,104,0.742,0.750,0.745,0.746,MANUSCRIPT_TABLE_3
-Nested-Loop,35,103,0.865,0.806,0.702,0.794,MANUSCRIPT_TABLE_3
-Overall,250,740,0.767,0.795,0.750,0.775,MANUSCRIPT_TABLE_3
