@@ -1,0 +1,55 @@
+method: calculate
+inputs:
+  num1:
+    type: int
+    min: -20
+    max: 20
+  num2:
+    type: int
+    min: -20
+    max: 20
+  operator:
+    type: char
+    min: 37
+    max: 47
+outputs:
+  return_value:
+    type: int
+    source: return
+  exception:
+    type: int
+    source: exception
+    min: 0
+    max: 4
+scenarios:
+- id: T_add
+  T: operator == '+'
+  D: exception == 0 && (return_value == num1 + num2)
+- id: T_sub
+  T: operator == '-'
+  D: exception == 0 && (return_value == num1 - num2)
+- id: T_mul
+  T: operator == '*'
+  D: exception == 0 && (return_value == num1 * num2)
+- id: T_div
+  T: operator == '/' && num2 != 0
+  D: exception == 0 && (return_value == num1 / num2)
+- id: T_mod
+  T: operator == '%' && num2 != 0
+  D: exception == 0 && (return_value == num1 % num2)
+- id: T_div_zero
+  T: operator == '/' && num2 == 0
+  D: exception == 1
+- id: T_mod_zero
+  T: operator == '%' && num2 == 0
+  D: exception == 1
+- id: T_unsupported
+  T: operator != '+' && operator != '-' && operator != '*' && operator != '/' && operator
+    != '%'
+  D: exception == 2
+analysis:
+  max_paths: 32
+  max_loop_iterations: 64
+  solver_timeout_ms: 10000
+  compare_original: true
+  compile_slices: true

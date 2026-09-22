@@ -1,0 +1,20 @@
+method: mulLoop
+inputs:
+  a: {type: int, min: -5, max: 5}
+  b: {type: int, min: -5, max: 5}
+outputs:
+  return_value: {type: int, source: return, min: -25, max: 25}
+scenarios:
+  - id: T_nonnegative_b
+    T: "b >= 0"
+    D: "return_value == a * b"
+  - id: T_negative_b
+    T: "b < 0"
+    D: "return_value == a * b"
+analysis:
+  max_paths: 16
+  max_loop_iterations: 16
+  solver_timeout_ms: 10000
+  compare_original: true
+  compile_slices: true
+

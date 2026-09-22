@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite FSF-Slicer and its associated research when using this software."
+type: software
+title: FSF-Slicer
+version: 2.0.0
+date-released: 2026-09-22
+repository-code: "https://github.com/Septemberember/FSF-Slicer"
+license: MIT
+authors:
+  - family-names: Liu
+    given-names: Yang

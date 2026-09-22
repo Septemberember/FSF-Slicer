@@ -1,0 +1,200 @@
+{
+  "environment": {
+    "python": "3.12.14",
+    "platform": "macOS-26.3.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "cpu_count": 18,
+    "z3": "4.12.2",
+    "javac": "javac 26"
+  },
+  "repeats": 2,
+  "seed": 2026,
+  "rows": 96,
+  "failures": [],
+  "aggregation": "Scenario-level paired rows; percentile 95% bootstrap resamples whole programs, retaining their scenarios and repetitions. Timing deltas are slice minus original. Timings are milliseconds. Compilation and report generation are included only in pipeline_ms.",
+  "modes": {
+    "fsf": {
+      "paired_verify_delta_ms": {
+        "mean": -2.9159375,
+        "ci95": [
+          -3.8929500000000004,
+          0.3912499999999996
+        ],
+        "programs": 4
+      },
+      "original_verify_ms": {
+        "mean": 36.66915625,
+        "ci95": [
+          28.307625,
+          61.75375
+        ],
+        "programs": 4
+      },
+      "slice_verify_ms": {
+        "mean": 33.75321875,
+        "ci95": [
+          24.547041666666665,
+          62.10885
+        ],
+        "programs": 4
+      },
+      "amortized_slice_total_ms": {
+        "mean": 39.0656914079485,
+        "ci95": [
+          30.25377258510158,
+          67.08911875163996
+        ],
+        "programs": 4
+      },
+      "loc_ratio": {
+        "mean": 0.4247619047619048,
+        "ci95": [
+          0.2907692307692308,
+          0.5928571428571429
+        ],
+        "programs": 4
+      },
+      "executable_statements_ratio": {
+        "mean": 0.475,
+        "ci95": [
+          0.3,
+          0.75
+        ],
+        "programs": 4
+      },
+      "cyclomatic_complexity_ratio": {
+        "mean": 0.2708333333333333,
+        "ci95": [
+          0.15384615384615385,
+          0.5
+        ],
+        "programs": 4
+      },
+      "conclusive_agreement_rows": 32,
+      "inconclusive_rows": 0,
+      "behavior_equivalent_rows": 32
+    },
+    "backward": {
+      "paired_verify_delta_ms": {
+        "mean": -3.1449687500000008,
+        "ci95": [
+          -3.288812500000005,
+          -2.956833333333334
+        ],
+        "programs": 4
+      },
+      "original_verify_ms": {
+        "mean": 37.53165625,
+        "ci95": [
+          28.69725,
+          65.2564
+        ],
+        "programs": 4
+      },
+      "slice_verify_ms": {
+        "mean": 34.3866875,
+        "ci95": [
+          25.55741666666667,
+          62.01265
+        ],
+        "programs": 4
+      },
+      "amortized_slice_total_ms": {
+        "mean": 36.04995178058208,
+        "ci95": [
+          27.287645791521374,
+          63.4225769488791
+        ],
+        "programs": 4
+      },
+      "loc_ratio": {
+        "mean": 1.1600000000000001,
+        "ci95": [
+          1.0,
+          1.2953846153846154
+        ],
+        "programs": 4
+      },
+      "executable_statements_ratio": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "programs": 4
+      },
+      "cyclomatic_complexity_ratio": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "programs": 4
+      },
+      "conclusive_agreement_rows": 32,
+      "inconclusive_rows": 0,
+      "behavior_equivalent_rows": 32
+    },
+    "conditioned": {
+      "paired_verify_delta_ms": {
+        "mean": -3.7308125000000008,
+        "ci95": [
+          -4.211339285714286,
+          -2.7149500000000026
+        ],
+        "programs": 4
+      },
+      "original_verify_ms": {
+        "mean": 36.2790625,
+        "ci95": [
+          28.002,
+          61.47575
+        ],
+        "programs": 4
+      },
+      "slice_verify_ms": {
+        "mean": 32.54825,
+        "ci95": [
+          23.936125,
+          58.760799999999996
+        ],
+        "programs": 4
+      },
+      "amortized_slice_total_ms": {
+        "mean": 37.83383462378854,
+        "ci95": [
+          29.595213152751004,
+          63.701881199696665
+        ],
+        "programs": 4
+      },
+      "loc_ratio": {
+        "mean": 0.4247619047619048,
+        "ci95": [
+          0.2907692307692308,
+          0.5928571428571429
+        ],
+        "programs": 4
+      },
+      "executable_statements_ratio": {
+        "mean": 0.475,
+        "ci95": [
+          0.3,
+          0.75
+        ],
+        "programs": 4
+      },
+      "cyclomatic_complexity_ratio": {
+        "mean": 0.2708333333333333,
+        "ci95": [
+          0.15384615384615385,
+          0.5
+        ],
+        "programs": 4
+      },
+      "conclusive_agreement_rows": 32,
+      "inconclusive_rows": 0,
+      "behavior_equivalent_rows": 32
+    }
+  }
+}

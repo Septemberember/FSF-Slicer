@@ -1,0 +1,18 @@
+description: Paired verification of bundled scenario families.
+tasks:
+  - id: calculator
+    program_id: calculator
+    java: Calculator.java
+    fsf: calculator_full.fsf.yaml
+  - id: cube_sum
+    program_id: cube_sum
+    java: UserInputProgram.java
+    fsf: cube_sum.fsf.yaml
+  - id: fizzbuzz
+    program_id: fizzbuzz
+    java: ../datasets/PCaE-Dataset/Branched3/FizzBuzz_Original.java
+    fsf: dataset_fizzbuzz.fsf.yaml
+  - id: multiplication
+    program_id: multiplication
+    java: ../datasets/PCaE-Dataset/Nested-Loop3/MulLoop_Original.java
+    fsf: dataset_mul_loop.fsf.yaml
