@@ -97,3 +97,21 @@ cd tool
 ```
 
 Retain the Java source, FSF YAML, environment record, validation diagnostics, generated slices, and JSON/HTML reports. For timing comparisons, perform ten sequential repetitions per task under fixed settings and retain individual measurements before averaging. For result-preservation analysis, calculate agreement over tasks with definitive judgments for both the original program and its slice, and report inconclusive outcomes separately.
+
+## 7. Sampling, paired comparisons, and confidence intervals
+
+### Sampling units and task selection
+
+The analysis set contains 250 programs and 740 scenario-specific tasks across five control-flow categories. The [program manifest](Experimental-results/program_manifest.csv) records categories and scenario counts, and the [task manifest](Experimental-results/task_manifest.csv) links each task to its program. A program–scenario pair is the evaluation unit; scenarios from the same program and repeated runs of the same task are dependent observations. Use a fixed task set for paired comparisons and report exclusions by reason. Interpret results within this benchmark's structural coverage.
+
+### Paired measurements and aggregation
+
+Match original-program and slice measurements by `program_id`, `task_id`, and `repetition`, using identical specifications, input bounds, and analysis settings. For each timing metric, average the ten repetitions separately for the original program and its slice, then calculate the task-level slice/original ratio and the paired difference in milliseconds. Report absolute times and within-task standard deviations alongside ratios. Category and overall estimates are arithmetic means of task-level values, so overall estimates weight categories by their task counts. Comparisons between slicing methods use the same eligible tasks and metric definitions.
+
+### Confidence-interval procedure
+
+Estimate 95% confidence intervals using 2,000 program-cluster bootstrap resamples with bootstrap seed `0`. Sample program identifiers with replacement, retaining all associated scenarios, repetitions, and paired measurements. Recompute the task-weighted estimate in each resample and take the 2.5th and 97.5th percentiles as interval endpoints. For method comparisons, bootstrap the paired differences using identical sampled programs for both methods. This [cluster-bootstrap procedure](https://doi.org/10.1111/j.1467-9868.2007.00593.x) accounts for multiple scenarios from the same program; where related variants are identified, additionally assess sensitivity to clustering by program family.
+
+### Records and analysis support
+
+The published [RQ1 records](Experimental-results/rq1_scale.csv), [RQ2 repeated measurements](Experimental-results/rq2_timing_runs.csv), and [RQ3 judgments](Experimental-results/rq3_preservation.csv) retain task identifiers for paired reanalysis. The [`cluster_interval` function](Tool/fsf_tool/benchmark.py) provides program-cluster bootstrap support for task-level metric rows grouped by `program_id`; [reproduction notes](Tool/docs/REPRODUCTION_NOTES.md) describe repeated-run exports. Retain the source revision, eligible task identifiers, exclusions, bootstrap seed, point estimates, and interval endpoints with each statistical summary.
