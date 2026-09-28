@@ -1,4 +1,4 @@
-# FSF-Slicer 2.0
+# FSF-Slicer 2.0.1
 
 FSF-Slicer constructs executable Java slices for functional scenarios and verifies functional soundness and completeness using test-induced symbolic paths and Z3. Each scenario supplies a testing condition `T` and a defining condition `D`.
 
@@ -33,6 +33,18 @@ python3 -m venv .venv
 ```
 
 The eight calculator scenarios cover arithmetic results, division and remainder by zero, and unsupported operators. Additional examples cover cube sums, FizzBuzz, and multiplication by iteration.
+
+### Reproduce the revised paper's Table 1
+
+```sh
+.venv/bin/python scripts/reproduce_table1.py --output cube-table-output
+```
+
+The default integer input bound is `0 < x <= 784`. The four rows are alternative specifications and are run in four independent analyses, each with the nonpositive-input scenario. Putting their overlapping positive testing conditions into one FSF violates input exclusivity; `--force` deliberately cannot prove an invalid FSF.
+
+Expected positive-scenario judgments are `sound/complete`, `sound/incomplete`, `unsound/complete`, and `unsound/incomplete`. Rows 2 and 4 have the unreachable-output witness `return_value: 8`. Each row explores seven positive paths and one nonpositive path; `test_generation_checks` records ten test-generation solver checks including the two final exhaustion checks. Fresh reports, specifications, counterexamples, environment information, and timings are written to the selected output directory.
+
+Use `--upper-bound 500` to check the former domain, where all four rows are complete, or `--upper-bound 800`, where all four are also complete and the positive scenario needs eight paths. See [Table 1 reproduction](docs/TABLE1_REPRODUCTION.md) for semantics, independent checks, and troubleshooting.
 
 Each run writes:
 
@@ -116,6 +128,8 @@ Input bounds define the domain of every reported judgment. Omitted `int`/`long` 
 | `inconclusive` | Coverage, supported semantics, compilation, or SMT results do not establish the requested judgment |
 
 An unvisited output with partial input coverage yields `inconclusive`. A successful completeness proof can hold before full input coverage because already explored paths may reach every specified output. Reaching the loop limit does not establish nontermination.
+
+For declared output domains containing at most 256 tuples, completeness is checked by exhaustive output enumeration and separate quantifier-free SAT queries for specification membership and program reachability. Their input witnesses are independent, as required by output-set completeness. Larger domains use the quantified inclusion formula. A timeout, `unknown`, unsupported behavior, or insufficient coverage never becomes an `incomplete` proof solely because a solver did not finish.
 
 `comparison.judgment_agreement` is `agree` only when both judgments are definite and equal. `comparison.behavior` checks same-input output/exception observations in the supported semantic model. A relational proof using this model and a shared solver is distinct from independent validation against the JVM; the test suite includes both.
 

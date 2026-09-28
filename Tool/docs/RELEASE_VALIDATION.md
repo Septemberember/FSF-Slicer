@@ -1,4 +1,35 @@
-# Release validation: 2.0.0
+# Release validation
+
+## 2.0.1 — 2026-09-28
+
+Validated with Python 3.12.14, Z3 4.12.2, and JDK 26 on macOS arm64.
+The complete automated suite passed: **110 tests, zero failures, errors, or skips**.
+The independent cube-sum oracle compiled the Java program and enumerated every
+integer input from 1 through 800. All four specification rows were checked at
+input bounds 500, 784, and 800 against the original and compiled slice (twelve
+row/domain combinations).
+
+The standalone reproduction command was also run separately for all three
+domains. At 784, rows 2 and 4 report the unreachable output 8; all four rows
+have seven positive paths and ten test-generation checks across both scenarios.
+At 500 all rows are complete. At 800 all rows are complete with eight positive
+paths and eleven checks. Every same-input original/slice comparison is equivalent
+within the configured domain and supported semantic model.
+
+Fresh evidence:
+
+- `validation/tests-2.0.1.xml`
+- `validation/table1-500-2.0.1.json`
+- `validation/table1-784-2.0.1.json`
+- `validation/table1-800-2.0.1.json`
+
+The JSON summaries contain single-run timings, not the paper's historical times
+or repeated statistical estimates. Run `scripts/reproduce_table1.py` to regenerate
+the full per-row reports and slices. The 2.0.0 benchmark evidence below remains a
+record of that release; the full historical 250-program/740-scenario study has not
+been rerun as part of this correction.
+
+## 2.0.0
 
 Validated on 2026-09-22 with Python 3.12.14, Z3 4.12.2, javalang 0.13.0, and JDK 26 on macOS arm64. The test environment reported 18 logical CPUs. Other supported installation platforms are not claimed as tested by this run.
 

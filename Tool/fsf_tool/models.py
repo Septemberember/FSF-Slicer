@@ -258,3 +258,4 @@ class ScenarioResult:
     paths: list[PathRecord]
     warnings: list[str] = field(default_factory=list)
     elapsed_ms: float = 0.0
+    test_generation_checks: int = 0

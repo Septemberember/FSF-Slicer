@@ -16,6 +16,7 @@ def scenario_to_dict(result: ScenarioResult) -> dict[str, Any]:
         "completeness": judgment_to_dict(result.completeness),
         "coverage": result.coverage,
         "elapsed_ms": round(result.elapsed_ms, 3),
+        "test_generation_checks": result.test_generation_checks,
         "warnings": result.warnings,
         "paths": [
             {

@@ -1,0 +1,300 @@
+{
+  "input_upper_bound": 500,
+  "recorded_at_utc": "2026-09-28T06:52:39.175499+00:00",
+  "measurement_note": "Fresh single runs; these are not the historical paper timings.",
+  "rows": [
+    {
+      "row": 1,
+      "D": "((return_value - 1) * (return_value - 1) * return_value * return_value) / 4 < x && x <= (return_value * return_value * (return_value + 1) * (return_value + 1)) / 4",
+      "soundness": {
+        "status": "sound",
+        "reason": "Every scenario input in the configured domain is covered, and every output satisfies D.",
+        "counterexample": null
+      },
+      "completeness": {
+        "status": "complete",
+        "reason": "Every output in the declared finite output domain allowed by \u2203x(domain \u2227 T \u2227 D) is reached on an explored path.",
+        "counterexample": null
+      },
+      "original_soundness": {
+        "status": "sound",
+        "reason": "Every scenario input in the configured domain is covered, and every output satisfies D.",
+        "counterexample": null
+      },
+      "original_completeness": {
+        "status": "complete",
+        "reason": "Every output in the declared finite output domain allowed by \u2203x(domain \u2227 T \u2227 D) is reached on an explored path.",
+        "counterexample": null
+      },
+      "coverage": "complete",
+      "positive_paths": 7,
+      "test_generation_checks_both_scenarios": 10,
+      "tests": [
+        {
+          "x": 1
+        },
+        {
+          "x": 245
+        },
+        {
+          "x": 445
+        },
+        {
+          "x": 189
+        },
+        {
+          "x": 61
+        },
+        {
+          "x": 13
+        },
+        {
+          "x": 5
+        }
+      ],
+      "comparison": {
+        "judgment_agreement": "agree",
+        "behavior": {
+          "status": "equivalent",
+          "reason": "All scenario inputs have matching output/exception observations in the supported semantic model.",
+          "counterexample": null,
+          "path_pairs_checked": 49
+        }
+      },
+      "source_sha256": "27c0c21f709f9598ea10df8fe95c6bbed06cf66e112a2ced00f0d876d59ac62a",
+      "fsf_sha256": "2f94f98f17da1ba41c8f3f3242a2148bbd7f37553e39892acf31b7c29eb2ee62",
+      "environment": {
+        "python": "3.12.14",
+        "platform": "macOS-26.3.2-arm64-arm-64bit",
+        "machine": "arm64",
+        "cpu_count": 18,
+        "z3": "4.12.2",
+        "javac": "javac 26"
+      },
+      "tool_version": "2.0.1",
+      "total_elapsed_ms": 1559.1502080205828
+    },
+    {
+      "row": 2,
+      "D": "((return_value - 1) * (return_value - 1) * return_value * return_value) / 4 <= x && x <= (return_value * return_value * (return_value + 1) * (return_value + 1)) / 4",
+      "soundness": {
+        "status": "sound",
+        "reason": "Every scenario input in the configured domain is covered, and every output satisfies D.",
+        "counterexample": null
+      },
+      "completeness": {
+        "status": "complete",
+        "reason": "Every output in the declared finite output domain allowed by \u2203x(domain \u2227 T \u2227 D) is reached on an explored path.",
+        "counterexample": null
+      },
+      "original_soundness": {
+        "status": "sound",
+        "reason": "Every scenario input in the configured domain is covered, and every output satisfies D.",
+        "counterexample": null
+      },
+      "original_completeness": {
+        "status": "complete",
+        "reason": "Every output in the declared finite output domain allowed by \u2203x(domain \u2227 T \u2227 D) is reached on an explored path.",
+        "counterexample": null
+      },
+      "coverage": "complete",
+      "positive_paths": 7,
+      "test_generation_checks_both_scenarios": 10,
+      "tests": [
+        {
+          "x": 2
+        },
+        {
+          "x": 253
+        },
+        {
+          "x": 445
+        },
+        {
+          "x": 125
+        },
+        {
+          "x": 61
+        },
+        {
+          "x": 29
+        },
+        {
+          "x": 1
+        }
+      ],
+      "comparison": {
+        "judgment_agreement": "agree",
+        "behavior": {
+          "status": "equivalent",
+          "reason": "All scenario inputs have matching output/exception observations in the supported semantic model.",
+          "counterexample": null,
+          "path_pairs_checked": 49
+        }
+      },
+      "source_sha256": "27c0c21f709f9598ea10df8fe95c6bbed06cf66e112a2ced00f0d876d59ac62a",
+      "fsf_sha256": "7cee2049048f2a097a17e4bc95e33f29cdc1099ea033da2d4dac7fd1e2606016",
+      "environment": {
+        "python": "3.12.14",
+        "platform": "macOS-26.3.2-arm64-arm-64bit",
+        "machine": "arm64",
+        "cpu_count": 18,
+        "z3": "4.12.2",
+        "javac": "javac 26"
+      },
+      "tool_version": "2.0.1",
+      "total_elapsed_ms": 1493.3633749897126
+    },
+    {
+      "row": 3,
+      "D": "((return_value - 1) * (return_value - 1) * return_value * return_value) / 4 < x && x < (return_value * return_value * (return_value + 1) * (return_value + 1)) / 4",
+      "soundness": {
+        "status": "unsound",
+        "reason": "T \u2227 C_i does not imply D(f_i(x)/y) and the declared output bounds.",
+        "counterexample": {
+          "x": 9
+        }
+      },
+      "completeness": {
+        "status": "complete",
+        "reason": "Every output in the declared finite output domain allowed by \u2203x(domain \u2227 T \u2227 D) is reached on an explored path.",
+        "counterexample": null
+      },
+      "original_soundness": {
+        "status": "unsound",
+        "reason": "T \u2227 C_i does not imply D(f_i(x)/y) and the declared output bounds.",
+        "counterexample": {
+          "x": 9
+        }
+      },
+      "original_completeness": {
+        "status": "complete",
+        "reason": "Every output in the declared finite output domain allowed by \u2203x(domain \u2227 T \u2227 D) is reached on an explored path.",
+        "counterexample": null
+      },
+      "coverage": "complete",
+      "positive_paths": 7,
+      "test_generation_checks_both_scenarios": 10,
+      "tests": [
+        {
+          "x": 2
+        },
+        {
+          "x": 253
+        },
+        {
+          "x": 445
+        },
+        {
+          "x": 125
+        },
+        {
+          "x": 61
+        },
+        {
+          "x": 29
+        },
+        {
+          "x": 1
+        }
+      ],
+      "comparison": {
+        "judgment_agreement": "agree",
+        "behavior": {
+          "status": "equivalent",
+          "reason": "All scenario inputs have matching output/exception observations in the supported semantic model.",
+          "counterexample": null,
+          "path_pairs_checked": 49
+        }
+      },
+      "source_sha256": "27c0c21f709f9598ea10df8fe95c6bbed06cf66e112a2ced00f0d876d59ac62a",
+      "fsf_sha256": "3faca04e87714edd9b2f70d59f36a704a0d557b3a9ab3816545a5f7d69f38175",
+      "environment": {
+        "python": "3.12.14",
+        "platform": "macOS-26.3.2-arm64-arm-64bit",
+        "machine": "arm64",
+        "cpu_count": 18,
+        "z3": "4.12.2",
+        "javac": "javac 26"
+      },
+      "tool_version": "2.0.1",
+      "total_elapsed_ms": 1427.5692499941215
+    },
+    {
+      "row": 4,
+      "D": "((return_value - 1) * (return_value - 1) * return_value * return_value) / 4 <= x && x < (return_value * return_value * (return_value + 1) * (return_value + 1)) / 4",
+      "soundness": {
+        "status": "unsound",
+        "reason": "T \u2227 C_i does not imply D(f_i(x)/y) and the declared output bounds.",
+        "counterexample": {
+          "x": 9
+        }
+      },
+      "completeness": {
+        "status": "complete",
+        "reason": "Every output in the declared finite output domain allowed by \u2203x(domain \u2227 T \u2227 D) is reached on an explored path.",
+        "counterexample": null
+      },
+      "original_soundness": {
+        "status": "unsound",
+        "reason": "T \u2227 C_i does not imply D(f_i(x)/y) and the declared output bounds.",
+        "counterexample": {
+          "x": 9
+        }
+      },
+      "original_completeness": {
+        "status": "complete",
+        "reason": "Every output in the declared finite output domain allowed by \u2203x(domain \u2227 T \u2227 D) is reached on an explored path.",
+        "counterexample": null
+      },
+      "coverage": "complete",
+      "positive_paths": 7,
+      "test_generation_checks_both_scenarios": 10,
+      "tests": [
+        {
+          "x": 2
+        },
+        {
+          "x": 253
+        },
+        {
+          "x": 485
+        },
+        {
+          "x": 101
+        },
+        {
+          "x": 37
+        },
+        {
+          "x": 13
+        },
+        {
+          "x": 1
+        }
+      ],
+      "comparison": {
+        "judgment_agreement": "agree",
+        "behavior": {
+          "status": "equivalent",
+          "reason": "All scenario inputs have matching output/exception observations in the supported semantic model.",
+          "counterexample": null,
+          "path_pairs_checked": 49
+        }
+      },
+      "source_sha256": "27c0c21f709f9598ea10df8fe95c6bbed06cf66e112a2ced00f0d876d59ac62a",
+      "fsf_sha256": "52a64eb8dd85447819011e97fcc299473626021ca1fa187451c49bf0ee0f4c3c",
+      "environment": {
+        "python": "3.12.14",
+        "platform": "macOS-26.3.2-arm64-arm-64bit",
+        "machine": "arm64",
+        "cpu_count": 18,
+        "z3": "4.12.2",
+        "javac": "javac 26"
+      },
+      "tool_version": "2.0.1",
+      "total_elapsed_ms": 1447.6343750138767
+    }
+  ],
+  "detailed_reports": "Regenerate per-row reports and slices with scripts/reproduce_table1.py."
+}

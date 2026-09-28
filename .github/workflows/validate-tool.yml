@@ -1,0 +1,32 @@
+name: Validate Tool
+
+on:
+  push:
+    branches: [main]
+    paths: ['Tool/**', '.github/workflows/validate-tool.yml']
+  pull_request:
+    paths: ['Tool/**', '.github/workflows/validate-tool.yml']
+
+permissions:
+  contents: read
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - run: python -m pip install -r Tool/requirements-dev.txt
+      - run: python -m pip install --no-deps ./Tool
+      - run: python -m pytest Tool/tests --junitxml=tool-test-results.xml
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: tool-test-results
+          path: tool-test-results.xml

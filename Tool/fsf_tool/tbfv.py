@@ -1,5 +1,6 @@
 """Test-induced paths, coverage and output-set verification obligations."""
 from __future__ import annotations
+from itertools import product
 import time
 import z3
 
@@ -7,8 +8,11 @@ from .executor import ConcolicExecutor
 from .expression import (ExpressionEngine, domain_constraint, make_symbol, model_as_dict,
                          model_value, parse_expression, z3_text, expression_variables, output_constraint)
 from .java_frontend import JavaProgram
-from .models import FSFSpec, FunctionalScenario, Judgment, PathRecord, ScenarioResult
+from .models import FSFSpec, FunctionalScenario, Judgment, PathRecord, ScenarioResult, TYPE_LIMITS
 from .support import support_issues
+
+
+MAX_ENUMERATED_OUTPUTS = 256
 
 
 def exists(symbols, formula):
@@ -40,10 +44,12 @@ class TBFVEngine:
         except Exception as exc:
             return inconclusive(scenario.id, f'Invalid or unsupported specification: {exc}')
         paths, completed, warnings = [], [], []
+        generation_checks = 0
         generator = self._solver()
         generator.add(self.domain, testing, *engine.guards)
         seen = set()
         for index in range(1, self.spec.config.max_paths + 1):
+            generation_checks += 1
             check = generator.check()
             if check == z3.unsat: break
             if check == z3.unknown:
@@ -79,7 +85,8 @@ class TBFVEngine:
             warnings.append(f'LOOP_LIMIT: {self.spec.config.max_loop_iterations} total iterations per execution.')
         sound = self._soundness(scenario, defined, testing, paths, full, output_names)
         complete = self._completeness(scenario, defined, testing, paths, full, output_names)
-        return ScenarioResult(scenario.id, sound, complete, coverage, paths, warnings, (time.perf_counter() - started) * 1000)
+        return ScenarioResult(scenario.id, sound, complete, coverage, paths, warnings,
+                              (time.perf_counter() - started) * 1000, generation_checks)
 
     def _soundness(self, scenario, defining_ast, testing, paths, full, names):
         unresolved, usable = [], 0
@@ -122,10 +129,17 @@ class TBFVEngine:
             defining = engine.evaluate(defining_ast, {**self.input_symbols, **self.output_symbols})
             inputs = list(self.input_symbols.values())
             symbols = {n: self.output_symbols[n] for n in names}
-            desired = exists(inputs, z3.And(self.domain, testing, defining, output_constraint(symbols, self.spec.outputs), *engine.guards))
-            terms = [exists(inputs, z3.And(self.domain, testing, p.path_condition, *[symbols[n] == p.outputs[n] for n in names])) for p in usable]
+            desired_relation = z3.And(self.domain, testing, defining,
+                                      output_constraint(symbols, self.spec.outputs), *engine.guards)
+            reached_relation = z3.Or(*[z3.And(self.domain, testing, p.path_condition,
+                *[symbols[n] == p.outputs[n] for n in names]) for p in usable])
+            finite = self._finite_completeness(symbols, desired_relation, reached_relation, full)
+            if finite is not None:
+                return finite
+            desired = exists(inputs, desired_relation)
+            reached = exists(inputs, reached_relation)
             solver = self._solver()
-            solver.add(desired, z3.Not(z3.Or(*terms)))
+            solver.add(desired, z3.Not(reached))
             check = solver.check()
             if check == z3.unsat:
                 return Judgment('complete', 'Every output in ∃x(domain ∧ T ∧ D) is reached on an explored path.')
@@ -137,6 +151,59 @@ class TBFVEngine:
             return Judgment('inconclusive', 'An output has not been reached, but incomplete input coverage cannot establish incompleteness.', counterexample)
         except Exception as exc:
             return Judgment('inconclusive', f'Unsupported completeness obligation: {exc}')
+
+    def _finite_completeness(self, symbols, desired, reached, full):
+        """Decide output inclusion exactly when the declared output product is small.
+
+        Each SAT query existentially searches its own input witness. Combining
+        desired and reached in one query would incorrectly require the same input.
+        Never replace declared output bounds with the outputs observed so far.
+        """
+        names, domains, count = sorted(symbols), [], 1
+        for name in names:
+            spec = self.spec.outputs[name]
+            if spec.type in {'boolean', 'bool'}:
+                domain = (False, True)
+            else:
+                limits = TYPE_LIMITS.get(spec.type)
+                if limits is None:
+                    return None
+                low = limits[0] if spec.minimum is None else spec.minimum
+                high = limits[1] if spec.maximum is None else spec.maximum
+                # Python len(range(...)) can overflow for the full Java long range.
+                count *= high - low + 1
+                if count > MAX_ENUMERATED_OUTPUTS:
+                    return None
+                domain = range(low, high + 1)
+            if spec.type in {'boolean', 'bool'}:
+                count *= 2
+            if count > MAX_ENUMERATED_OUTPUTS:
+                return None
+            domains.append(domain)
+
+        deadline = time.monotonic() + self.spec.config.solver_timeout_ms / 1000
+        for values in product(*domains):
+            substitutions = [(symbols[name], z3.BoolVal(value) if z3.is_bool(symbols[name])
+                              else z3.BitVecVal(value, symbols[name].size()))
+                             for name, value in zip(names, values)]
+            for label, relation in [('specification', desired), ('reachability', reached)]:
+                remaining = int((deadline - time.monotonic()) * 1000)
+                if remaining <= 0:
+                    return Judgment('inconclusive', 'COMPLETENESS_UNKNOWN: finite output check timed out.')
+                solver = self._solver()
+                solver.set(timeout=remaining)
+                solver.add(z3.simplify(z3.substitute(relation, *substitutions)))
+                check = solver.check()
+                if check == z3.unknown:
+                    return Judgment('inconclusive', f'COMPLETENESS_UNKNOWN: {label}: ' + solver.reason_unknown())
+                if label == 'specification' and check == z3.unsat:
+                    break
+                if label == 'reachability' and check == z3.unsat:
+                    counterexample = dict(zip(names, values))
+                    if full:
+                        return Judgment('incomplete', 'Full input coverage establishes that a specified output is unreachable.', counterexample)
+                    return Judgment('inconclusive', 'An output has not been reached, but incomplete input coverage cannot establish incompleteness.', counterexample)
+        return Judgment('complete', 'Every output in the declared finite output domain allowed by ∃x(domain ∧ T ∧ D) is reached on an explored path.')
 
     def _solver(self):
         solver = z3.Solver()

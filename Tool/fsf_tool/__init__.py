@@ -9,4 +9,4 @@ warnings.filterwarnings("ignore", message="pkg_resources is deprecated as an API
 from .models import AnalysisConfig, FunctionalScenario, FSFSpec
 
 __all__ = ["AnalysisConfig", "FunctionalScenario", "FSFSpec"]
-__version__ = "2.0.0"
+__version__ = "2.0.1"

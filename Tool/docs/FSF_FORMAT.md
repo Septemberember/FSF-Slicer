@@ -28,6 +28,8 @@ Supported verification types are `byte`, `short`, `int`, `long`, `char`, and `bo
 
 Output bounds constrain the specified output domain for both soundness and completeness; they are not sampling hints. Integer arithmetic in `T` and `D` follows Java overflow rules. Use `long` expressions explicitly when a specification requires wider intermediate arithmetic.
 
+Small declared output domains (at most 256 tuples, including Boolean outputs) use an exact, quantifier-free completeness procedure. The procedure enumerates the entire declared output domain, including values never produced by the program, and uses separate input witnesses for the specification and the reachable-output relation. It has an overall time budget equal to `solver_timeout_ms`; larger output domains retain the quantified procedure. Timeout and unknown results remain inconclusive. Output domains are never inferred from observed program outputs, which would hide incompleteness witnesses.
+
 ## Exceptions
 
 `source: exception` is an `int` observation:
@@ -76,3 +78,5 @@ The first three values are positive integers. `max_loop_iterations` is the total
 `check_preservation` runs original/slice behavioral comparison and therefore also analyzes the original even when `compare_original` is false. `slicing_mode` is `fsf`, `backward`, or `conditioned`. Disabling compilation reports analysis in the scalar model without a compiler check.
 
 `analyze --force` writes an inconclusive report for invalid specifications. It never converts invalid input into a proof.
+
+Reports include `test_generation_checks`, the actual number of calls to the test-generation solver, including its final unsatisfiable or unknown check if reached. This is separate from the number of generated paths and from loop iterations. Alternative definitions for the same testing condition must be verified in separate analyses, rather than placed into one supposedly input-exclusive scenario family. `scripts/reproduce_table1.py` provides this workflow for the paper's four cube-sum variants.

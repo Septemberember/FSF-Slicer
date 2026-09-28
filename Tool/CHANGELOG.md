@@ -1,5 +1,14 @@
 # Changelog
 
+## 2.0.1 — 2026-09-28
+
+- Check small declared output domains with exact output-tuple enumeration and separate quantifier-free specification/reachability queries, preserving independent input witnesses and genuine unknown results.
+- Align the cube-sum example with the revised integer input bound 784 and provide an independent-analysis runner for all four Table 1 alternatives.
+- Record actual test-generation solver checks, including exhaustion checks, separately from execution paths.
+- Check all four specification variants at input bounds 500, 784, and 800 against independent JVM enumeration; retain unreachable-output and soundness counterexamples.
+- Add regressions for multiple-output correlations, different input witnesses, partial coverage, loop limits, solver unknown, and full-width long output domains.
+
+
 ## 2.0.0 — 2026-09-22
 
 - Add structured CFG construction, reaching-definition analysis, postdominance, graph exports, and declaration closure.
