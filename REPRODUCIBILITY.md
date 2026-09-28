@@ -2,6 +2,13 @@
 
 This document describes the hardware and software environment, random seeds, input bounds, stopping rules, and scenario-validation procedure for reproducing FSF-Slicer runs.
 
+> **Version scope:** Sections 1–6 document the historical prototype and the fixed
+> revision used by the commands below. Its former root-level `tool/` is now
+> archived unchanged at [`Tool/legacy/tool/`](Tool/legacy/tool/). The commands
+> intentionally retain `tool/` because they check out that historical revision.
+> For the current implementation, use the [Tool manual](Tool/README.md) and
+> [current reproduction notes](Tool/docs/REPRODUCTION_NOTES.md).
+
 ## 1. Hardware and software environment
 
 The following table lists the validated laptop environment and a suggested Linux configuration for reproduction.
@@ -18,7 +25,7 @@ The following table lists the validated laptop environment and a suggested Linux
 | SMT solver package | z3-solver 4.12.2.0 | z3-solver 4.12.2.0 |
 | YAML parser | PyYAML 6.0.3 | PyYAML 6.0.3 |
 
-The implementation in [`tool/`](tool/) constructs the PDG using a custom intraprocedural analysis module with javalang as the parsing front end. The JDK compiles generated slices. Dependencies are specified in [`tool/requirements.txt`](tool/requirements.txt). Timing comparisons require sequential execution on the same host with fixed software versions and resource allocation.
+The historical implementation in [`Tool/legacy/tool/`](Tool/legacy/tool/) constructs the PDG using a custom intraprocedural analysis module with javalang as the parsing front end. The JDK compiles generated slices. Dependencies are specified in [`Tool/legacy/tool/requirements.txt`](Tool/legacy/tool/requirements.txt). Timing comparisons require sequential execution on the same host with fixed software versions and resource allocation.
 
 ## 2. Random seeds and test selection
 
@@ -36,7 +43,7 @@ The bounds remain fixed throughout execution. Each test produces a path conditio
 
 ## 4. Stopping rules
 
-The defaults in [`AnalysisConfig`](tool/fsf_tool/models.py) are listed below. Record any overrides in the FSF file.
+The defaults in [`AnalysisConfig`](Tool/legacy/tool/fsf_tool/models.py) are listed below. Record any overrides in the FSF file.
 
 | Setting | Default | Meaning |
 |---|---:|---|
@@ -50,7 +57,7 @@ Test generation terminates when the remaining input constraint is unsatisfiable,
 
 ## 5. Scenario-validation procedure
 
-Before slicing and verification, [`validation.py`](tool/fsf_tool/validation.py) performs the following checks:
+Before slicing and verification, [`validation.py`](Tool/legacy/tool/fsf_tool/validation.py) performs the following checks:
 
 1. Check method selection, variable declarations and types, and expression syntax. The testing condition `T` may reference only inputs, and the defining condition `D` must reference at least one configured output.
 2. Check satisfiability and pairwise exclusivity of testing conditions within the input bounds. Unsatisfiable or overlapping testing conditions are validation errors.

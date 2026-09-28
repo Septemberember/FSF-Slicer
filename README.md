@@ -21,7 +21,8 @@ For each functional scenario \((T_i,D_i)\):
 ├── Makefile
 ├── .github/
 │   └── workflows/
-│       └── validate-preview.yml
+│       ├── validate-preview.yml
+│       └── validate-tool.yml
 ├── Experimental-results/
 │   ├── program_manifest.csv
 │   ├── task_manifest.csv
@@ -37,7 +38,7 @@ For each functional scenario \((T_i,D_i)\):
 │   ├── Single-path-Loop3/
 │   ├── Multi-path-Loop3/
 │   └── Nested-Loop3/
-└── tool/
+└── Tool/
     ├── README.md
     ├── LICENSE
     ├── pyproject.toml
@@ -51,7 +52,10 @@ For each functional scenario \((T_i,D_i)\):
     ├── scripts/
     ├── configs/
     ├── datasets/
-    └── dist/
+    ├── dist/
+    └── legacy/
+        ├── README.md
+        └── tool/              # Historical prototype (unchanged)
 ```
 
 ## Artifact Contents
@@ -68,7 +72,7 @@ The Java programs used in the experiment are placed under `FSF-Slicer-Dataset/`.
 | Multi-path-loop programs | `FSF-Slicer-Dataset/Multi-path-Loop3/` |
 | Nested-loop programs | `FSF-Slicer-Dataset/Nested-Loop3/` |
 
-A tool-local copy of the dataset is also included under `tool/datasets/PCaE-Dataset/` for running the prototype commands from the `tool/` directory.
+A tool-local copy of the dataset is also included under `Tool/datasets/PCaE-Dataset/` for running the prototype commands from the `Tool/` directory.
 
 ### 2. Experimental Results
 
@@ -143,7 +147,7 @@ A task is regarded as comparable only when both the original program and the cor
 
 ## Tool Overview
 
-The executable prototype is located in `tool/`. See `tool/README.md` for the detailed tool manual.
+The current executable tool is located in [`Tool/`](Tool/). See the [tool manual](Tool/README.md) for installation and usage. The former root-level lowercase `tool/` is preserved unchanged under [`Tool/legacy/tool/`](Tool/legacy/tool/) for historical reference; see the [archive notes](Tool/legacy/README.md).
 
 The tool supports the following workflow:
 
@@ -174,7 +178,7 @@ For the prototype tool:
 - Java/JDK 17+
 - macOS, Linux, or Windows
 
-The main Python dependencies are listed in `tool/requirements.txt` and `tool/pyproject.toml`:
+The main Python dependencies are listed in `Tool/requirements.txt` and `Tool/pyproject.toml`:
 
 - `javalang`
 - `PyYAML`
@@ -185,7 +189,7 @@ The main Python dependencies are listed in `tool/requirements.txt` and `tool/pyp
 From the repository root, enter the tool directory:
 
 ```bash
-cd tool
+cd Tool
 ```
 
 On macOS or Linux:
@@ -205,7 +209,7 @@ On Windows PowerShell:
 Manual installation is also supported:
 
 ```bash
-cd tool
+cd Tool
 python3 -m venv .venv
 .venv/bin/python -m pip install -e .
 .venv/bin/fsf-tbfv doctor
@@ -216,7 +220,7 @@ python3 -m venv .venv
 Run the full workflow on the cube-sum example:
 
 ```bash
-cd tool
+cd Tool
 .venv/bin/fsf-tbfv analyze \
   --java examples/UserInputProgram.java \
   --fsf examples/cube_sum.fsf.yaml \
@@ -226,7 +230,7 @@ cd tool
 Run the calculator example:
 
 ```bash
-cd tool
+cd Tool
 .venv/bin/fsf-tbfv analyze \
   --java examples/Calculator.java \
   --fsf examples/calculator.fsf.yaml \
@@ -260,7 +264,7 @@ suggest-fsf     Optionally draft an FSF with an LLM; formal validation remains l
 Inspect the bundled dataset:
 
 ```bash
-cd tool
+cd Tool
 .venv/bin/fsf-tbfv dataset-check \
   --java-dir datasets/PCaE-Dataset \
   --output dataset-check.json
@@ -269,7 +273,7 @@ cd tool
 Run tests for the prototype:
 
 ```bash
-cd tool
+cd Tool
 .venv/bin/python -m pip install pytest
 .venv/bin/python -m pytest
 ```
@@ -298,29 +302,29 @@ analysis:
   compile_slices: true
 ```
 
-For the full FSF format, see `tool/docs/FSF_FORMAT.md`.
+For the full FSF format, see `Tool/docs/FSF_FORMAT.md`.
 
 ## Documentation
 
-Additional documentation is available under `tool/docs/`:
+Additional documentation is available under `Tool/docs/`:
 
 | File | Description |
 |---|---|
-| `tool/docs/ALGORITHM.md` | Mapping between the paper algorithm and the implementation. |
-| `tool/docs/FSF_FORMAT.md` | FSF YAML field reference and expression format. |
-| `tool/docs/REPRODUCTION_NOTES.md` | Reproduction notes, boundaries, and material audit. |
+| `Tool/docs/ALGORITHM.md` | Mapping between the paper algorithm and the implementation. |
+| `Tool/docs/FSF_FORMAT.md` | FSF YAML field reference and expression format. |
+| `Tool/docs/REPRODUCTION_NOTES.md` | Reproduction notes, boundaries, and material audit. |
 
 ## Reproduction Notes
 
-The CSV files under `Experimental-results/` provide the task-level and category-level data used for the reported RQ1, RQ2, and RQ3 results. The prototype under `tool/` can be used to run FSF-guided slicing and TBFV on the included examples and supported Java programs.
+The CSV files under `Experimental-results/` provide the task-level and category-level data used for the reported RQ1, RQ2, and RQ3 results. The prototype under `Tool/` can be used to run FSF-guided slicing and TBFV on the included examples and supported Java programs.
 
 The current implementation targets the scalar Java subset used in the experiment. Complex data structures, object graphs, recursion, interprocedural symbolic execution, string semantics, and complex library calls are not fully supported and may produce inconclusive results.
 
-The root-level `Makefile` and `.github/workflows/validate-preview.yml` are legacy preview files and are not required for running the current prototype. The recommended workflow is to use the commands under `tool/` described above.
+The root-level `Makefile` and `.github/workflows/validate-preview.yml` are legacy preview files and are not required for running the current prototype. The recommended workflow is to use the commands under `Tool/` described above.
 
 ## License
 
-The prototype tool is released under the MIT License. See `tool/LICENSE`.
+The prototype tool is released under the MIT License. See `Tool/LICENSE`.
 
 ## Citation
 

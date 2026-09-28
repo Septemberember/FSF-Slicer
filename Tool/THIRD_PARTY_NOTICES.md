@@ -12,6 +12,6 @@ FSF-Slicer's Python source is distributed under the MIT license in `LICENSE`. De
 
 The JDK is an external prerequisite and is not bundled. Its license depends on the distribution selected by the user.
 
-`datasets/PCaE-Dataset` is retained byte-for-byte from the repository's existing `tool/datasets/PCaE-Dataset` subtree. Existing source notices and ownership remain applicable; this release does not relicense third-party dataset content. The tool's MIT license is not a substitute for a dataset author's own license.
+`datasets/PCaE-Dataset` is retained byte-for-byte from the repository's historical `tool/datasets/PCaE-Dataset` subtree, now archived at `Tool/legacy/tool/datasets/PCaE-Dataset`. Existing source notices and ownership remain applicable; this release does not relicense third-party dataset content. The tool's MIT license is not a substitute for a dataset author's own license.
 
 The parser adaptation in `fsf_tool/java_parser.py` retains the upstream javalang MIT notice in `licenses/javalang.txt`.

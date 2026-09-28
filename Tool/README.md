@@ -165,4 +165,4 @@ Floating-point arithmetic, heap state, arrays, strings, class initialization, in
 - [Release validation](docs/RELEASE_VALIDATION.md)
 - [Dependency notices](THIRD_PARTY_NOTICES.md)
 
-The code is distributed under the [MIT license](LICENSE). The `Tool` directory is self-contained; the existing `tool` directory is retained separately in the repository.
+The code is distributed under the [MIT license](LICENSE). The `Tool` directory contains the current implementation. The former root-level lowercase `tool/` is preserved unchanged in [`legacy/tool/`](https://github.com/Septemberember/FSF-Slicer/tree/main/Tool/legacy/tool) for historical reference. See the [archive notes](https://github.com/Septemberember/FSF-Slicer/blob/main/Tool/legacy/README.md); this archive is excluded from current release packages and the current test suite.

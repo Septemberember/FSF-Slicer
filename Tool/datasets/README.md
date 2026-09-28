@@ -1,6 +1,6 @@
 # Bundled dataset
 
-`PCaE-Dataset/` is retained from the existing public `tool` directory. It is included unchanged and retains its original ownership/licensing status.
+`PCaE-Dataset/` is retained from the former public `tool/` directory, now archived at `Tool/legacy/tool/`. It is included unchanged and retains its original ownership/licensing status.
 
 Inventory:
 

@@ -10,4 +10,5 @@ recursive-include tests *.py
 recursive-include datasets *.java *.md
 prune dist
 prune validation
+prune legacy
 global-exclude *.pyc *.class .DS_Store

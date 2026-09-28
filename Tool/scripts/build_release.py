@@ -13,6 +13,7 @@ EXCLUDED = {'.venv', '__pycache__', '.pytest_cache', 'build', '.git'}
 def release_files():
     for path in sorted(ROOT.rglob('*')):
         relative = path.relative_to(ROOT)
+        if relative.parts[0] == 'legacy': continue
         if not path.is_file() or any(p in EXCLUDED or p.endswith('.egg-info') or p.endswith('-output') for p in relative.parts): continue
         if path.suffix in {'.pyc', '.class'} or path.name in {'.DS_Store', 'CHECKSUMS.sha256'}: continue
         if relative.parts[0] == 'dist' and path.suffix == '.zip': continue

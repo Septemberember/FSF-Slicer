@@ -29,5 +29,5 @@ include = ["fsf_tool*"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-addopts = "-q"
+addopts = "-q --ignore-glob=*/legacy/*"
 filterwarnings = ["ignore:pkg_resources is deprecated as an API.*:UserWarning"]
