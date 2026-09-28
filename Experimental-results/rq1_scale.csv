@@ -1,4 +1,4 @@
-task_id,program_id,category,all_original_loc,all_slice_loc,loc_ratio,all_original_executable_statements,all_slice_executable_statements,executable_statement_ratio,original_cyclomatic_complexity,slice_cyclomatic_complexity,cyclomatic_complexity_ratio
+task_id,program_id,category,all_original_loc,all_slice_loc,loc_ratio,all_original_executable_statements,all_slice_executable_statements,executable_statement_ratio,all_original_cyclomatic_complexity,all_slice_cyclomatic_complexity,cyclomatic_complexity_ratio
 BR-001-T01,BR-001,Branched,9322,4156,0.445827,9842,3441,0.349624,4199,1517,0.361276
 BR-001-T02,BR-001,Branched,9322,4254,0.45634,9842,2694,0.273725,4199,1398,0.332936
 BR-001-T03,BR-001,Branched,9322,4199,0.45044,9842,3039,0.308779,4199,1116,0.265778
