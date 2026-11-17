@@ -11,19 +11,9 @@ This document describes the hardware and software environment, random seeds, inp
 
 ## 1. Hardware and software environment
 
-The following table lists the validated laptop environment and a suggested Linux configuration for reproduction.
+We conducted the experiments on a Dell PowerEdge R760 server equipped with an Intel Xeon Gold 5418Y processor and 128 GiB of DDR5 ECC memory, running Ubuntu Server 26.04 LTS. The FSF-Slicer prototype used Python 3.12.14, `javalang` 0.13.0, OpenJDK 26, and `z3-solver` 4.12.2.0.
 
-| Component | Validated laptop environment | Suggested Linux reproduction environment |
-|---|---|---|
-| Processor | Apple M5 Pro, ARM64 | Intel or AMD processor, x86-64 |
-| CPU allocation | 18 physical cores | 8 dedicated CPU cores |
-| Memory | 64 GiB | 32 GiB |
-| Operating system | macOS 26.3.2, build 25D2150 | Ubuntu 26.04 LTS |
-| Python | 3.12.14 | 3.12.14 |
-| Java | OpenJDK 26, build 26+35-2893 | OpenJDK 26 |
-| Java parser | javalang 0.13.0 | javalang 0.13.0 |
-| SMT solver package | z3-solver 4.12.2.0 | z3-solver 4.12.2.0 |
-| YAML parser | PyYAML 6.0.3 | PyYAML 6.0.3 |
+We allocated eight dedicated physical CPU cores and 32 GiB of memory to the timing runs. For each task, we ran the original program and its corresponding slice on the same server and repeated the paired measurement ten times under identical input bounds, solver settings, and stopping criteria. We retained the individual runtimes as raw data and used them to produce the reported timing tables.
 
 The historical implementation in [`Tool/legacy/tool/`](Tool/legacy/tool/) constructs the PDG using a custom intraprocedural analysis module with javalang as the parsing front end. The JDK compiles generated slices. Dependencies are specified in [`Tool/legacy/tool/requirements.txt`](Tool/legacy/tool/requirements.txt). Timing comparisons require sequential execution on the same host with fixed software versions and resource allocation.
 
