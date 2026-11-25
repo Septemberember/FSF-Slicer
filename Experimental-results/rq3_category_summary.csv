@@ -1,7 +1,7 @@
-category,programs,tasks,definite_pairs,inconclusive_pairs,conclusive_preservation_pct,soundness_agreement_pct,completeness_agreement_pct
-Branched,100,339,333,6,98.23,100,100
-Sequential,63,137,133,4,97.08,100,100
-Single-path-Loop,21,57,53,4,92.98,100,100
-Multi-path-Loop,31,104,104,0,100,100,100
-Nested-Loop,35,103,95,8,92.23,100,100
-Overall,250,740,718,22,97.03,100,100
+category,programs,tasks,definite_pairs,identical_definite_pairs,both_inconclusive_pairs,mixed_availability_pairs,unavailable_tasks,identical_definite_pct_of_all_tasks,soundness_agreement_pct,completeness_agreement_pct
+Branched,100,339,255,255,14,0,70,75.22123893805309,100.0,100.0
+Sequential,63,137,104,104,0,0,33,75.91240875912409,100.0,100.0
+Single-path-Loop,21,57,26,26,8,0,23,45.6140350877193,100.0,100.0
+Multi-path-Loop,31,104,71,71,6,4,23,68.26923076923077,100.0,100.0
+Nested-Loop,35,103,85,85,10,0,8,82.52427184466019,100.0,100.0
+Overall,250,740,541,541,38,4,157,73.10810810810811,100.0,100.0

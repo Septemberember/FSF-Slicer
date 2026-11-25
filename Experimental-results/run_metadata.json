@@ -1,0 +1,63 @@
+{
+  "dataset_commit": "be74e73e07cba85e5b2413a2129dff7b5c004e0a",
+  "dataset_git_tree": "0418b37f37cff405a676b238f8e71731fbbaf869",
+  "tool": "FSF-Slicer 2.0.1",
+  "sweep_label": "rebuilt-250-740",
+  "recorded_utc": "2026-11-25T02:35:57.456375+00:00",
+  "settings": {
+    "repeats": 1,
+    "seed": 0,
+    "int_min": -100,
+    "int_max": 100,
+    "max_paths": 128,
+    "max_loop_iterations": 128,
+    "solver_timeout_ms": 1000,
+    "task_timeout_secs": 25,
+    "check_behavior": false
+  },
+  "environment": {
+    "python": "3.12.14",
+    "platform": "macOS-26.3.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "cpu_count": 18,
+    "z3": "4.12.2",
+    "javac": "javac 26"
+  },
+  "tool_source_sha256": {
+    "__init__.py": "26e5e5aac543c312143cbfc6bae264cc72f27d615cce90f4d19fd66599fdf60e",
+    "__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+    "benchmark.py": "6cb1af7a10f72f36f5002c7c9bcc15e2ac0b6cc32bcdb64562fcd319bd9b0267",
+    "cfg.py": "412f0159dd4148373c0ebf579a4a118ce72d2231ea7ef3a3f081223926089286",
+    "cli.py": "e2952bf2100867bd8b53cbcc6060c15b5ae9048824ef0790fbd86dc625853fae",
+    "errors.py": "f44956be51fbff28711b2dfd4a4ddbb0bdab6121cc02587f54e9948cbcb9fe9c",
+    "executor.py": "0bcda8a8d30230fb82b6cf422c7faa01b207c86cfcfa5ac6fcb84f4692297cf1",
+    "expression.py": "bcc4f52a1e32ba45baa2eef67f009b16cc6e00c5bc1d1fd115cf8c09db7439c3",
+    "java_frontend.py": "d4859e3440cc4f18a01dc5bb8cfcaade3378cca620fb29fb49601f4cfc9d40cb",
+    "java_parser.py": "5843a56d30ee13401dd21e766c29cd559ba90aad513ec91e3e209825cafcaad4",
+    "llm.py": "1c823a184d3987870083f30a31209e79b65d959118977d618b804c541794b9cd",
+    "models.py": "0d6b50cf43a18e48f3d0d09ee458d74dcf093c5e47eb7cb29ae20ae642335b6f",
+    "pdg.py": "4c9d2d555950273a02b3b4937d771c49b8720919c31968f7035e461a154d7f9a",
+    "pipeline.py": "15bcfe782399b842db189582bde7c566661344f436f198d7facea6dd4cc7f613",
+    "preservation.py": "e7908066cf673b6d5f6f46062748f63170d03415cc1e135b90488a3414ebbd08",
+    "pruning.py": "ab9e6e70e1b614295951f8bcfc4dfe15448abba327b4a175c7a4ac62616497d8",
+    "report.py": "5393a363bf2dd12da83499b5ae83a72410dbfe1afab88c1fff1f241589e7cb6e",
+    "slicer.py": "194df4b311be8d31263b49383958d6cb0e0fc97eb97377aae925d1a39c8a54e6",
+    "support.py": "984bc4e1a8fd819d2913d94ba41cc91100369083817e986e7d8fb5eabfe71751",
+    "tbfv.py": "cc7379e3937ca5c528dcf2e6f9e21048e06f5400db406108211cea0c23c66b66",
+    "validation.py": "8ecd4895d80136f2225d1bed0f4d2bc5ecdd7e3daefd29784d46b33be8f6414c"
+  },
+  "runner_sha256": "0bf8b75bb2d0fff505a7a1a5c3d93d2b18278563afbde3a6695c7bfc5cee5b51",
+  "source_artifact_sha256": {
+    "sweep-input-manifest.csv": "74bab03cf7df7a851a607b8f2791b1cc10f3ba40a7d1bffbe573b9da76aa3a1d",
+    "task_index.csv": "dd08cbfaeace1fcd5ad1e7256e2f638f7aeb64f5c707acf5111e7f9e5e047fcb",
+    "runs.csv": "2b223e10122adbd2666023ac875919ca1a687cba84dbed284bcd519e2d07ad9c",
+    "details.zip": "2b1208d13b3414a10c83627cc7e019bcb797a224fd8ffe1c2ea6a8a40368dfa9"
+  },
+  "status_counts": {
+    "invalid_or_unsupported_fsf": 15,
+    "measured": 583,
+    "outside_configured_domain": 18,
+    "task_timeout": 7,
+    "unsupported_native_scenario": 117
+  }
+}

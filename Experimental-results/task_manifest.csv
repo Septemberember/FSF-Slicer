@@ -1,741 +1,741 @@
-task_id,program_id,category,scenario_index
-BR-001-T01,BR-001,Branched,1
-BR-001-T02,BR-001,Branched,2
-BR-001-T03,BR-001,Branched,3
-BR-001-T04,BR-001,Branched,4
-BR-002-T01,BR-002,Branched,1
-BR-002-T02,BR-002,Branched,2
-BR-002-T03,BR-002,Branched,3
-BR-002-T04,BR-002,Branched,4
-BR-003-T01,BR-003,Branched,1
-BR-003-T02,BR-003,Branched,2
-BR-003-T03,BR-003,Branched,3
-BR-003-T04,BR-003,Branched,4
-BR-004-T01,BR-004,Branched,1
-BR-004-T02,BR-004,Branched,2
-BR-004-T03,BR-004,Branched,3
-BR-004-T04,BR-004,Branched,4
-BR-005-T01,BR-005,Branched,1
-BR-005-T02,BR-005,Branched,2
-BR-005-T03,BR-005,Branched,3
-BR-005-T04,BR-005,Branched,4
-BR-006-T01,BR-006,Branched,1
-BR-006-T02,BR-006,Branched,2
-BR-006-T03,BR-006,Branched,3
-BR-006-T04,BR-006,Branched,4
-BR-007-T01,BR-007,Branched,1
-BR-007-T02,BR-007,Branched,2
-BR-007-T03,BR-007,Branched,3
-BR-007-T04,BR-007,Branched,4
-BR-008-T01,BR-008,Branched,1
-BR-008-T02,BR-008,Branched,2
-BR-008-T03,BR-008,Branched,3
-BR-008-T04,BR-008,Branched,4
-BR-009-T01,BR-009,Branched,1
-BR-009-T02,BR-009,Branched,2
-BR-009-T03,BR-009,Branched,3
-BR-009-T04,BR-009,Branched,4
-BR-010-T01,BR-010,Branched,1
-BR-010-T02,BR-010,Branched,2
-BR-010-T03,BR-010,Branched,3
-BR-010-T04,BR-010,Branched,4
-BR-011-T01,BR-011,Branched,1
-BR-011-T02,BR-011,Branched,2
-BR-011-T03,BR-011,Branched,3
-BR-011-T04,BR-011,Branched,4
-BR-012-T01,BR-012,Branched,1
-BR-012-T02,BR-012,Branched,2
-BR-012-T03,BR-012,Branched,3
-BR-012-T04,BR-012,Branched,4
-BR-013-T01,BR-013,Branched,1
-BR-013-T02,BR-013,Branched,2
-BR-013-T03,BR-013,Branched,3
-BR-013-T04,BR-013,Branched,4
-BR-014-T01,BR-014,Branched,1
-BR-014-T02,BR-014,Branched,2
-BR-014-T03,BR-014,Branched,3
-BR-014-T04,BR-014,Branched,4
-BR-015-T01,BR-015,Branched,1
-BR-015-T02,BR-015,Branched,2
-BR-015-T03,BR-015,Branched,3
-BR-015-T04,BR-015,Branched,4
-BR-016-T01,BR-016,Branched,1
-BR-016-T02,BR-016,Branched,2
-BR-016-T03,BR-016,Branched,3
-BR-016-T04,BR-016,Branched,4
-BR-017-T01,BR-017,Branched,1
-BR-017-T02,BR-017,Branched,2
-BR-017-T03,BR-017,Branched,3
-BR-017-T04,BR-017,Branched,4
-BR-018-T01,BR-018,Branched,1
-BR-018-T02,BR-018,Branched,2
-BR-018-T03,BR-018,Branched,3
-BR-018-T04,BR-018,Branched,4
-BR-019-T01,BR-019,Branched,1
-BR-019-T02,BR-019,Branched,2
-BR-019-T03,BR-019,Branched,3
-BR-019-T04,BR-019,Branched,4
-BR-020-T01,BR-020,Branched,1
-BR-020-T02,BR-020,Branched,2
-BR-020-T03,BR-020,Branched,3
-BR-020-T04,BR-020,Branched,4
-BR-021-T01,BR-021,Branched,1
-BR-021-T02,BR-021,Branched,2
-BR-021-T03,BR-021,Branched,3
-BR-021-T04,BR-021,Branched,4
-BR-022-T01,BR-022,Branched,1
-BR-022-T02,BR-022,Branched,2
-BR-022-T03,BR-022,Branched,3
-BR-022-T04,BR-022,Branched,4
-BR-023-T01,BR-023,Branched,1
-BR-023-T02,BR-023,Branched,2
-BR-023-T03,BR-023,Branched,3
-BR-023-T04,BR-023,Branched,4
-BR-024-T01,BR-024,Branched,1
-BR-024-T02,BR-024,Branched,2
-BR-024-T03,BR-024,Branched,3
-BR-024-T04,BR-024,Branched,4
-BR-025-T01,BR-025,Branched,1
-BR-025-T02,BR-025,Branched,2
-BR-025-T03,BR-025,Branched,3
-BR-025-T04,BR-025,Branched,4
-BR-026-T01,BR-026,Branched,1
-BR-026-T02,BR-026,Branched,2
-BR-026-T03,BR-026,Branched,3
-BR-026-T04,BR-026,Branched,4
-BR-027-T01,BR-027,Branched,1
-BR-027-T02,BR-027,Branched,2
-BR-027-T03,BR-027,Branched,3
-BR-027-T04,BR-027,Branched,4
-BR-028-T01,BR-028,Branched,1
-BR-028-T02,BR-028,Branched,2
-BR-028-T03,BR-028,Branched,3
-BR-028-T04,BR-028,Branched,4
-BR-029-T01,BR-029,Branched,1
-BR-029-T02,BR-029,Branched,2
-BR-029-T03,BR-029,Branched,3
-BR-029-T04,BR-029,Branched,4
-BR-030-T01,BR-030,Branched,1
-BR-030-T02,BR-030,Branched,2
-BR-030-T03,BR-030,Branched,3
-BR-030-T04,BR-030,Branched,4
-BR-031-T01,BR-031,Branched,1
-BR-031-T02,BR-031,Branched,2
-BR-031-T03,BR-031,Branched,3
-BR-031-T04,BR-031,Branched,4
-BR-032-T01,BR-032,Branched,1
-BR-032-T02,BR-032,Branched,2
-BR-032-T03,BR-032,Branched,3
-BR-032-T04,BR-032,Branched,4
-BR-033-T01,BR-033,Branched,1
-BR-033-T02,BR-033,Branched,2
-BR-033-T03,BR-033,Branched,3
-BR-033-T04,BR-033,Branched,4
-BR-034-T01,BR-034,Branched,1
-BR-034-T02,BR-034,Branched,2
-BR-034-T03,BR-034,Branched,3
-BR-034-T04,BR-034,Branched,4
-BR-035-T01,BR-035,Branched,1
-BR-035-T02,BR-035,Branched,2
-BR-035-T03,BR-035,Branched,3
-BR-035-T04,BR-035,Branched,4
-BR-036-T01,BR-036,Branched,1
-BR-036-T02,BR-036,Branched,2
-BR-036-T03,BR-036,Branched,3
-BR-036-T04,BR-036,Branched,4
-BR-037-T01,BR-037,Branched,1
-BR-037-T02,BR-037,Branched,2
-BR-037-T03,BR-037,Branched,3
-BR-037-T04,BR-037,Branched,4
-BR-038-T01,BR-038,Branched,1
-BR-038-T02,BR-038,Branched,2
-BR-038-T03,BR-038,Branched,3
-BR-038-T04,BR-038,Branched,4
-BR-039-T01,BR-039,Branched,1
-BR-039-T02,BR-039,Branched,2
-BR-039-T03,BR-039,Branched,3
-BR-039-T04,BR-039,Branched,4
-BR-040-T01,BR-040,Branched,1
-BR-040-T02,BR-040,Branched,2
-BR-040-T03,BR-040,Branched,3
-BR-041-T01,BR-041,Branched,1
-BR-041-T02,BR-041,Branched,2
-BR-041-T03,BR-041,Branched,3
-BR-042-T01,BR-042,Branched,1
-BR-042-T02,BR-042,Branched,2
-BR-042-T03,BR-042,Branched,3
-BR-043-T01,BR-043,Branched,1
-BR-043-T02,BR-043,Branched,2
-BR-043-T03,BR-043,Branched,3
-BR-044-T01,BR-044,Branched,1
-BR-044-T02,BR-044,Branched,2
-BR-044-T03,BR-044,Branched,3
-BR-045-T01,BR-045,Branched,1
-BR-045-T02,BR-045,Branched,2
-BR-045-T03,BR-045,Branched,3
-BR-046-T01,BR-046,Branched,1
-BR-046-T02,BR-046,Branched,2
-BR-046-T03,BR-046,Branched,3
-BR-047-T01,BR-047,Branched,1
-BR-047-T02,BR-047,Branched,2
-BR-047-T03,BR-047,Branched,3
-BR-048-T01,BR-048,Branched,1
-BR-048-T02,BR-048,Branched,2
-BR-048-T03,BR-048,Branched,3
-BR-049-T01,BR-049,Branched,1
-BR-049-T02,BR-049,Branched,2
-BR-049-T03,BR-049,Branched,3
-BR-050-T01,BR-050,Branched,1
-BR-050-T02,BR-050,Branched,2
-BR-050-T03,BR-050,Branched,3
-BR-051-T01,BR-051,Branched,1
-BR-051-T02,BR-051,Branched,2
-BR-051-T03,BR-051,Branched,3
-BR-052-T01,BR-052,Branched,1
-BR-052-T02,BR-052,Branched,2
-BR-052-T03,BR-052,Branched,3
-BR-053-T01,BR-053,Branched,1
-BR-053-T02,BR-053,Branched,2
-BR-053-T03,BR-053,Branched,3
-BR-054-T01,BR-054,Branched,1
-BR-054-T02,BR-054,Branched,2
-BR-054-T03,BR-054,Branched,3
-BR-055-T01,BR-055,Branched,1
-BR-055-T02,BR-055,Branched,2
-BR-055-T03,BR-055,Branched,3
-BR-056-T01,BR-056,Branched,1
-BR-056-T02,BR-056,Branched,2
-BR-056-T03,BR-056,Branched,3
-BR-057-T01,BR-057,Branched,1
-BR-057-T02,BR-057,Branched,2
-BR-057-T03,BR-057,Branched,3
-BR-058-T01,BR-058,Branched,1
-BR-058-T02,BR-058,Branched,2
-BR-058-T03,BR-058,Branched,3
-BR-059-T01,BR-059,Branched,1
-BR-059-T02,BR-059,Branched,2
-BR-059-T03,BR-059,Branched,3
-BR-060-T01,BR-060,Branched,1
-BR-060-T02,BR-060,Branched,2
-BR-060-T03,BR-060,Branched,3
-BR-061-T01,BR-061,Branched,1
-BR-061-T02,BR-061,Branched,2
-BR-061-T03,BR-061,Branched,3
-BR-062-T01,BR-062,Branched,1
-BR-062-T02,BR-062,Branched,2
-BR-062-T03,BR-062,Branched,3
-BR-063-T01,BR-063,Branched,1
-BR-063-T02,BR-063,Branched,2
-BR-063-T03,BR-063,Branched,3
-BR-064-T01,BR-064,Branched,1
-BR-064-T02,BR-064,Branched,2
-BR-064-T03,BR-064,Branched,3
-BR-065-T01,BR-065,Branched,1
-BR-065-T02,BR-065,Branched,2
-BR-065-T03,BR-065,Branched,3
-BR-066-T01,BR-066,Branched,1
-BR-066-T02,BR-066,Branched,2
-BR-066-T03,BR-066,Branched,3
-BR-067-T01,BR-067,Branched,1
-BR-067-T02,BR-067,Branched,2
-BR-067-T03,BR-067,Branched,3
-BR-068-T01,BR-068,Branched,1
-BR-068-T02,BR-068,Branched,2
-BR-068-T03,BR-068,Branched,3
-BR-069-T01,BR-069,Branched,1
-BR-069-T02,BR-069,Branched,2
-BR-069-T03,BR-069,Branched,3
-BR-070-T01,BR-070,Branched,1
-BR-070-T02,BR-070,Branched,2
-BR-070-T03,BR-070,Branched,3
-BR-071-T01,BR-071,Branched,1
-BR-071-T02,BR-071,Branched,2
-BR-071-T03,BR-071,Branched,3
-BR-072-T01,BR-072,Branched,1
-BR-072-T02,BR-072,Branched,2
-BR-072-T03,BR-072,Branched,3
-BR-073-T01,BR-073,Branched,1
-BR-073-T02,BR-073,Branched,2
-BR-073-T03,BR-073,Branched,3
-BR-074-T01,BR-074,Branched,1
-BR-074-T02,BR-074,Branched,2
-BR-074-T03,BR-074,Branched,3
-BR-075-T01,BR-075,Branched,1
-BR-075-T02,BR-075,Branched,2
-BR-075-T03,BR-075,Branched,3
-BR-076-T01,BR-076,Branched,1
-BR-076-T02,BR-076,Branched,2
-BR-076-T03,BR-076,Branched,3
-BR-077-T01,BR-077,Branched,1
-BR-077-T02,BR-077,Branched,2
-BR-077-T03,BR-077,Branched,3
-BR-078-T01,BR-078,Branched,1
-BR-078-T02,BR-078,Branched,2
-BR-078-T03,BR-078,Branched,3
-BR-079-T01,BR-079,Branched,1
-BR-079-T02,BR-079,Branched,2
-BR-079-T03,BR-079,Branched,3
-BR-080-T01,BR-080,Branched,1
-BR-080-T02,BR-080,Branched,2
-BR-080-T03,BR-080,Branched,3
-BR-081-T01,BR-081,Branched,1
-BR-081-T02,BR-081,Branched,2
-BR-081-T03,BR-081,Branched,3
-BR-082-T01,BR-082,Branched,1
-BR-082-T02,BR-082,Branched,2
-BR-082-T03,BR-082,Branched,3
-BR-083-T01,BR-083,Branched,1
-BR-083-T02,BR-083,Branched,2
-BR-083-T03,BR-083,Branched,3
-BR-084-T01,BR-084,Branched,1
-BR-084-T02,BR-084,Branched,2
-BR-084-T03,BR-084,Branched,3
-BR-085-T01,BR-085,Branched,1
-BR-085-T02,BR-085,Branched,2
-BR-085-T03,BR-085,Branched,3
-BR-086-T01,BR-086,Branched,1
-BR-086-T02,BR-086,Branched,2
-BR-086-T03,BR-086,Branched,3
-BR-087-T01,BR-087,Branched,1
-BR-087-T02,BR-087,Branched,2
-BR-087-T03,BR-087,Branched,3
-BR-088-T01,BR-088,Branched,1
-BR-088-T02,BR-088,Branched,2
-BR-088-T03,BR-088,Branched,3
-BR-089-T01,BR-089,Branched,1
-BR-089-T02,BR-089,Branched,2
-BR-089-T03,BR-089,Branched,3
-BR-090-T01,BR-090,Branched,1
-BR-090-T02,BR-090,Branched,2
-BR-090-T03,BR-090,Branched,3
-BR-091-T01,BR-091,Branched,1
-BR-091-T02,BR-091,Branched,2
-BR-091-T03,BR-091,Branched,3
-BR-092-T01,BR-092,Branched,1
-BR-092-T02,BR-092,Branched,2
-BR-092-T03,BR-092,Branched,3
-BR-093-T01,BR-093,Branched,1
-BR-093-T02,BR-093,Branched,2
-BR-093-T03,BR-093,Branched,3
-BR-094-T01,BR-094,Branched,1
-BR-094-T02,BR-094,Branched,2
-BR-094-T03,BR-094,Branched,3
-BR-095-T01,BR-095,Branched,1
-BR-095-T02,BR-095,Branched,2
-BR-095-T03,BR-095,Branched,3
-BR-096-T01,BR-096,Branched,1
-BR-096-T02,BR-096,Branched,2
-BR-096-T03,BR-096,Branched,3
-BR-097-T01,BR-097,Branched,1
-BR-097-T02,BR-097,Branched,2
-BR-097-T03,BR-097,Branched,3
-BR-098-T01,BR-098,Branched,1
-BR-098-T02,BR-098,Branched,2
-BR-098-T03,BR-098,Branched,3
-BR-099-T01,BR-099,Branched,1
-BR-099-T02,BR-099,Branched,2
-BR-099-T03,BR-099,Branched,3
-BR-100-T01,BR-100,Branched,1
-BR-100-T02,BR-100,Branched,2
-BR-100-T03,BR-100,Branched,3
-SQ-001-T01,SQ-001,Sequential,1
-SQ-001-T02,SQ-001,Sequential,2
-SQ-001-T03,SQ-001,Sequential,3
-SQ-002-T01,SQ-002,Sequential,1
-SQ-002-T02,SQ-002,Sequential,2
-SQ-002-T03,SQ-002,Sequential,3
-SQ-003-T01,SQ-003,Sequential,1
-SQ-003-T02,SQ-003,Sequential,2
-SQ-003-T03,SQ-003,Sequential,3
-SQ-004-T01,SQ-004,Sequential,1
-SQ-004-T02,SQ-004,Sequential,2
-SQ-004-T03,SQ-004,Sequential,3
-SQ-005-T01,SQ-005,Sequential,1
-SQ-005-T02,SQ-005,Sequential,2
-SQ-005-T03,SQ-005,Sequential,3
-SQ-006-T01,SQ-006,Sequential,1
-SQ-006-T02,SQ-006,Sequential,2
-SQ-006-T03,SQ-006,Sequential,3
-SQ-007-T01,SQ-007,Sequential,1
-SQ-007-T02,SQ-007,Sequential,2
-SQ-007-T03,SQ-007,Sequential,3
-SQ-008-T01,SQ-008,Sequential,1
-SQ-008-T02,SQ-008,Sequential,2
-SQ-008-T03,SQ-008,Sequential,3
-SQ-009-T01,SQ-009,Sequential,1
-SQ-009-T02,SQ-009,Sequential,2
-SQ-009-T03,SQ-009,Sequential,3
-SQ-010-T01,SQ-010,Sequential,1
-SQ-010-T02,SQ-010,Sequential,2
-SQ-010-T03,SQ-010,Sequential,3
-SQ-011-T01,SQ-011,Sequential,1
-SQ-011-T02,SQ-011,Sequential,2
-SQ-011-T03,SQ-011,Sequential,3
-SQ-012-T01,SQ-012,Sequential,1
-SQ-012-T02,SQ-012,Sequential,2
-SQ-013-T01,SQ-013,Sequential,1
-SQ-013-T02,SQ-013,Sequential,2
-SQ-014-T01,SQ-014,Sequential,1
-SQ-014-T02,SQ-014,Sequential,2
-SQ-015-T01,SQ-015,Sequential,1
-SQ-015-T02,SQ-015,Sequential,2
-SQ-016-T01,SQ-016,Sequential,1
-SQ-016-T02,SQ-016,Sequential,2
-SQ-017-T01,SQ-017,Sequential,1
-SQ-017-T02,SQ-017,Sequential,2
-SQ-018-T01,SQ-018,Sequential,1
-SQ-018-T02,SQ-018,Sequential,2
-SQ-019-T01,SQ-019,Sequential,1
-SQ-019-T02,SQ-019,Sequential,2
-SQ-020-T01,SQ-020,Sequential,1
-SQ-020-T02,SQ-020,Sequential,2
-SQ-021-T01,SQ-021,Sequential,1
-SQ-021-T02,SQ-021,Sequential,2
-SQ-022-T01,SQ-022,Sequential,1
-SQ-022-T02,SQ-022,Sequential,2
-SQ-023-T01,SQ-023,Sequential,1
-SQ-023-T02,SQ-023,Sequential,2
-SQ-024-T01,SQ-024,Sequential,1
-SQ-024-T02,SQ-024,Sequential,2
-SQ-025-T01,SQ-025,Sequential,1
-SQ-025-T02,SQ-025,Sequential,2
-SQ-026-T01,SQ-026,Sequential,1
-SQ-026-T02,SQ-026,Sequential,2
-SQ-027-T01,SQ-027,Sequential,1
-SQ-027-T02,SQ-027,Sequential,2
-SQ-028-T01,SQ-028,Sequential,1
-SQ-028-T02,SQ-028,Sequential,2
-SQ-029-T01,SQ-029,Sequential,1
-SQ-029-T02,SQ-029,Sequential,2
-SQ-030-T01,SQ-030,Sequential,1
-SQ-030-T02,SQ-030,Sequential,2
-SQ-031-T01,SQ-031,Sequential,1
-SQ-031-T02,SQ-031,Sequential,2
-SQ-032-T01,SQ-032,Sequential,1
-SQ-032-T02,SQ-032,Sequential,2
-SQ-033-T01,SQ-033,Sequential,1
-SQ-033-T02,SQ-033,Sequential,2
-SQ-034-T01,SQ-034,Sequential,1
-SQ-034-T02,SQ-034,Sequential,2
-SQ-035-T01,SQ-035,Sequential,1
-SQ-035-T02,SQ-035,Sequential,2
-SQ-036-T01,SQ-036,Sequential,1
-SQ-036-T02,SQ-036,Sequential,2
-SQ-037-T01,SQ-037,Sequential,1
-SQ-037-T02,SQ-037,Sequential,2
-SQ-038-T01,SQ-038,Sequential,1
-SQ-038-T02,SQ-038,Sequential,2
-SQ-039-T01,SQ-039,Sequential,1
-SQ-039-T02,SQ-039,Sequential,2
-SQ-040-T01,SQ-040,Sequential,1
-SQ-040-T02,SQ-040,Sequential,2
-SQ-041-T01,SQ-041,Sequential,1
-SQ-041-T02,SQ-041,Sequential,2
-SQ-042-T01,SQ-042,Sequential,1
-SQ-042-T02,SQ-042,Sequential,2
-SQ-043-T01,SQ-043,Sequential,1
-SQ-043-T02,SQ-043,Sequential,2
-SQ-044-T01,SQ-044,Sequential,1
-SQ-044-T02,SQ-044,Sequential,2
-SQ-045-T01,SQ-045,Sequential,1
-SQ-045-T02,SQ-045,Sequential,2
-SQ-046-T01,SQ-046,Sequential,1
-SQ-046-T02,SQ-046,Sequential,2
-SQ-047-T01,SQ-047,Sequential,1
-SQ-047-T02,SQ-047,Sequential,2
-SQ-048-T01,SQ-048,Sequential,1
-SQ-048-T02,SQ-048,Sequential,2
-SQ-049-T01,SQ-049,Sequential,1
-SQ-049-T02,SQ-049,Sequential,2
-SQ-050-T01,SQ-050,Sequential,1
-SQ-050-T02,SQ-050,Sequential,2
-SQ-051-T01,SQ-051,Sequential,1
-SQ-051-T02,SQ-051,Sequential,2
-SQ-052-T01,SQ-052,Sequential,1
-SQ-052-T02,SQ-052,Sequential,2
-SQ-053-T01,SQ-053,Sequential,1
-SQ-053-T02,SQ-053,Sequential,2
-SQ-054-T01,SQ-054,Sequential,1
-SQ-054-T02,SQ-054,Sequential,2
-SQ-055-T01,SQ-055,Sequential,1
-SQ-055-T02,SQ-055,Sequential,2
-SQ-056-T01,SQ-056,Sequential,1
-SQ-056-T02,SQ-056,Sequential,2
-SQ-057-T01,SQ-057,Sequential,1
-SQ-057-T02,SQ-057,Sequential,2
-SQ-058-T01,SQ-058,Sequential,1
-SQ-058-T02,SQ-058,Sequential,2
-SQ-059-T01,SQ-059,Sequential,1
-SQ-059-T02,SQ-059,Sequential,2
-SQ-060-T01,SQ-060,Sequential,1
-SQ-060-T02,SQ-060,Sequential,2
-SQ-061-T01,SQ-061,Sequential,1
-SQ-061-T02,SQ-061,Sequential,2
-SQ-062-T01,SQ-062,Sequential,1
-SQ-062-T02,SQ-062,Sequential,2
-SQ-063-T01,SQ-063,Sequential,1
-SQ-063-T02,SQ-063,Sequential,2
-SL-001-T01,SL-001,Single-path-Loop,1
-SL-001-T02,SL-001,Single-path-Loop,2
-SL-001-T03,SL-001,Single-path-Loop,3
-SL-002-T01,SL-002,Single-path-Loop,1
-SL-002-T02,SL-002,Single-path-Loop,2
-SL-002-T03,SL-002,Single-path-Loop,3
-SL-003-T01,SL-003,Single-path-Loop,1
-SL-003-T02,SL-003,Single-path-Loop,2
-SL-003-T03,SL-003,Single-path-Loop,3
-SL-004-T01,SL-004,Single-path-Loop,1
-SL-004-T02,SL-004,Single-path-Loop,2
-SL-004-T03,SL-004,Single-path-Loop,3
-SL-005-T01,SL-005,Single-path-Loop,1
-SL-005-T02,SL-005,Single-path-Loop,2
-SL-005-T03,SL-005,Single-path-Loop,3
-SL-006-T01,SL-006,Single-path-Loop,1
-SL-006-T02,SL-006,Single-path-Loop,2
-SL-006-T03,SL-006,Single-path-Loop,3
-SL-007-T01,SL-007,Single-path-Loop,1
-SL-007-T02,SL-007,Single-path-Loop,2
-SL-007-T03,SL-007,Single-path-Loop,3
-SL-008-T01,SL-008,Single-path-Loop,1
-SL-008-T02,SL-008,Single-path-Loop,2
-SL-008-T03,SL-008,Single-path-Loop,3
-SL-009-T01,SL-009,Single-path-Loop,1
-SL-009-T02,SL-009,Single-path-Loop,2
-SL-009-T03,SL-009,Single-path-Loop,3
-SL-010-T01,SL-010,Single-path-Loop,1
-SL-010-T02,SL-010,Single-path-Loop,2
-SL-010-T03,SL-010,Single-path-Loop,3
-SL-011-T01,SL-011,Single-path-Loop,1
-SL-011-T02,SL-011,Single-path-Loop,2
-SL-011-T03,SL-011,Single-path-Loop,3
-SL-012-T01,SL-012,Single-path-Loop,1
-SL-012-T02,SL-012,Single-path-Loop,2
-SL-012-T03,SL-012,Single-path-Loop,3
-SL-013-T01,SL-013,Single-path-Loop,1
-SL-013-T02,SL-013,Single-path-Loop,2
-SL-013-T03,SL-013,Single-path-Loop,3
-SL-014-T01,SL-014,Single-path-Loop,1
-SL-014-T02,SL-014,Single-path-Loop,2
-SL-014-T03,SL-014,Single-path-Loop,3
-SL-015-T01,SL-015,Single-path-Loop,1
-SL-015-T02,SL-015,Single-path-Loop,2
-SL-015-T03,SL-015,Single-path-Loop,3
-SL-016-T01,SL-016,Single-path-Loop,1
-SL-016-T02,SL-016,Single-path-Loop,2
-SL-017-T01,SL-017,Single-path-Loop,1
-SL-017-T02,SL-017,Single-path-Loop,2
-SL-018-T01,SL-018,Single-path-Loop,1
-SL-018-T02,SL-018,Single-path-Loop,2
-SL-019-T01,SL-019,Single-path-Loop,1
-SL-019-T02,SL-019,Single-path-Loop,2
-SL-020-T01,SL-020,Single-path-Loop,1
-SL-020-T02,SL-020,Single-path-Loop,2
-SL-021-T01,SL-021,Single-path-Loop,1
-SL-021-T02,SL-021,Single-path-Loop,2
-ML-001-T01,ML-001,Multi-path-Loop,1
-ML-001-T02,ML-001,Multi-path-Loop,2
-ML-001-T03,ML-001,Multi-path-Loop,3
-ML-001-T04,ML-001,Multi-path-Loop,4
-ML-002-T01,ML-002,Multi-path-Loop,1
-ML-002-T02,ML-002,Multi-path-Loop,2
-ML-002-T03,ML-002,Multi-path-Loop,3
-ML-002-T04,ML-002,Multi-path-Loop,4
-ML-003-T01,ML-003,Multi-path-Loop,1
-ML-003-T02,ML-003,Multi-path-Loop,2
-ML-003-T03,ML-003,Multi-path-Loop,3
-ML-003-T04,ML-003,Multi-path-Loop,4
-ML-004-T01,ML-004,Multi-path-Loop,1
-ML-004-T02,ML-004,Multi-path-Loop,2
-ML-004-T03,ML-004,Multi-path-Loop,3
-ML-004-T04,ML-004,Multi-path-Loop,4
-ML-005-T01,ML-005,Multi-path-Loop,1
-ML-005-T02,ML-005,Multi-path-Loop,2
-ML-005-T03,ML-005,Multi-path-Loop,3
-ML-005-T04,ML-005,Multi-path-Loop,4
-ML-006-T01,ML-006,Multi-path-Loop,1
-ML-006-T02,ML-006,Multi-path-Loop,2
-ML-006-T03,ML-006,Multi-path-Loop,3
-ML-006-T04,ML-006,Multi-path-Loop,4
-ML-007-T01,ML-007,Multi-path-Loop,1
-ML-007-T02,ML-007,Multi-path-Loop,2
-ML-007-T03,ML-007,Multi-path-Loop,3
-ML-007-T04,ML-007,Multi-path-Loop,4
-ML-008-T01,ML-008,Multi-path-Loop,1
-ML-008-T02,ML-008,Multi-path-Loop,2
-ML-008-T03,ML-008,Multi-path-Loop,3
-ML-008-T04,ML-008,Multi-path-Loop,4
-ML-009-T01,ML-009,Multi-path-Loop,1
-ML-009-T02,ML-009,Multi-path-Loop,2
-ML-009-T03,ML-009,Multi-path-Loop,3
-ML-009-T04,ML-009,Multi-path-Loop,4
-ML-010-T01,ML-010,Multi-path-Loop,1
-ML-010-T02,ML-010,Multi-path-Loop,2
-ML-010-T03,ML-010,Multi-path-Loop,3
-ML-010-T04,ML-010,Multi-path-Loop,4
-ML-011-T01,ML-011,Multi-path-Loop,1
-ML-011-T02,ML-011,Multi-path-Loop,2
-ML-011-T03,ML-011,Multi-path-Loop,3
-ML-011-T04,ML-011,Multi-path-Loop,4
-ML-012-T01,ML-012,Multi-path-Loop,1
-ML-012-T02,ML-012,Multi-path-Loop,2
-ML-012-T03,ML-012,Multi-path-Loop,3
-ML-013-T01,ML-013,Multi-path-Loop,1
-ML-013-T02,ML-013,Multi-path-Loop,2
-ML-013-T03,ML-013,Multi-path-Loop,3
-ML-014-T01,ML-014,Multi-path-Loop,1
-ML-014-T02,ML-014,Multi-path-Loop,2
-ML-014-T03,ML-014,Multi-path-Loop,3
-ML-015-T01,ML-015,Multi-path-Loop,1
-ML-015-T02,ML-015,Multi-path-Loop,2
-ML-015-T03,ML-015,Multi-path-Loop,3
-ML-016-T01,ML-016,Multi-path-Loop,1
-ML-016-T02,ML-016,Multi-path-Loop,2
-ML-016-T03,ML-016,Multi-path-Loop,3
-ML-017-T01,ML-017,Multi-path-Loop,1
-ML-017-T02,ML-017,Multi-path-Loop,2
-ML-017-T03,ML-017,Multi-path-Loop,3
-ML-018-T01,ML-018,Multi-path-Loop,1
-ML-018-T02,ML-018,Multi-path-Loop,2
-ML-018-T03,ML-018,Multi-path-Loop,3
-ML-019-T01,ML-019,Multi-path-Loop,1
-ML-019-T02,ML-019,Multi-path-Loop,2
-ML-019-T03,ML-019,Multi-path-Loop,3
-ML-020-T01,ML-020,Multi-path-Loop,1
-ML-020-T02,ML-020,Multi-path-Loop,2
-ML-020-T03,ML-020,Multi-path-Loop,3
-ML-021-T01,ML-021,Multi-path-Loop,1
-ML-021-T02,ML-021,Multi-path-Loop,2
-ML-021-T03,ML-021,Multi-path-Loop,3
-ML-022-T01,ML-022,Multi-path-Loop,1
-ML-022-T02,ML-022,Multi-path-Loop,2
-ML-022-T03,ML-022,Multi-path-Loop,3
-ML-023-T01,ML-023,Multi-path-Loop,1
-ML-023-T02,ML-023,Multi-path-Loop,2
-ML-023-T03,ML-023,Multi-path-Loop,3
-ML-024-T01,ML-024,Multi-path-Loop,1
-ML-024-T02,ML-024,Multi-path-Loop,2
-ML-024-T03,ML-024,Multi-path-Loop,3
-ML-025-T01,ML-025,Multi-path-Loop,1
-ML-025-T02,ML-025,Multi-path-Loop,2
-ML-025-T03,ML-025,Multi-path-Loop,3
-ML-026-T01,ML-026,Multi-path-Loop,1
-ML-026-T02,ML-026,Multi-path-Loop,2
-ML-026-T03,ML-026,Multi-path-Loop,3
-ML-027-T01,ML-027,Multi-path-Loop,1
-ML-027-T02,ML-027,Multi-path-Loop,2
-ML-027-T03,ML-027,Multi-path-Loop,3
-ML-028-T01,ML-028,Multi-path-Loop,1
-ML-028-T02,ML-028,Multi-path-Loop,2
-ML-028-T03,ML-028,Multi-path-Loop,3
-ML-029-T01,ML-029,Multi-path-Loop,1
-ML-029-T02,ML-029,Multi-path-Loop,2
-ML-029-T03,ML-029,Multi-path-Loop,3
-ML-030-T01,ML-030,Multi-path-Loop,1
-ML-030-T02,ML-030,Multi-path-Loop,2
-ML-030-T03,ML-030,Multi-path-Loop,3
-ML-031-T01,ML-031,Multi-path-Loop,1
-ML-031-T02,ML-031,Multi-path-Loop,2
-ML-031-T03,ML-031,Multi-path-Loop,3
-NL-001-T01,NL-001,Nested-Loop,1
-NL-001-T02,NL-001,Nested-Loop,2
-NL-001-T03,NL-001,Nested-Loop,3
-NL-002-T01,NL-002,Nested-Loop,1
-NL-002-T02,NL-002,Nested-Loop,2
-NL-002-T03,NL-002,Nested-Loop,3
-NL-003-T01,NL-003,Nested-Loop,1
-NL-003-T02,NL-003,Nested-Loop,2
-NL-003-T03,NL-003,Nested-Loop,3
-NL-004-T01,NL-004,Nested-Loop,1
-NL-004-T02,NL-004,Nested-Loop,2
-NL-004-T03,NL-004,Nested-Loop,3
-NL-005-T01,NL-005,Nested-Loop,1
-NL-005-T02,NL-005,Nested-Loop,2
-NL-005-T03,NL-005,Nested-Loop,3
-NL-006-T01,NL-006,Nested-Loop,1
-NL-006-T02,NL-006,Nested-Loop,2
-NL-006-T03,NL-006,Nested-Loop,3
-NL-007-T01,NL-007,Nested-Loop,1
-NL-007-T02,NL-007,Nested-Loop,2
-NL-007-T03,NL-007,Nested-Loop,3
-NL-008-T01,NL-008,Nested-Loop,1
-NL-008-T02,NL-008,Nested-Loop,2
-NL-008-T03,NL-008,Nested-Loop,3
-NL-009-T01,NL-009,Nested-Loop,1
-NL-009-T02,NL-009,Nested-Loop,2
-NL-009-T03,NL-009,Nested-Loop,3
-NL-010-T01,NL-010,Nested-Loop,1
-NL-010-T02,NL-010,Nested-Loop,2
-NL-010-T03,NL-010,Nested-Loop,3
-NL-011-T01,NL-011,Nested-Loop,1
-NL-011-T02,NL-011,Nested-Loop,2
-NL-011-T03,NL-011,Nested-Loop,3
-NL-012-T01,NL-012,Nested-Loop,1
-NL-012-T02,NL-012,Nested-Loop,2
-NL-012-T03,NL-012,Nested-Loop,3
-NL-013-T01,NL-013,Nested-Loop,1
-NL-013-T02,NL-013,Nested-Loop,2
-NL-013-T03,NL-013,Nested-Loop,3
-NL-014-T01,NL-014,Nested-Loop,1
-NL-014-T02,NL-014,Nested-Loop,2
-NL-014-T03,NL-014,Nested-Loop,3
-NL-015-T01,NL-015,Nested-Loop,1
-NL-015-T02,NL-015,Nested-Loop,2
-NL-015-T03,NL-015,Nested-Loop,3
-NL-016-T01,NL-016,Nested-Loop,1
-NL-016-T02,NL-016,Nested-Loop,2
-NL-016-T03,NL-016,Nested-Loop,3
-NL-017-T01,NL-017,Nested-Loop,1
-NL-017-T02,NL-017,Nested-Loop,2
-NL-017-T03,NL-017,Nested-Loop,3
-NL-018-T01,NL-018,Nested-Loop,1
-NL-018-T02,NL-018,Nested-Loop,2
-NL-018-T03,NL-018,Nested-Loop,3
-NL-019-T01,NL-019,Nested-Loop,1
-NL-019-T02,NL-019,Nested-Loop,2
-NL-019-T03,NL-019,Nested-Loop,3
-NL-020-T01,NL-020,Nested-Loop,1
-NL-020-T02,NL-020,Nested-Loop,2
-NL-020-T03,NL-020,Nested-Loop,3
-NL-021-T01,NL-021,Nested-Loop,1
-NL-021-T02,NL-021,Nested-Loop,2
-NL-021-T03,NL-021,Nested-Loop,3
-NL-022-T01,NL-022,Nested-Loop,1
-NL-022-T02,NL-022,Nested-Loop,2
-NL-022-T03,NL-022,Nested-Loop,3
-NL-023-T01,NL-023,Nested-Loop,1
-NL-023-T02,NL-023,Nested-Loop,2
-NL-023-T03,NL-023,Nested-Loop,3
-NL-024-T01,NL-024,Nested-Loop,1
-NL-024-T02,NL-024,Nested-Loop,2
-NL-024-T03,NL-024,Nested-Loop,3
-NL-025-T01,NL-025,Nested-Loop,1
-NL-025-T02,NL-025,Nested-Loop,2
-NL-025-T03,NL-025,Nested-Loop,3
-NL-026-T01,NL-026,Nested-Loop,1
-NL-026-T02,NL-026,Nested-Loop,2
-NL-026-T03,NL-026,Nested-Loop,3
-NL-027-T01,NL-027,Nested-Loop,1
-NL-027-T02,NL-027,Nested-Loop,2
-NL-027-T03,NL-027,Nested-Loop,3
-NL-028-T01,NL-028,Nested-Loop,1
-NL-028-T02,NL-028,Nested-Loop,2
-NL-028-T03,NL-028,Nested-Loop,3
-NL-029-T01,NL-029,Nested-Loop,1
-NL-029-T02,NL-029,Nested-Loop,2
-NL-029-T03,NL-029,Nested-Loop,3
-NL-030-T01,NL-030,Nested-Loop,1
-NL-030-T02,NL-030,Nested-Loop,2
-NL-030-T03,NL-030,Nested-Loop,3
-NL-031-T01,NL-031,Nested-Loop,1
-NL-031-T02,NL-031,Nested-Loop,2
-NL-031-T03,NL-031,Nested-Loop,3
-NL-032-T01,NL-032,Nested-Loop,1
-NL-032-T02,NL-032,Nested-Loop,2
-NL-032-T03,NL-032,Nested-Loop,3
-NL-033-T01,NL-033,Nested-Loop,1
-NL-033-T02,NL-033,Nested-Loop,2
-NL-033-T03,NL-033,Nested-Loop,3
-NL-034-T01,NL-034,Nested-Loop,1
-NL-034-T02,NL-034,Nested-Loop,2
-NL-035-T01,NL-035,Nested-Loop,1
-NL-035-T02,NL-035,Nested-Loop,2
+task_id,program_id,category,scenario_index,scenario_label,testing_condition,defining_condition,outcome_annotation
+RB-BR-001-T01,RB-BR-001,Branched,1,T1,num <= 0,return_value == -num,
+RB-BR-001-T02,RB-BR-001,Branched,2,T2,num > 0,return_value == num,
+RB-BR-002-T01,RB-BR-002,Branched,1,T1,num < 0,return_value == num * -1,
+RB-BR-002-T02,RB-BR-002,Branched,2,T2,num >= 0,return_value == num,
+RB-BR-003-T01,RB-BR-003,Branched,1,T1,num != 0,return_value == -num,
+RB-BR-003-T02,RB-BR-003,Branched,2,T2,num == 0,return_value == num,
+RB-BR-004-T01,RB-BR-004,Branched,1,T1,num < 0,return_value == -num,
+RB-BR-004-T02,RB-BR-004,Branched,2,T2,num >= 0,return_value == num,
+RB-BR-005-T01,RB-BR-005,Branched,1,T1,num < 0,return_value == -num,
+RB-BR-005-T02,RB-BR-005,Branched,2,T2,num >= 0,return_value == num,
+RB-BR-006-T01,RB-BR-006,Branched,1,T1,true,return_value == num,
+RB-BR-007-T01,RB-BR-007,Branched,1,T1,true,return_value == -num,
+RB-BR-008-T01,RB-BR-008,Branched,1,T1,num >= 0,return_value == -num,
+RB-BR-008-T02,RB-BR-008,Branched,2,T2,num < 0,return_value == num,
+RB-BR-009-T01,RB-BR-009,Branched,1,T1,num < 0,return_value == -num,
+RB-BR-009-T02,RB-BR-009,Branched,2,T2,num >= 0,return_value == 0,
+RB-BR-010-T01,RB-BR-010,Branched,1,T1,num < 0,return_value == -num,
+RB-BR-010-T02,RB-BR-010,Branched,2,T2,num >= 0,return_value == num,
+RB-BR-011-T01,RB-BR-011,Branched,1,T1,Math.abs((targetHeight + currentHeight)) > 30 && (targetHeight + currentHeight) > 0,return_value == 5,
+RB-BR-011-T02,RB-BR-011,Branched,2,T2,Math.abs((targetHeight + currentHeight)) > 30 && (targetHeight + currentHeight) <= 0,return_value == -5,
+RB-BR-011-T03,RB-BR-011,Branched,3,T3,Math.abs((targetHeight + currentHeight)) <= 30 && Math.abs((targetHeight + currentHeight)) > 20 && (targetHeight + currentHeight) > 0,return_value == 3,
+RB-BR-011-T04,RB-BR-011,Branched,4,T4,Math.abs((targetHeight + currentHeight)) <= 30 && Math.abs((targetHeight + currentHeight)) > 20 && (targetHeight + currentHeight) <= 0,return_value == -3,
+RB-BR-011-T05,RB-BR-011,Branched,5,T5,Math.abs((targetHeight + currentHeight)) <= 20 && Math.abs((targetHeight + currentHeight)) > 10 && (targetHeight + currentHeight) > 0,return_value == 2,
+RB-BR-011-T06,RB-BR-011,Branched,6,T6,Math.abs((targetHeight + currentHeight)) <= 20 && Math.abs((targetHeight + currentHeight)) > 10 && (targetHeight + currentHeight) <= 0,return_value == -2,
+RB-BR-011-T07,RB-BR-011,Branched,7,T7,Math.abs((targetHeight + currentHeight)) <= 10,return_value == (targetHeight + currentHeight),
+RB-BR-012-T01,RB-BR-012,Branched,1,T1,Math.abs((targetHeight - currentHeight)) > 30 && (targetHeight - currentHeight) > 0,return_value == 5,
+RB-BR-012-T02,RB-BR-012,Branched,2,T2,Math.abs((targetHeight - currentHeight)) > 30 && (targetHeight - currentHeight) <= 0,return_value == -5,
+RB-BR-012-T03,RB-BR-012,Branched,3,T3,Math.abs((targetHeight - currentHeight)) <= 30 && Math.abs((targetHeight - currentHeight)) > 20 && (targetHeight - currentHeight) > 0,return_value == 3,
+RB-BR-012-T04,RB-BR-012,Branched,4,T4,Math.abs((targetHeight - currentHeight)) <= 30 && Math.abs((targetHeight - currentHeight)) > 20 && (targetHeight - currentHeight) <= 0,return_value == -3,
+RB-BR-012-T05,RB-BR-012,Branched,5,T5,Math.abs((targetHeight - currentHeight)) <= 20 && Math.abs((targetHeight - currentHeight)) > 10 && (targetHeight - currentHeight) > 0,return_value == 2,
+RB-BR-012-T06,RB-BR-012,Branched,6,T6,Math.abs((targetHeight - currentHeight)) <= 20 && Math.abs((targetHeight - currentHeight)) > 10 && (targetHeight - currentHeight) <= 0,return_value == -2,
+RB-BR-012-T07,RB-BR-012,Branched,7,T7,Math.abs((targetHeight - currentHeight)) <= 10,return_value == (targetHeight - currentHeight),
+RB-BR-013-T01,RB-BR-013,Branched,1,T1,((targetHeight - currentHeight) < 0 ? -(targetHeight - currentHeight) : (targetHeight - currentHeight) + 10) > 30 && (targetHeight - currentHeight) > 0,return_value == 5,
+RB-BR-013-T02,RB-BR-013,Branched,2,T2,((targetHeight - currentHeight) < 0 ? -(targetHeight - currentHeight) : (targetHeight - currentHeight) + 10) > 30 && (targetHeight - currentHeight) <= 0,return_value == -5,
+RB-BR-013-T03,RB-BR-013,Branched,3,T3,((targetHeight - currentHeight) < 0 ? -(targetHeight - currentHeight) : (targetHeight - currentHeight) + 10) <= 30 && ((targetHeight - currentHeight) < 0 ? -(targetHeight - currentHeight) : (targetHeight - currentHeight) + 10) > 20 && (targetHeight - currentHeight) > 0,return_value == 3,
+RB-BR-013-T04,RB-BR-013,Branched,4,T4,((targetHeight - currentHeight) < 0 ? -(targetHeight - currentHeight) : (targetHeight - currentHeight) + 10) <= 30 && ((targetHeight - currentHeight) < 0 ? -(targetHeight - currentHeight) : (targetHeight - currentHeight) + 10) > 20 && (targetHeight - currentHeight) <= 0,return_value == -3,
+RB-BR-013-T05,RB-BR-013,Branched,5,T5,((targetHeight - currentHeight) < 0 ? -(targetHeight - currentHeight) : (targetHeight - currentHeight) + 10) <= 20 && ((targetHeight - currentHeight) < 0 ? -(targetHeight - currentHeight) : (targetHeight - currentHeight) + 10) > 10 && (targetHeight - currentHeight) > 0,return_value == 2,
+RB-BR-013-T06,RB-BR-013,Branched,6,T6,((targetHeight - currentHeight) < 0 ? -(targetHeight - currentHeight) : (targetHeight - currentHeight) + 10) <= 20 && ((targetHeight - currentHeight) < 0 ? -(targetHeight - currentHeight) : (targetHeight - currentHeight) + 10) > 10 && (targetHeight - currentHeight) <= 0,return_value == -2,
+RB-BR-013-T07,RB-BR-013,Branched,7,T7,((targetHeight - currentHeight) < 0 ? -(targetHeight - currentHeight) : (targetHeight - currentHeight) + 10) <= 10,return_value == (targetHeight - currentHeight),
+RB-BR-014-T01,RB-BR-014,Branched,1,T1,Math.abs((targetHeight - currentHeight)) >= 30 && (targetHeight - currentHeight) > 0,return_value == 5,
+RB-BR-014-T02,RB-BR-014,Branched,2,T2,Math.abs((targetHeight - currentHeight)) >= 30 && (targetHeight - currentHeight) <= 0,return_value == -5,
+RB-BR-014-T03,RB-BR-014,Branched,3,T3,Math.abs((targetHeight - currentHeight)) < 30 && Math.abs((targetHeight - currentHeight)) > 20 && (targetHeight - currentHeight) > 0,return_value == 3,
+RB-BR-014-T04,RB-BR-014,Branched,4,T4,Math.abs((targetHeight - currentHeight)) < 30 && Math.abs((targetHeight - currentHeight)) > 20 && (targetHeight - currentHeight) <= 0,return_value == -3,
+RB-BR-014-T05,RB-BR-014,Branched,5,T5,Math.abs((targetHeight - currentHeight)) <= 20 && Math.abs((targetHeight - currentHeight)) > 10 && (targetHeight - currentHeight) > 0,return_value == 2,
+RB-BR-014-T06,RB-BR-014,Branched,6,T6,Math.abs((targetHeight - currentHeight)) <= 20 && Math.abs((targetHeight - currentHeight)) > 10 && (targetHeight - currentHeight) <= 0,return_value == -2,
+RB-BR-014-T07,RB-BR-014,Branched,7,T7,Math.abs((targetHeight - currentHeight)) <= 10,return_value == (targetHeight - currentHeight),
+RB-BR-015-T01,RB-BR-015,Branched,1,T1,Math.abs((targetHeight - currentHeight)) > 30 && (targetHeight - currentHeight) > 0,return_value == 5,
+RB-BR-015-T02,RB-BR-015,Branched,2,T2,Math.abs((targetHeight - currentHeight)) > 30 && (targetHeight - currentHeight) <= 0,return_value == -5,
+RB-BR-015-T03,RB-BR-015,Branched,3,T3,Math.abs((targetHeight - currentHeight)) <= 30 && Math.abs((targetHeight - currentHeight)) > 20 && (targetHeight - currentHeight) > 0,return_value == 3,
+RB-BR-015-T04,RB-BR-015,Branched,4,T4,Math.abs((targetHeight - currentHeight)) <= 30 && Math.abs((targetHeight - currentHeight)) > 20 && (targetHeight - currentHeight) <= 0,return_value == -3,
+RB-BR-015-T05,RB-BR-015,Branched,5,T5,Math.abs((targetHeight - currentHeight)) <= 20 && Math.abs((targetHeight - currentHeight)) > 10 && (targetHeight - currentHeight) > 0,return_value == 2,
+RB-BR-015-T06,RB-BR-015,Branched,6,T6,Math.abs((targetHeight - currentHeight)) <= 20 && Math.abs((targetHeight - currentHeight)) > 10 && (targetHeight - currentHeight) <= 0,return_value == -2,
+RB-BR-015-T07,RB-BR-015,Branched,7,T7,Math.abs((targetHeight - currentHeight)) <= 10,return_value == (targetHeight - currentHeight),
+RB-BR-016-T01,RB-BR-016,Branched,1,T1,length < 0,return_value == 0,
+RB-BR-016-T02,RB-BR-016,Branched,2,T2,length == 0,Exception,ArithmeticException
+RB-BR-016-T03,RB-BR-016,Branched,3,T3,length >= 7 && length * length <= 60 && length * length > 4,Exception,ArrayIndexOutOfBoundsException
+RB-BR-016-T04,RB-BR-016,Branched,4,T4,length > 0 && (length < 7 || length * length > 60 || length * length <= 4),return_value == length * length,
+RB-BR-017-T01,RB-BR-017,Branched,1,T1,operator == '+' || operator == '-',return_value == num1 - num2,
+RB-BR-017-T02,RB-BR-017,Branched,2,T2,operator == '*',return_value == num1 * num2,
+RB-BR-017-T03,RB-BR-017,Branched,3,T3,operator == '/' && num2 != 0,return_value == num1 / num2,
+RB-BR-017-T04,RB-BR-017,Branched,4,T4,operator == '/' && num2 == 0,Exception,
+RB-BR-017-T05,RB-BR-017,Branched,5,T5,operator == '%' && num2 != 0,return_value == num1 % num2,
+RB-BR-017-T06,RB-BR-017,Branched,6,T6,operator == '%' && num2 == 0,Exception,
+RB-BR-017-T07,RB-BR-017,Branched,7,T7,operator != '+' && operator != '-' && operator != '*' && operator != '/' && operator != '%',return_value == -1,
+RB-BR-018-T01,RB-BR-018,Branched,1,T1,operator == '+',return_value == num1 + num2,
+RB-BR-018-T02,RB-BR-018,Branched,2,T2,operator == '-' || operator == '*',return_value == num1 * num2,
+RB-BR-018-T03,RB-BR-018,Branched,3,T3,operator == '/' && num2 != 0,return_value == num1 / num2,
+RB-BR-018-T04,RB-BR-018,Branched,4,T4,operator == '%' && num2 != 0,return_value == num1 % num2,
+RB-BR-018-T05,RB-BR-018,Branched,5,T5,(operator == '/' || operator == '%') && num2 == 0,Exception,
+RB-BR-018-T06,RB-BR-018,Branched,6,T6,operator != '+' && operator != '-' && operator != '*' && operator != '/' && operator != '%',return_value == -1,
+RB-BR-019-T01,RB-BR-019,Branched,1,T1,operator == '+',return_value == num1 + num2,
+RB-BR-019-T02,RB-BR-019,Branched,2,T2,operator == '-',return_value == num1 - num2,
+RB-BR-019-T03,RB-BR-019,Branched,3,T3,(operator == '*' || operator == '/') && num2 != 0,return_value == num1 / num2,
+RB-BR-019-T04,RB-BR-019,Branched,4,T4,(operator == '*' || operator == '/') && num2 == 0,Exception,
+RB-BR-019-T05,RB-BR-019,Branched,5,T5,operator == '%' && num2 != 0,return_value == num1 % num2,
+RB-BR-019-T06,RB-BR-019,Branched,6,T6,operator == '%' && num2 == 0,Exception,
+RB-BR-019-T07,RB-BR-019,Branched,7,T7,operator != '+' && operator != '-' && operator != '*' && operator != '/' && operator != '%',return_value == -1,
+RB-BR-020-T01,RB-BR-020,Branched,1,T1,operator == '+',return_value == num1 + num2,
+RB-BR-020-T02,RB-BR-020,Branched,2,T2,operator == '-',return_value == num1 - num2,
+RB-BR-020-T03,RB-BR-020,Branched,3,T3,operator == '*',return_value == num1 * num2,
+RB-BR-020-T04,RB-BR-020,Branched,4,T4,(operator == '/' || operator == '%') && num2 == 0,Exception,
+RB-BR-020-T05,RB-BR-020,Branched,5,T5,(operator == '/' || operator == '%') && num2 != 0,return_value == num1 % num2,
+RB-BR-020-T06,RB-BR-020,Branched,6,T6,operator != '+' && operator != '-' && operator != '*' && operator != '/' && operator != '%',return_value == -1,
+RB-BR-021-T01,RB-BR-021,Branched,1,T1,operator == '+',return_value == num1 + num2,
+RB-BR-021-T02,RB-BR-021,Branched,2,T2,operator == '-',return_value == num1 - num2,
+RB-BR-021-T03,RB-BR-021,Branched,3,T3,operator == '*',return_value == num1 * num2,
+RB-BR-021-T04,RB-BR-021,Branched,4,T4,operator == '/' && num2 == 0,Exception,
+RB-BR-021-T05,RB-BR-021,Branched,5,T5,operator == '/' && num2 != 0,return_value == num1 / num2,
+RB-BR-021-T06,RB-BR-021,Branched,6,T6,operator == '%',return_value == num1 + num2,
+RB-BR-021-T07,RB-BR-021,Branched,7,T7,operator != '+' && operator != '-' && operator != '*' && operator != '/' && operator != '%',return_value == -1,
+RB-BR-022-T01,RB-BR-022,Branched,1,T1,c < 'a',return_value == c,
+RB-BR-022-T02,RB-BR-022,Branched,2,T2,c >= 'z',return_value == (char)(c - 'a' + 'A'),
+RB-BR-022-T03,RB-BR-022,Branched,3,T3,c >= 'a' && c < 'z',return_value == 'c',
+RB-BR-023-T01,RB-BR-023,Branched,1,T1,c > 'z',return_value == c,
+RB-BR-023-T02,RB-BR-023,Branched,2,T2,c <= 'z' && c >= 'a',return_value == (char)(c - 'a' + 'A'),
+RB-BR-023-T03,RB-BR-023,Branched,3,T3,c < 'a' && c > 'Z',return_value == c,
+RB-BR-023-T04,RB-BR-023,Branched,4,T4,c <= 'Z' && c >= 'A',return_value == (char)(c - 'A' + 'a'),
+RB-BR-023-T05,RB-BR-023,Branched,5,T5,c < 'A',return_value == c,
+RB-BR-024-T01,RB-BR-024,Branched,1,T1,c >= 'a' && c <= 'z',return_value == (char)(c - 'a' + 'A'),
+RB-BR-024-T02,RB-BR-024,Branched,2,T2,c >= 'A' && c <= 'Z',return_value == (char)(c - 'A' + 'a'),
+RB-BR-024-T03,RB-BR-024,Branched,3,T3,c > 'z' || (c > 'Z' && c < 'a') || c < 'A',return_value == c,
+RB-BR-025-T01,RB-BR-025,Branched,1,T1,(c > 'z') || (c > 'Z' && c <= 'a') || (c < 'A'),return_value == c,
+RB-BR-025-T02,RB-BR-025,Branched,2,T2,c > 'a' && c <= 'z',return_value == (char)(c - 'a' + 'A'),
+RB-BR-025-T03,RB-BR-025,Branched,3,T3,c >= 'A' && c <= 'Z',return_value == (char)(c - 'A' + 'a'),
+RB-BR-026-T01,RB-BR-026,Branched,1,T1,c > 122,return_value == c,
+RB-BR-026-T02,RB-BR-026,Branched,2,T2,c >= 97 && c <= 122,return_value == 32 + c,
+RB-BR-026-T03,RB-BR-026,Branched,3,T3,c > 90 && c < 97,return_value == c,
+RB-BR-026-T04,RB-BR-026,Branched,4,T4,c >= 65 && c <= 90,return_value == 32 + c,
+RB-BR-026-T05,RB-BR-026,Branched,5,T5,c < 65,return_value == c,
+RB-BR-027-T01,RB-BR-027,Branched,1,T1,c >= 'a' && c <= 'z',return_value == c - 32,
+RB-BR-027-T02,RB-BR-027,Branched,2,T2,c >= 'A' && c <= 'Z',return_value == c + 32,
+RB-BR-027-T03,RB-BR-027,Branched,3,T3,c > 'z' || (c > 'Z' && c < 'a') || c < 'A',return_value == c,
+RB-BR-028-T01,RB-BR-028,Branched,1,T1,fileSize < 50,"return_value.equals(""ratio:42 level:7 overhead:1"")",
+RB-BR-028-T02,RB-BR-028,Branched,2,T2,fileSize >= 50 && fileSize < 60 || fileSize >= 164 && fileSize <= 400,"return_value.equals(""ratio:"" + (fileSize / 4 + 30) + "" level:"" + (5 + (fileSize / 4 + 30) % 5) + "" overhead:1"")",
+RB-BR-028-T03,RB-BR-028,Branched,3,T3,fileSize >= 60 && fileSize < 160,"return_value.equals(""ratio:"" + (fileSize / 4 + 30) + "" level:"" + ((fileSize / 4 - 15) / 5) + "" overhead:1"")",
+RB-BR-028-T04,RB-BR-028,Branched,4,T4,fileSize >= 160 && fileSize < 164,Exception,NullPointerException
+RB-BR-028-T05,RB-BR-028,Branched,5,T5,fileSize > 400,"return_value.equals(""ratio:130 level:5 overhead:"" + Math.min(100, (fileSize / 100 + 5) * 4) / 10)",
+RB-BR-029-T01,RB-BR-029,Branched,1,T1,(b1 == true) || (b1 == false && b2 == false),return_value == false,
+RB-BR-029-T02,RB-BR-029,Branched,2,T2,b1 == false && b2 == true,return_value == true,
+RB-BR-030-T01,RB-BR-030,Branched,1,T1,b1 == false,return_value == true,
+RB-BR-030-T02,RB-BR-030,Branched,2,T2,b1 == true && b2 == false,return_value == false,
+RB-BR-030-T03,RB-BR-030,Branched,3,T3,b1 == true && b2 == true,return_value == true,
+RB-BR-031-T01,RB-BR-031,Branched,1,T1,b1 == false,return_value == false,
+RB-BR-031-T02,RB-BR-031,Branched,2,T2,b1 == true,return_value == true,
+RB-BR-032-T01,RB-BR-032,Branched,1,T1,b1 == false || (b1 == true && b2 == true),return_value == false,
+RB-BR-032-T02,RB-BR-032,Branched,2,T2,b1 == true && b2 == false,return_value == true,
+RB-BR-033-T01,RB-BR-033,Branched,1,T1,true,return_value == false,
+RB-BR-034-T01,RB-BR-034,Branched,1,T1,b1 == false || (b1 == true && b2 == false),return_value == false,
+RB-BR-034-T02,RB-BR-034,Branched,2,T2,b1 == true && b2 == true,return_value == true,
+RB-BR-035-T01,RB-BR-035,Branched,1,T1,celsius < 0.0,"Double.compare(return_value, 0.0) == 0",
+RB-BR-035-T02,RB-BR-035,Branched,2,T2,!(celsius < 0.0),"Double.compare(return_value, celsius + 273.15) == 0",
+RB-BR-036-T01,RB-BR-036,Branched,1,T1,(2 * mass + 9) > 40 && volume > 2 && mass < 20 && volume < 8 && (double) ((2 * mass + 9) + 6 + volume) / (volume - 5) > 60,"Double.compare(return_value, ((double) ((2 * mass + 9) + 6 + volume) / (volume - 5) * 0.9) * (1.1 * (volume - 5)) + ((2 * mass + 9) + 6 + volume) * 0.05) == 0",
+RB-BR-036-T02,RB-BR-036,Branched,2,T2,(2 * mass + 9) > 40 && volume > 2 && mass < 20 && volume < 8 && !((double) ((2 * mass + 9) + 6 + volume) / (volume - 5) > 60),"Double.compare(return_value, ((double) ((2 * mass + 9) + 6 + volume) / (volume - 5) + 10) * (1.1 * (volume - 5)) + ((2 * mass + 9) + 6 + volume) * 0.05) == 0",
+RB-BR-036-T03,RB-BR-036,Branched,3,T3,(2 * mass + 9) > 40 && volume > 2 && mass < 20 && volume >= 8 && ((2 * mass + 9) + 11 + volume) * 1.3 > 60,"Double.compare(return_value, (((2 * mass + 9) + 11 + volume) * 1.3 * 0.9) * (0.85 * (mass - volume)) + ((2 * mass + 9) + 11 + volume) * 0.05) == 0",
+RB-BR-036-T04,RB-BR-036,Branched,4,T4,(2 * mass + 9) > 40 && volume > 2 && mass < 20 && volume >= 8 && ((2 * mass + 9) + 11 + volume) * 1.3 <= 60,"Double.compare(return_value, (((2 * mass + 9) + 11 + volume) * 1.3 + 10) * (0.85 * (mass - volume)) + ((2 * mass + 9) + 11 + volume) * 0.05) == 0",
+RB-BR-036-T05,RB-BR-036,Branched,5,T5,(2 * mass + 9) > 40 && (volume <= 2 || mass >= 20),"Double.compare(return_value, (((2 * mass + 9) + 8) * 0.8) * (0.85 * (mass - volume)) + ((2 * mass + 9) + 8) * 0.05) == 0",
+RB-BR-036-T06,RB-BR-036,Branched,6,T6,(2 * mass + 9) <= 40 && mass < 20,"Double.compare(return_value, (((2 * mass + 9) - 1) * 0.5 + 6) * (1.1 * (mass - volume + 1)) + ((2 * mass + 9) - 1) * 0.05) == 0",
+RB-BR-036-T07,RB-BR-036,Branched,7,T7,(2 * mass + 9) <= 40 && mass >= 20 && ((2 * mass + 9) - 5) * 0.6 < 30,"Double.compare(return_value, (((2 * mass + 9) - 5) * 0.6 + 6) * (0.85 * (mass - volume + 1)) + ((2 * mass + 9) - 5) * 0.05) == 0",
+RB-BR-036-T08,RB-BR-036,Branched,8,T8,(2 * mass + 9) <= 40 && mass >= 20 && ((2 * mass + 9) - 5) * 0.6 >= 30,"Double.compare(return_value, (((2 * mass + 9) - 5) * 0.6 * 0.95) * (0.85 * (mass - volume + 1)) + ((2 * mass + 9) - 5) * 0.05) == 0",
+RB-BR-037-T01,RB-BR-037,Branched,1,T1,b1 == false,return_value == true,
+RB-BR-037-T02,RB-BR-037,Branched,2,T2,b1 == true && b2 == true,return_value == true,
+RB-BR-037-T03,RB-BR-037,Branched,3,T3,b1 == true && b2 == false,return_value == false,
+RB-BR-038-T01,RB-BR-038,Branched,1,T1,b1 == true && b2 == true,return_value == true,
+RB-BR-038-T02,RB-BR-038,Branched,2,T2,b1 == false || (b1 == true && b2 == false),return_value == false,
+RB-BR-039-T01,RB-BR-039,Branched,1,T1,b1 == true || (b1 == false && b2 == true),return_value == true,
+RB-BR-039-T02,RB-BR-039,Branched,2,T2,b1 == false && b2 == false,return_value == false,
+RB-BR-040-T01,RB-BR-040,Branched,1,T1,b1 == false && b2 == true,return_value == true,
+RB-BR-040-T02,RB-BR-040,Branched,2,T2,b1 == true || (b1 == false && b2 == false),return_value == false,
+RB-BR-041-T01,RB-BR-041,Branched,1,T1,true,return_value == true,
+RB-BR-042-T01,RB-BR-042,Branched,1,T1,b1 == true || (b1 == false && b2 == true),return_value == true,
+RB-BR-042-T02,RB-BR-042,Branched,2,T2,b1 == false && b2 == false,return_value == false,
+RB-BR-043-T01,RB-BR-043,Branched,1,T1,denom != 0,return_value == nom / denom,
+RB-BR-043-T02,RB-BR-043,Branched,2,T2,denom == 0,return_value == 0,
+RB-BR-044-T01,RB-BR-044,Branched,1,T1,usage < -99,return_value == 0,
+RB-BR-044-T02,RB-BR-044,Branched,2,T2,usage >= -99 && usage < 100,return_value == usage - 2 * usage / 10 + usage + 2 * (usage - 300),
+RB-BR-044-T03,RB-BR-044,Branched,3,T3,usage >= 100 && usage < 200,return_value == (usage - 100) * 2 + 50 - 2 * usage / 30 + usage * 2 + 2 * (usage - 300),
+RB-BR-044-T04,RB-BR-044,Branched,4,T4,usage >= 200 && usage < 300,return_value == (usage - 200) * 5 + 150 - 2 * usage / 50,
+RB-BR-044-T05,RB-BR-044,Branched,5,T5,usage >= 300 && usage < 400,return_value == usage * 6 + 2 * (usage - 300),
+RB-BR-044-T06,RB-BR-044,Branched,6,T6,usage == 400,Exception,ArrayIndexOutOfBoundsException
+RB-BR-044-T07,RB-BR-044,Branched,7,T7,usage > 400,return_value == usage * 6,
+RB-BR-045-T01,RB-BR-045,Branched,1,T1,n % 3 == 0 && n % 5 == 0,return_value == 10,
+RB-BR-045-T02,RB-BR-045,Branched,2,T2,n % 3 == 0 && n % 5 != 0 || n % 3 != 0 && n % 5 == 0,return_value == 5,
+RB-BR-045-T03,RB-BR-045,Branched,3,T3,n % 3 != 0 && n % 5 != 0,return_value == 0,
+RB-BR-046-T01,RB-BR-046,Branched,1,T1,n % 3 == 0 && n % 5 == 0,return_value == 9,
+RB-BR-046-T02,RB-BR-046,Branched,2,T2,n % 3 == 0 && n % 5 != 0,return_value == 4,
+RB-BR-046-T03,RB-BR-046,Branched,3,T3,n % 3 != 0 && n % 5 == 0,return_value == 6,
+RB-BR-046-T04,RB-BR-046,Branched,4,T4,n % 3 != 0 && n % 5 != 0,return_value == 1,
+RB-BR-047-T01,RB-BR-047,Branched,1,T1,n % 2 == 0 && n % 5 == 0,return_value == 8,
+RB-BR-047-T02,RB-BR-047,Branched,2,T2,n % 2 == 0 && n % 5 != 0,return_value == 3,
+RB-BR-047-T03,RB-BR-047,Branched,3,T3,n % 2 != 0 && n % 5 == 0,return_value == 5,
+RB-BR-047-T04,RB-BR-047,Branched,4,T4,n % 2 != 0 && n % 5 != 0,return_value == 0,
+RB-BR-048-T01,RB-BR-048,Branched,1,T1,n % 3 == 0 && n % 5 != 0,return_value == 8,
+RB-BR-048-T02,RB-BR-048,Branched,2,T2,n % 3 == 0 && n % 5 == 0,return_value == 3,
+RB-BR-048-T03,RB-BR-048,Branched,3,T3,n % 3 != 0 && n % 5 != 0,return_value == 5,
+RB-BR-048-T04,RB-BR-048,Branched,4,T4,n % 3 != 0 && n % 5 == 0,return_value == 0,
+RB-BR-049-T01,RB-BR-049,Branched,1,T1,n % 3 == 0,return_value == 3,
+RB-BR-049-T02,RB-BR-049,Branched,2,T2,n % 3 != 0 && n % 5 == 0,return_value == 5,
+RB-BR-049-T03,RB-BR-049,Branched,3,T3,n % 3 != 0 && n % 5 != 0,return_value == 0,
+RB-BR-050-T01,RB-BR-050,Branched,1,T1,n % 3 == 0 && n % 5 == 0,return_value == 8,
+RB-BR-050-T02,RB-BR-050,Branched,2,T2,n % 3 == 0 && n % 5 != 0,return_value == 3,
+RB-BR-050-T03,RB-BR-050,Branched,3,T3,n % 3 != 0 && n % 5 == 0,return_value == 5,
+RB-BR-050-T04,RB-BR-050,Branched,4,T4,n % 3 != 0 && n % 5 != 0,return_value == 0,
+RB-BR-051-T01,RB-BR-051,Branched,1,T1,(2 * distance + 20) <= 10 && fuelUsed > 10,"Double.compare(return_value, ((2 * distance + 20) + 20) * 0.5 * 1.2 + ((2 * distance + 20) + 20) * 0.05) == 0",
+RB-BR-051-T02,RB-BR-051,Branched,2,T2,(2 * distance + 20) <= 10 && fuelUsed <= 10,"Double.compare(return_value, ((2 * distance + 20) + 20) * 0.3 * 0.8 + ((2 * distance + 20) + 20) * 0.05) == 0",
+RB-BR-051-T03,RB-BR-051,Branched,3,T3,(2 * distance + 20) > 25 && (2 * distance + 20) < 35 && (fuelUsed - 3) < 0,"Double.compare(return_value, (((double) (2 * distance + 20)) + 3.0) * 0.8 + (2 * distance + 20) * 0.05) == 0",
+RB-BR-051-T04,RB-BR-051,Branched,4,T4,(2 * distance + 20) > 10 && (2 * distance + 20) > 25 && (2 * distance + 20) < 35 && (fuelUsed - 3) >= 0 && ((double) (2 * distance + 20) / (fuelUsed - 3)) > 50,"Double.compare(return_value, (((double) (2 * distance + 20) / (fuelUsed - 3)) * 0.9) * 1.2 + (2 * distance + 20) * 0.05) == 0",
+RB-BR-051-T05,RB-BR-051,Branched,5,T5,(2 * distance + 20) > 10 && (2 * distance + 20) > 25 && (2 * distance + 20) < 35 && (fuelUsed - 3) >= 0 && ((double) (2 * distance + 20) / (fuelUsed - 3)) <= 50,"Double.compare(return_value, (((double) (2 * distance + 20) / (fuelUsed - 3)) + 3.0) * 1.2 + (2 * distance + 20) * 0.05) == 0",
+RB-BR-051-T06,RB-BR-051,Branched,6,T6,(2 * distance + 20) > 10 && ((2 * distance + 20) <= 25 || (2 * distance + 20) >= 35) && ((double) ((2 * distance + 20) + 3) + (fuelUsed - 3)) > 50,"Double.compare(return_value, (((double) ((2 * distance + 20) + 3) + (fuelUsed - 3)) * 0.9) * 1.2 + ((2 * distance + 20) + 5) * 0.05) == 0",
+RB-BR-051-T07,RB-BR-051,Branched,7,T7,(2 * distance + 20) > 10 && ((2 * distance + 20) <= 25 || (2 * distance + 20) >= 35) && ((double) ((2 * distance + 20) + 3) + (fuelUsed - 3)) <= 50,"Double.compare(return_value, (((double) ((2 * distance + 20) + 3) + (fuelUsed - 3)) + 3.0) * 1.2 + ((2 * distance + 20) + 5) * 0.05) == 0",
+RB-BR-052-T01,RB-BR-052,Branched,1,T1,(2 * distance + 20) <= 100 && fuelUsed > 10,"Double.compare(return_value, ((2 * distance + 20) + 20) * 0.5 * 1.2 + ((2 * distance + 20) + 20) * 0.05) == 0",
+RB-BR-052-T02,RB-BR-052,Branched,2,T2,(2 * distance + 20) <= 100 && fuelUsed <= 10,"Double.compare(return_value, ((2 * distance + 20) + 20) * 0.3 * 0.8 + ((2 * distance + 20) + 20) * 0.05) == 0",
+RB-BR-052-T03,RB-BR-052,Branched,3,T3,(2 * distance + 20) > 100 && (fuelUsed - 3) <= 0,"Double.compare(return_value, (((double) (2 * distance + 20)) * 0.9) * 0.8 + (2 * distance + 20) * 0.05) == 0",
+RB-BR-052-T04,RB-BR-052,Branched,4,T4,(2 * distance + 20) > 100 && (fuelUsed - 3) > 0 && ((double) (2 * distance + 20) / (fuelUsed - 3)) > 50,"Double.compare(return_value, (((double) (2 * distance + 20) / (fuelUsed - 3)) * 0.9) * 1.2 + (2 * distance + 20) * 0.05) == 0",
+RB-BR-052-T05,RB-BR-052,Branched,5,T5,(2 * distance + 20) > 100 && (fuelUsed - 3) > 0 && ((double) (2 * distance + 20) / (fuelUsed - 3)) <= 50,"Double.compare(return_value, (((double) (2 * distance + 20) / (fuelUsed - 3)) + 3.0) * 1.2 + (2 * distance + 20) * 0.05) == 0",
+RB-BR-053-T01,RB-BR-053,Branched,1,T1,signalStrength < 20,return_value == 2,
+RB-BR-053-T02,RB-BR-053,Branched,2,T2,signalStrength >= 20 && satellites <= 4,return_value == 1,
+RB-BR-053-T03,RB-BR-053,Branched,3,T3,signalStrength >= 20 && satellites > 4,return_value == 0,
+RB-BR-054-T01,RB-BR-054,Branched,1,T1,signalStrength <= 20,return_value == 2,
+RB-BR-054-T02,RB-BR-054,Branched,2,T2,signalStrength > 20 && satellites < 4,return_value == 1,
+RB-BR-054-T03,RB-BR-054,Branched,3,T3,signalStrength > 20 && satellites >= 4,return_value == 0,
+RB-BR-055-T01,RB-BR-055,Branched,1,T1,satellites < 4 || signalStrength < 20,return_value == 2,
+RB-BR-055-T02,RB-BR-055,Branched,2,T2,satellites >= 4 && signalStrength >= 20,return_value == 0,
+RB-BR-056-T01,RB-BR-056,Branched,1,T1,satellites < 4 || signalStrength < 20,return_value == 1,
+RB-BR-056-T02,RB-BR-056,Branched,2,T2,satellites >= 4 && signalStrength >= 20,return_value == 0,
+RB-BR-057-T01,RB-BR-057,Branched,1,T1,satellites < 4 && signalStrength < 20,return_value == 2,
+RB-BR-057-T02,RB-BR-057,Branched,2,T2,satellites >= 4 || signalStrength >= 20,return_value == 0,
+RB-BR-058-T01,RB-BR-058,Branched,1,T1,signalStrength < 20,return_value == 2,
+RB-BR-058-T02,RB-BR-058,Branched,2,T2,signalStrength >= 20 && satellites < 4,return_value == 1,
+RB-BR-058-T03,RB-BR-058,Branched,3,T3,signalStrength >= 20 && satellites >= 4,return_value == 0,
+RB-BR-059-T01,RB-BR-059,Branched,1,T1,x > 0 && x < limitX && y >= 0 && y <= limitY,return_value == 0,
+RB-BR-059-T02,RB-BR-059,Branched,2,T2,x <= 0 || x >= limitX || y < 0 || y > limitY,return_value == 1,
+RB-BR-060-T01,RB-BR-060,Branched,1,T1,x >= 0 && x <= limitX && y > 0 && y < limitY,return_value == 0,
+RB-BR-060-T02,RB-BR-060,Branched,2,T2,x < 0 || x > limitX || y <= 0 || y >= limitY,return_value == 1,
+RB-BR-061-T01,RB-BR-061,Branched,1,T1,x >= 0 && x < limitX && y >= 0 && y < limitY,return_value == 0,
+RB-BR-061-T02,RB-BR-061,Branched,2,T2,x < 0 || x >= limitX || y < 0 || y >= limitY,return_value == 1,
+RB-BR-062-T01,RB-BR-062,Branched,1,T1,x <= 0 || x > limitX || y <= 0 || y > limitY,return_value == 1,
+RB-BR-062-T02,RB-BR-062,Branched,2,T2,x > 0 && x <= limitX && y > 0 && y <= limitY,return_value == 0,
+RB-BR-063-T01,RB-BR-063,Branched,1,T1,x >= 0 && x <= limitX && y >= 0 && y <= limitY,return_value == 2,
+RB-BR-063-T02,RB-BR-063,Branched,2,T2,x < 0 || x > limitX || y < 0 || y > limitY,return_value == 1,
+RB-BR-064-T01,RB-BR-064,Branched,1,T1,x < 0 || x > limitX || y < 0 || y > limitY,return_value == 1,
+RB-BR-064-T02,RB-BR-064,Branched,2,T2,x >= 0 && x <= limitX && y >= 0 && y <= limitY,return_value == 0,
+RB-BR-065-T01,RB-BR-065,Branched,1,T1,x - z > 10 || z - x > 10,return_value == 1,
+RB-BR-065-T02,RB-BR-065,Branched,2,T2,x - z <= 10 && z - x <= 10,return_value == 0,
+RB-BR-066-T01,RB-BR-066,Branched,1,T1,(x - y) > 10 || (y - z) > 10 || (x - z > 10) || (z - x > 10),return_value == 1,
+RB-BR-066-T02,RB-BR-066,Branched,2,T2,(x - y) <= 10 && (y - z) <= 10 && (x - z <= 10) && (z - x <= 10),return_value == 0,
+RB-BR-067-T01,RB-BR-067,Branched,1,T1,((x - y > 10) || (y - x > 10)) && ((y - z > 10) || (z - y > 10)) && ((x - z > 10) || (z - x > 10)),return_value == 1,
+RB-BR-067-T02,RB-BR-067,Branched,2,T2,!(((x - y > 10) || (y - x > 10)) && ((y - z > 10) || (z - y > 10)) && ((x - z > 10) || (z - x > 10))),return_value == 0,
+RB-BR-068-T01,RB-BR-068,Branched,1,T1,(x - y) >= 11 || (x - y) <= -11 && (x - y) != Integer.MIN_VALUE || (y - z) >= 11 || (y - z) <= -11 && (y - z) != Integer.MIN_VALUE || (x - z) >= 11 || (x - z) <= -11 && (x - z) != Integer.MIN_VALUE,return_value == 2,
+RB-BR-068-T02,RB-BR-068,Branched,2,T2,!((x - y) >= 11 || (x - y) <= -11 && (x - y) != Integer.MIN_VALUE || (y - z) >= 11 || (y - z) <= -11 && (y - z) != Integer.MIN_VALUE || (x - z) >= 11 || (x - z) <= -11 && (x - z) != Integer.MIN_VALUE),return_value == 0,
+RB-BR-069-T01,RB-BR-069,Branched,1,T1,(x - y) >= 10 || (x - y) <= -10 && (x - y) != Integer.MIN_VALUE || (y - z) >= 10 || (y - z) <= -10 && (y - z) != Integer.MIN_VALUE || (x - z) >= 10 || (x - z) <= -10 && (x - z) != Integer.MIN_VALUE,return_value == 1,
+RB-BR-069-T02,RB-BR-069,Branched,2,T2,!((x - y) >= 10 || (x - y) <= -10 && (x - y) != Integer.MIN_VALUE || (y - z) >= 10 || (y - z) <= -10 && (y - z) != Integer.MIN_VALUE || (x - z) >= 10 || (x - z) <= -10 && (x - z) != Integer.MIN_VALUE),return_value == 0,
+RB-BR-070-T01,RB-BR-070,Branched,1,T1,(x - y) >= 11 || (x - y) <= -11 && (x - y) != Integer.MIN_VALUE || (y - z) >= 11 || (y - z) <= -11 && (y - z) != Integer.MIN_VALUE || (x - z) >= 11 || (x - z) <= -11 && (x - z) != Integer.MIN_VALUE,return_value == 1,
+RB-BR-070-T02,RB-BR-070,Branched,2,T2,!((x - y) >= 11 || (x - y) <= -11 && (x - y) != Integer.MIN_VALUE || (y - z) >= 11 || (y - z) <= -11 && (y - z) != Integer.MIN_VALUE || (x - z) >= 11 || (x - z) <= -11 && (x - z) != Integer.MIN_VALUE),return_value == 0,
+RB-BR-071-T01,RB-BR-071,Branched,1,T1,(2 * level + 13) > 20 && factor > 8,"Double.compare(return_value, ((2 * level + 13) + 1) * 0.9 * 0.84 + ((2 * level + 13) + 1) * 0.05) == 0",
+RB-BR-071-T02,RB-BR-071,Branched,2,T2,(2 * level + 13) > 20 && factor <= 8 && level < 5 && ((double) ((2 * level + 13) + 5 + factor) / (factor - 8) > 100),"Double.compare(return_value, (((double) ((2 * level + 13) + 5 + factor) / (factor - 8)) * 0.85) * 1.1 + ((2 * level + 13) + 5 + factor) * 0.05) == 0",
+RB-BR-071-T03,RB-BR-071,Branched,3,T3,(2 * level + 13) > 20 && factor <= 8 && level < 5 && !((double) ((2 * level + 13) + 5 + factor) / (factor - 8) > 100),"Double.compare(return_value, (((double) ((2 * level + 13) + 5 + factor) / (factor - 8)) + 12) * 1.1 + ((2 * level + 13) + 5 + factor) * 0.05) == 0",
+RB-BR-071-T04,RB-BR-071,Branched,4,T4,(2 * level + 13) > 20 && factor <= 8 && level >= 5 && (((2 * level + 13) + 12 + factor) * 1.1 > 100),"Double.compare(return_value, ((((2 * level + 13) + 12 + factor) * 1.1) * 0.85) * 0.84 + ((2 * level + 13) + 12 + factor) * 0.05) == 0",
+RB-BR-071-T05,RB-BR-071,Branched,5,T5,(2 * level + 13) > 20 && factor <= 8 && level >= 5 && !(((2 * level + 13) + 12 + factor) * 1.1 > 100),"Double.compare(return_value, ((((2 * level + 13) + 12 + factor) * 1.1) + 12) * 0.84 + ((2 * level + 13) + 12 + factor) * 0.05) == 0",
+RB-BR-071-T06,RB-BR-071,Branched,6,T6,(2 * level + 13) <= 20 && factor < 3,"Double.compare(return_value, ((((2 * level + 13) - 1) * 0.75) + 5) * 1.1 + ((2 * level + 13) - 1) * 0.05) == 0",
+RB-BR-071-T07,RB-BR-071,Branched,7,T7,(2 * level + 13) <= 20 && factor >= 3 && (((2 * level + 13) - 6) * 0.8 < 25),"Double.compare(return_value, ((((2 * level + 13) - 6) * 0.8) + 5) * 0.84 + ((2 * level + 13) - 6) * 0.05) == 0",
+RB-BR-071-T08,RB-BR-071,Branched,8,T8,(2 * level + 13) <= 20 && factor >= 3 && !(((2 * level + 13) - 6) * 0.8 < 25),"Double.compare(return_value, ((((2 * level + 13) - 6) * 0.8) * 0.96) * 0.84 + ((2 * level + 13) - 6) * 0.05) == 0",
+RB-BR-072-T01,RB-BR-072,Branched,1,T1,(2 * level + 13) > 30 && factor > 8,"Double.compare(return_value, ((2 * level + 13) + 1) * 0.9 * 0.84 + ((2 * level + 13) + 1) * 0.05) == 0",
+RB-BR-072-T02,RB-BR-072,Branched,2,T2,(2 * level + 13) < 0,"Double.compare(return_value, 0.0) == 0",
+RB-BR-072-T03,RB-BR-072,Branched,3,T3,(2 * level + 13) > 30 && factor <= 8 && level < 5 && ((double) ((2 * level + 13) + 5 + factor) / (factor - 8) > 100),"Double.compare(return_value, (((double) ((2 * level + 13) + 5 + factor) / (factor - 8)) * 0.85) * 1.1 + ((2 * level + 13) + 5 + factor) * 0.05) == 0",
+RB-BR-072-T04,RB-BR-072,Branched,4,T4,(2 * level + 13) > 30 && factor <= 8 && level < 5 && !((double) ((2 * level + 13) + 5 + factor) / (factor - 8) > 100),"Double.compare(return_value, (((double) ((2 * level + 13) + 5 + factor) / (factor - 8)) + 12) * 1.1 + ((2 * level + 13) + 5 + factor) * 0.05) == 0",
+RB-BR-072-T05,RB-BR-072,Branched,5,T5,(2 * level + 13) > 30 && factor <= 8 && level >= 5 && (((2 * level + 13) + 12 + factor) * 1.1 > 100),"Double.compare(return_value, ((((2 * level + 13) + 12 + factor) * 1.1) * 0.85) * 0.84 + ((2 * level + 13) + 12 + factor) * 0.05) == 0",
+RB-BR-072-T06,RB-BR-072,Branched,6,T6,(2 * level + 13) > 30 && factor <= 8 && level >= 5 && !(((2 * level + 13) + 12 + factor) * 1.1 > 100),"Double.compare(return_value, ((((2 * level + 13) + 12 + factor) * 1.1) + 12) * 0.84 + ((2 * level + 13) + 12 + factor) * 0.05) == 0",
+RB-BR-072-T07,RB-BR-072,Branched,7,T7,(2 * level + 13) >= 0 && (2 * level + 13) <= 30 && factor < 3,"Double.compare(return_value, ((((2 * level + 13) - 1) * 0.75) + 5) * 1.1 + ((2 * level + 13) - 1) * 0.05) == 0",
+RB-BR-072-T08,RB-BR-072,Branched,8,T8,(2 * level + 13) >= 0 && (2 * level + 13) <= 30 && factor >= 3,"Double.compare(return_value, ((((2 * level + 13) - 6) * 0.8) + 5) * 0.84 + ((2 * level + 13) - 6) * 0.05) == 0",
+RB-BR-073-T01,RB-BR-073,Branched,1,T1,factor == 0,Exception,
+RB-BR-073-T02,RB-BR-073,Branched,2,T2,factor != 0 && (a % factor == 0 || b % factor == 0),return_value == false,
+RB-BR-073-T03,RB-BR-073,Branched,3,T3,factor != 0 && a % factor != 0 && b % factor != 0,return_value == true,
+RB-BR-074-T01,RB-BR-074,Branched,1,T1,factor == 0,Exception,
+RB-BR-074-T02,RB-BR-074,Branched,2,T2,factor != 0 && (a % factor != 0 || b % factor != 0),return_value == true,
+RB-BR-074-T03,RB-BR-074,Branched,3,T3,factor != 0 && a % factor == 0 && b % factor == 0,return_value == false,
+RB-BR-075-T01,RB-BR-075,Branched,1,T1,factor == 0,Exception,
+RB-BR-075-T02,RB-BR-075,Branched,2,T2,factor != 0 && a % factor == 1 && b % factor == 1,return_value == true,
+RB-BR-075-T03,RB-BR-075,Branched,3,T3,factor != 0 && (a % factor != 1 || b % factor != 1),return_value == false,
+RB-BR-076-T01,RB-BR-076,Branched,1,T1,factor == 0,Exception,
+RB-BR-076-T02,RB-BR-076,Branched,2,T2,factor != 0 && a % factor != 0,return_value == false,
+RB-BR-076-T03,RB-BR-076,Branched,3,T3,factor != 0 && a % factor == 0,return_value == true,
+RB-BR-077-T01,RB-BR-077,Branched,1,T1,factor == 0,Exception,
+RB-BR-077-T02,RB-BR-077,Branched,2,T2,factor != 0 && (a % factor != 0 || b % factor != 0),return_value == false,
+RB-BR-077-T03,RB-BR-077,Branched,3,T3,factor != 0 && a % factor == 0 && b % factor == 0,return_value == true,
+RB-BR-078-T01,RB-BR-078,Branched,1,T1,factor == 0,Exception,
+RB-BR-078-T02,RB-BR-078,Branched,2,T2,(factor != 0 && a % factor != 0) || (factor != 0 && a % factor == 0 && b % factor != 0),return_value == false,
+RB-BR-078-T03,RB-BR-078,Branched,3,T3,factor != 0 && a % factor == 0 && b % factor == 0,return_value == true,
+RB-BR-079-T01,RB-BR-079,Branched,1,T1,a == 0 || a != 0 && m % a != 0 && b == 0,Exception,ArithmeticException
+RB-BR-079-T02,RB-BR-079,Branched,2,T2,a != 0 && (m % a == 0 || b != 0 && (m % a != 0 && m % b != 0)),return_value == false,
+RB-BR-079-T03,RB-BR-079,Branched,3,T3,a != 0 && m % a != 0 && b != 0 && m % b == 0,return_value == true,
+RB-BR-080-T01,RB-BR-080,Branched,1,T1,(a == 0) || (a != 0 && m % a == 0 && b == 0),Exception,
+RB-BR-080-T02,RB-BR-080,Branched,2,T2,a != 0 && m % a == 0 && b != 0 && m % b != 0,return_value == false,
+RB-BR-080-T03,RB-BR-080,Branched,3,T3,(a != 0 && m % a != 0) || (a != 0 && m % a == 0 && b != 0 && m % b == 0),return_value == true,
+RB-BR-081-T01,RB-BR-081,Branched,1,T1,a == 0,Exception,
+RB-BR-081-T02,RB-BR-081,Branched,2,T2,a != 0 && m % a == 0 && b == 0,Exception,
+RB-BR-081-T03,RB-BR-081,Branched,3,T3,(a != 0 && m % a != 0) || (a != 0 && m % a == 0 && b != 0 && m % b == 0),return_value == false,
+RB-BR-081-T04,RB-BR-081,Branched,4,T4,a != 0 && m % a == 0 && b != 0 && m % b != 0,return_value == true,
+RB-BR-082-T01,RB-BR-082,Branched,1,T1,a == 0,Exception,
+RB-BR-082-T02,RB-BR-082,Branched,2,T2,a != 0 && b == 0 && m % a == 0,Exception,
+RB-BR-082-T03,RB-BR-082,Branched,3,T3,a != 0 && (b != 0 || m % a != 0),return_value == false,
+RB-BR-083-T01,RB-BR-083,Branched,1,T1,year % 4 != 0,return_value == false,
+RB-BR-083-T02,RB-BR-083,Branched,2,T2,(year % 4 == 0) && (year % 100 != 0),return_value == true,
+RB-BR-083-T03,RB-BR-083,Branched,3,T3,(year % 4 == 0) && (year % 100 == 0) && (year % 400 != 0),return_value == false,
+RB-BR-083-T04,RB-BR-083,Branched,4,T4,(year % 4 == 0) && (year % 100 == 0) && (year % 400 == 0),return_value == true,
+RB-BR-084-T01,RB-BR-084,Branched,1,T1,year % 5 == 0 && year % 100 == 0 && year % 400 == 0,return_value == true,
+RB-BR-084-T02,RB-BR-084,Branched,2,T2,year % 5 == 0 && year % 100 != 0,return_value == true,
+RB-BR-084-T03,RB-BR-084,Branched,3,T3,year % 5 != 0 || (year % 5 == 0 && year % 100 == 0 && year % 400 != 0),return_value == false,
+RB-BR-085-T01,RB-BR-085,Branched,1,T1,year % 4 == 0 && year % 100 == 0 && year % 400 == 0,return_value == false,
+RB-BR-085-T02,RB-BR-085,Branched,2,T2,year % 4 == 0 && year % 100 == 0 && year % 400 != 0,return_value == true,
+RB-BR-085-T03,RB-BR-085,Branched,3,T3,year % 4 == 0 && year % 100 != 0,return_value == true,
+RB-BR-085-T04,RB-BR-085,Branched,4,T4,year % 4 != 0,return_value == false,
+RB-BR-086-T01,RB-BR-086,Branched,1,T1,(year % 400 == 0) || (year % 4 == 0 && year % 100 != 0),return_value == true,
+RB-BR-086-T02,RB-BR-086,Branched,2,T2,(year % 4 != 0) || (year % 4 == 0 && year % 100 == 0 && year % 400 != 0),return_value == false,
+RB-BR-087-T01,RB-BR-087,Branched,1,T1,(year % 4 == 0 && year % 100 != 0) || (year % 4 == 0 && year % 100 == 0 && year % 500 == 0),return_value == true,
+RB-BR-087-T02,RB-BR-087,Branched,2,T2,year % 4 != 0 || (year % 4 == 0 && year % 100 == 0 && year % 500 != 0),return_value == false,
+RB-BR-088-T01,RB-BR-088,Branched,1,T1,year % 4 != 0,return_value == false,
+RB-BR-088-T02,RB-BR-088,Branched,2,T2,year % 4 == 0 && year % 100 != 0,return_value == true,
+RB-BR-088-T03,RB-BR-088,Branched,3,T3,year % 4 == 0 && year % 100 == 0 && year % 400 == 0,return_value == true,
+RB-BR-088-T04,RB-BR-088,Branched,4,T4,year % 4 == 0 && year % 100 == 0 && year % 400 != 0,return_value == false,
+RB-BR-089-T01,RB-BR-089,Branched,1,T1,num <= 0,return_value == num,
+RB-BR-089-T02,RB-BR-089,Branched,2,T2,num > 0,return_value == -num,
+RB-BR-090-T01,RB-BR-090,Branched,1,T1,true,return_value == num,
+RB-BR-091-T01,RB-BR-091,Branched,1,T1,num < 0 || num >= 0,return_value == -num,
+RB-BR-092-T01,RB-BR-092,Branched,1,T1,num > 0,return_value == num,
+RB-BR-092-T02,RB-BR-092,Branched,2,T2,num <= 0,return_value == -num,
+RB-BR-093-T01,RB-BR-093,Branched,1,T1,payment < 20,"""0"".equals(return_value)",
+RB-BR-093-T02,RB-BR-093,Branched,2,T2,payment >= 20 && payment <= 30,String.valueOf(payment - 12).equals(return_value),
+RB-BR-093-T03,RB-BR-093,Branched,3,T3,payment == 31 || (payment >= 32 && payment <= 100 && (payment - 15) % 8 == 0),Exception,
+RB-BR-093-T04,RB-BR-093,Branched,4,T4,payment >= 32 && payment <= 100 && (payment - 15) % 8 != 0,String.valueOf(payment - 12).equals(return_value),
+RB-BR-093-T05,RB-BR-093,Branched,5,T5,payment > 100,"""91"".equals(return_value)",
+RB-BR-094-T01,RB-BR-094,Branched,1,T1,!(a >= -1000000000 && a <= 1000000000 && b >= -1000000000 && b <= 1000000000 && c >= -1000000000 && c <= 1000000000),Double.isNaN(return_value),
+RB-BR-094-T02,RB-BR-094,Branched,2,T2,(a >= -1000000000 && a <= 1000000000 && b >= -1000000000 && b <= 1000000000 && c >= -1000000000 && c <= 1000000000) && a == 0 && b == 0,Double.isNaN(return_value),
+RB-BR-094-T03,RB-BR-094,Branched,3,T3,(a >= -1000000000 && a <= 1000000000 && b >= -1000000000 && b <= 1000000000 && c >= -1000000000 && c <= 1000000000) && a == 0 && b != 0,"Double.compare(return_value, -(double) c / b) == 0",
+RB-BR-094-T04,RB-BR-094,Branched,4,T4,(a >= -1000000000 && a <= 1000000000 && b >= -1000000000 && b <= 1000000000 && c >= -1000000000 && c <= 1000000000) && a != 0 && ((long) b * b - 4L * a * c) < 0,Double.isNaN(return_value),
+RB-BR-094-T05,RB-BR-094,Branched,5,T5,(a >= -1000000000 && a <= 1000000000 && b >= -1000000000 && b <= 1000000000 && c >= -1000000000 && c <= 1000000000) && a != 0 && ((long) b * b - 4L * a * c) == 0,"Double.compare(return_value, -(double) b / (2.0 * a)) == 0",
+RB-BR-094-T06,RB-BR-094,Branched,6,T6,(a >= -1000000000 && a <= 1000000000 && b >= -1000000000 && b <= 1000000000 && c >= -1000000000 && c <= 1000000000) && a != 0 && ((long) b * b - 4L * a * c) > 0,"Double.compare(return_value, Math.max((-b + Math.sqrt(((long) b * b - 4L * a * c))) / (2.0 * a), (-b - Math.sqrt(((long) b * b - 4L * a * c))) / (2.0 * a))) == 0",
+RB-BR-095-T01,RB-BR-095,Branched,1,T1,n % 2 == 0,return_value == n,
+RB-BR-095-T02,RB-BR-095,Branched,2,T2,n % 2 != 0,return_value == 2 * n,
+RB-BR-096-T01,RB-BR-096,Branched,1,T1,time <= 5,return_value == 90,
+RB-BR-096-T02,RB-BR-096,Branched,2,T2,time >= 50,return_value == 0,
+RB-BR-096-T03,RB-BR-096,Branched,3,T3,time == 38,Exception,java.lang.ArrayIndexOutOfBoundsException
+RB-BR-096-T04,RB-BR-096,Branched,4,T4,time > 5 && time < 50 && time != 38,return_value == 100 - time * 2,
+RB-BR-097-T01,RB-BR-097,Branched,1,T1,time <= 5,return_value == 90,
+RB-BR-097-T02,RB-BR-097,Branched,2,T2,time >= 50,return_value == 0,
+RB-BR-097-T03,RB-BR-097,Branched,3,T3,time > 5 && time < 50,return_value == 100 - time * 2,
+RB-BR-098-T01,RB-BR-098,Branched,1,T1,(distance * 2 + 23) <= -50 || (distance * 2 + 23) > 67,"Double.compare(return_value, 0.0 + (distance * 2 + 23) * 0.04) == 0",
+RB-BR-098-T02,RB-BR-098,Branched,2,T2,(distance * 2 + 23) > -50 && (distance * 2 + 23) <= 67 && time >= 5,"Double.compare(return_value, (((distance * 2 + 23) - 2) * 0.8) * 0.85 + ((distance * 2 + 23) - 2) * 0.04) == 0",
+RB-BR-098-T03,RB-BR-098,Branched,3,T3,(distance * 2 + 23) > -50 && (distance * 2 + 23) <= 67 && time < 5 && distance <= 20,"Double.compare(return_value, (((distance * 2 + 23) + 2 * time + 7) * 1.1) * 0.85 + ((distance * 2 + 23) + 2 * time + 7) * 0.04) == 0",
+RB-BR-098-T04,RB-BR-098,Branched,4,T4,(distance * 2 + 23) > -50 && (distance * 2 + 23) <= 67 && time < 5 && distance > 20 && time <= 0,"Double.compare(return_value, ((((distance * 2 + 23) + 2 * time + distance) - 2) * 0.6) * 1.1 + (((distance * 2 + 23) + 2 * time + distance) - 2) * 0.04) == 0",
+RB-BR-098-T05,RB-BR-098,Branched,5,T5,(distance * 2 + 23) > -50 && (distance * 2 + 23) <= 67 && time < 5 && distance > 20 && time == 1,"Double.compare(return_value, ((double) (((distance * 2 + 23) + 2 * time + distance) - 3) / (time - 1)) * 1.1 + (((distance * 2 + 23) + 2 * time + distance) - 3) * 0.04) == 0",
+RB-BR-098-T06,RB-BR-098,Branched,6,T6,(distance * 2 + 23) > -50 && (distance * 2 + 23) <= 67 && time < 5 && distance > 20 && time > 1,"Double.compare(return_value, ((double) (((distance * 2 + 23) + 2 * time + distance) - 3) / (time - 1)) * 1.1 + (((distance * 2 + 23) + 2 * time + distance) - 3) * 0.04) == 0",
+RB-BR-099-T01,RB-BR-099,Branched,1,T1,(resistance * 2 + 46) > 60 && ((double) ((resistance * 2 + 46) + 9) / (resistance - 8)) > 80.0,"Double.compare(return_value, (((double) ((resistance * 2 + 46) + 9) / (resistance - 8)) * 0.88) * 1.12 + ((resistance * 2 + 46) + 9) * 0.04) == 0",
+RB-BR-099-T02,RB-BR-099,Branched,2,T2,(resistance * 2 + 46) > 60 && ((double) ((resistance * 2 + 46) + 9) / (resistance - 8)) <= 80.0,"Double.compare(return_value, (((double) ((resistance * 2 + 46) + 9) / (resistance - 8)) + 12) * 1.12 + ((resistance * 2 + 46) + 9) * 0.04) == 0",
+RB-BR-099-T03,RB-BR-099,Branched,3,T3,(resistance * 2 + 46) <= 60 && resistance < 5 && (((resistance * 2 + 46) - 3) * 0.7) < 30.0,"Double.compare(return_value, ((((resistance * 2 + 46) - 3) * 0.7) + 8) * 1.12 + ((resistance * 2 + 46) - 3) * 0.04) == 0",
+RB-BR-099-T04,RB-BR-099,Branched,4,T4,(resistance * 2 + 46) <= 60 && resistance < 5 && (((resistance * 2 + 46) - 3) * 0.7) >= 30.0,"Double.compare(return_value, ((((resistance * 2 + 46) - 3) * 0.7) * 0.92) * 1.12 + ((resistance * 2 + 46) - 3) * 0.04) == 0",
+RB-BR-099-T05,RB-BR-099,Branched,5,T5,(resistance * 2 + 46) <= 60 && resistance >= 5 && (((resistance * 2 + 46) - 7) * 0.5) < 30.0,"Double.compare(return_value, ((((resistance * 2 + 46) - 7) * 0.5) + 8) * 0.83 + ((resistance * 2 + 46) - 7) * 0.04) == 0",
+RB-BR-099-T06,RB-BR-099,Branched,6,T6,(resistance * 2 + 46) <= 60 && resistance >= 5 && (((resistance * 2 + 46) - 7) * 0.5) >= 30.0,"Double.compare(return_value, ((((resistance * 2 + 46) - 7) * 0.5) * 0.92) * 0.83 + ((resistance * 2 + 46) - 7) * 0.04) == 0",
+RB-BR-100-T01,RB-BR-100,Branched,1,T1,(b1 == true && b2 == false) || (b1 == false && b2 == true),return_value == true,
+RB-BR-100-T02,RB-BR-100,Branched,2,T2,(b1 == true && b2 == true) || (b1 == false && b2 == false),return_value == false,
+RB-SEQ-001-T01,RB-SEQ-001,Sequential,1,T1,true,return_value == num,
+RB-SEQ-002-T01,RB-SEQ-002,Sequential,1,T1,(n % 4 == 0),return_value == true,
+RB-SEQ-002-T02,RB-SEQ-002,Sequential,2,T2,!(n % 4 == 0),return_value == false,
+RB-SEQ-003-T01,RB-SEQ-003,Sequential,1,T1,(n % 3 != 0),return_value == true,
+RB-SEQ-003-T02,RB-SEQ-003,Sequential,2,T2,!(n % 3 != 0),return_value == false,
+RB-SEQ-004-T01,RB-SEQ-004,Sequential,1,T1,(n % 5 != 0),return_value == true,
+RB-SEQ-004-T02,RB-SEQ-004,Sequential,2,T2,!(n % 5 != 0),return_value == false,
+RB-SEQ-005-T01,RB-SEQ-005,Sequential,1,T1,(n % 4 != 1),return_value == true,
+RB-SEQ-005-T02,RB-SEQ-005,Sequential,2,T2,!(n % 4 != 1),return_value == false,
+RB-SEQ-006-T01,RB-SEQ-006,Sequential,1,T1,(n % 2 != 0),return_value == true,
+RB-SEQ-006-T02,RB-SEQ-006,Sequential,2,T2,!(n % 2 != 0),return_value == false,
+RB-SEQ-007-T01,RB-SEQ-007,Sequential,1,T1,(n % 4 != 0),return_value == true,
+RB-SEQ-007-T02,RB-SEQ-007,Sequential,2,T2,!(n % 4 != 0),return_value == false,
+RB-SEQ-008-T01,RB-SEQ-008,Sequential,1,T1,Double.isNaN(celsius),Double.isNaN(return_value),
+RB-SEQ-008-T02,RB-SEQ-008,Sequential,2,T2,!Double.isNaN(celsius),Double.doubleToLongBits(return_value) == Double.doubleToLongBits(celsius * 1.80 - 32.00),
+RB-SEQ-009-T01,RB-SEQ-009,Sequential,1,T1,Double.isNaN(celsius),Double.isNaN(return_value),
+RB-SEQ-009-T02,RB-SEQ-009,Sequential,2,T2,!Double.isNaN(celsius),Double.doubleToLongBits(return_value) == Double.doubleToLongBits(celsius * 1.50 + 32.00),
+RB-SEQ-010-T01,RB-SEQ-010,Sequential,1,T1,Double.isNaN(celsius),Double.isNaN(return_value),
+RB-SEQ-010-T02,RB-SEQ-010,Sequential,2,T2,!Double.isNaN(celsius),Double.doubleToLongBits(return_value) == Double.doubleToLongBits((celsius * 1.80 + 32.00) / 2.0),
+RB-SEQ-011-T01,RB-SEQ-011,Sequential,1,T1,Double.isNaN(celsius),Double.isNaN(return_value),
+RB-SEQ-011-T02,RB-SEQ-011,Sequential,2,T2,!Double.isNaN(celsius),Double.doubleToLongBits(return_value) == Double.doubleToLongBits(celsius + 1.80 + 32.00),
+RB-SEQ-012-T01,RB-SEQ-012,Sequential,1,T1,Double.isNaN(celsius),Double.isNaN(return_value),
+RB-SEQ-012-T02,RB-SEQ-012,Sequential,2,T2,!Double.isNaN(celsius),Double.doubleToLongBits(return_value) == Double.doubleToLongBits(celsius * 2.00 + 32.00),
+RB-SEQ-013-T01,RB-SEQ-013,Sequential,1,T1,Double.isNaN(celsius),Double.isNaN(return_value),
+RB-SEQ-013-T02,RB-SEQ-013,Sequential,2,T2,!Double.isNaN(celsius),Double.doubleToLongBits(return_value) == Double.doubleToLongBits(celsius * 1.80 + 32.00),
+RB-SEQ-014-T01,RB-SEQ-014,Sequential,1,T1,Double.isNaN(celsius),Double.isNaN(return_value),
+RB-SEQ-014-T02,RB-SEQ-014,Sequential,2,T2,!Double.isNaN(celsius),Double.doubleToLongBits(return_value) == Double.doubleToLongBits(celsius + 273.00),
+RB-SEQ-015-T01,RB-SEQ-015,Sequential,1,T1,Double.isNaN(celsius),Double.isNaN(return_value),
+RB-SEQ-015-T02,RB-SEQ-015,Sequential,2,T2,!Double.isNaN(celsius),Double.doubleToLongBits(return_value) == Double.doubleToLongBits(celsius - 273.15),
+RB-SEQ-016-T01,RB-SEQ-016,Sequential,1,T1,Double.isNaN(celsius),Double.isNaN(return_value),
+RB-SEQ-016-T02,RB-SEQ-016,Sequential,2,T2,!Double.isNaN(celsius),Double.doubleToLongBits(return_value) == Double.doubleToLongBits(celsius + 273.15),
+RB-SEQ-017-T01,RB-SEQ-017,Sequential,1,T1,Double.isNaN(celsius),Double.isNaN(return_value),
+RB-SEQ-017-T02,RB-SEQ-017,Sequential,2,T2,!Double.isNaN(celsius),Double.doubleToLongBits(return_value) == Double.doubleToLongBits(celsius + 273.15),
+RB-SEQ-018-T01,RB-SEQ-018,Sequential,1,T1,true,return_value == (nom * denom),
+RB-SEQ-019-T01,RB-SEQ-019,Sequential,1,T1,(denom + 1) == 0,Exception,java.lang.ArithmeticException
+RB-SEQ-019-T02,RB-SEQ-019,Sequential,2,T2,(denom + 1) != 0,return_value == (nom / (denom + 1)),
+RB-SEQ-020-T01,RB-SEQ-020,Sequential,1,T1,(denom) == 0,Exception,java.lang.ArithmeticException
+RB-SEQ-020-T02,RB-SEQ-020,Sequential,2,T2,(denom) != 0,return_value == ((nom + 1) / denom),
+RB-SEQ-021-T01,RB-SEQ-021,Sequential,1,T1,(nom) == 0,Exception,java.lang.ArithmeticException
+RB-SEQ-021-T02,RB-SEQ-021,Sequential,2,T2,(nom) != 0,return_value == (denom / nom),
+RB-SEQ-022-T01,RB-SEQ-022,Sequential,1,T1,(denom) == 0,Exception,java.lang.ArithmeticException
+RB-SEQ-022-T02,RB-SEQ-022,Sequential,2,T2,(denom) != 0,return_value == (nom / denom),
+RB-SEQ-023-T01,RB-SEQ-023,Sequential,1,T1,(n % 2 == 1),return_value == true,
+RB-SEQ-023-T02,RB-SEQ-023,Sequential,2,T2,!(n % 2 == 1),return_value == false,
+RB-SEQ-024-T01,RB-SEQ-024,Sequential,1,T1,(n % 2 != 0),return_value == true,
+RB-SEQ-024-T02,RB-SEQ-024,Sequential,2,T2,!(n % 2 != 0),return_value == false,
+RB-SEQ-025-T01,RB-SEQ-025,Sequential,1,T1,(n % 3 == 0),return_value == true,
+RB-SEQ-025-T02,RB-SEQ-025,Sequential,2,T2,!(n % 3 == 0),return_value == false,
+RB-SEQ-026-T01,RB-SEQ-026,Sequential,1,T1,true,return_value == n % 2,
+RB-SEQ-027-T01,RB-SEQ-027,Sequential,1,T1,true,return_value == true,
+RB-SEQ-028-T01,RB-SEQ-028,Sequential,1,T1,(n % 2 == 0),return_value == true,
+RB-SEQ-028-T02,RB-SEQ-028,Sequential,2,T2,!(n % 2 == 0),return_value == false,
+RB-SEQ-029-T01,RB-SEQ-029,Sequential,1,T1,minute % 1440 >= 0,return_value == (minute % 1440) / 60,
+RB-SEQ-029-T02,RB-SEQ-029,Sequential,2,T2,minute % 1440 < 0,return_value == (minute % 1440 + 1440) / 60,
+RB-SEQ-030-T01,RB-SEQ-030,Sequential,1,T1,factor == 0,Exception,java.lang.ArithmeticException
+RB-SEQ-030-T02,RB-SEQ-030,Sequential,2,T2,factor != 0 && (a % factor == 0 || b % factor == 0),return_value == true,
+RB-SEQ-030-T03,RB-SEQ-030,Sequential,3,T3,factor != 0 && !(a % factor == 0 || b % factor == 0),return_value == false,
+RB-SEQ-031-T01,RB-SEQ-031,Sequential,1,T1,factor == 0,Exception,java.lang.ArithmeticException
+RB-SEQ-031-T02,RB-SEQ-031,Sequential,2,T2,factor != 0 && (a % factor != 0 && b % factor == 0),return_value == true,
+RB-SEQ-031-T03,RB-SEQ-031,Sequential,3,T3,factor != 0 && !(a % factor != 0 && b % factor == 0),return_value == false,
+RB-SEQ-032-T01,RB-SEQ-032,Sequential,1,T1,factor == 0,Exception,java.lang.ArithmeticException
+RB-SEQ-032-T02,RB-SEQ-032,Sequential,2,T2,factor != 0 && (a % factor == 0 && b % factor != 0),return_value == true,
+RB-SEQ-032-T03,RB-SEQ-032,Sequential,3,T3,factor != 0 && !(a % factor == 0 && b % factor != 0),return_value == false,
+RB-SEQ-033-T01,RB-SEQ-033,Sequential,1,T1,factor == 0,Exception,java.lang.ArithmeticException
+RB-SEQ-033-T02,RB-SEQ-033,Sequential,2,T2,factor != 0 && (a / factor == 0 && b % factor == 0),return_value == true,
+RB-SEQ-033-T03,RB-SEQ-033,Sequential,3,T3,factor != 0 && !(a / factor == 0 && b % factor == 0),return_value == false,
+RB-SEQ-034-T01,RB-SEQ-034,Sequential,1,T1,factor == 0,Exception,java.lang.ArithmeticException
+RB-SEQ-034-T02,RB-SEQ-034,Sequential,2,T2,factor != 0 && (a % factor == 0 && b / factor == 0),return_value == true,
+RB-SEQ-034-T03,RB-SEQ-034,Sequential,3,T3,factor != 0 && !(a % factor == 0 && b / factor == 0),return_value == false,
+RB-SEQ-035-T01,RB-SEQ-035,Sequential,1,T1,factor == 0,Exception,java.lang.ArithmeticException
+RB-SEQ-035-T02,RB-SEQ-035,Sequential,2,T2,factor != 0 && (a % factor == 0 && b % factor == 0),return_value == true,
+RB-SEQ-035-T03,RB-SEQ-035,Sequential,3,T3,factor != 0 && !(a % factor == 0 && b % factor == 0),return_value == false,
+RB-SEQ-036-T01,RB-SEQ-036,Sequential,1,T1,(a == 0) || (a != 0 && (m % a != 0) && b == 0),Exception,java.lang.ArithmeticException
+RB-SEQ-036-T02,RB-SEQ-036,Sequential,2,T2,(a != 0 && !(m % a != 0)) || (a != 0 && (m % a != 0) && b != 0 && !(m % b != 0)),return_value == false,
+RB-SEQ-036-T03,RB-SEQ-036,Sequential,3,T3,a != 0 && (m % a != 0) && b != 0 && (m % b != 0),return_value == true,
+RB-SEQ-037-T01,RB-SEQ-037,Sequential,1,T1,(a == 0) || (a != 0 && !(m % a == 0) && b == 0),Exception,java.lang.ArithmeticException
+RB-SEQ-037-T02,RB-SEQ-037,Sequential,2,T2,(a != 0 && (m % a == 0)) || (a != 0 && !(m % a == 0) && b != 0 && (m % b == 0)),return_value == true,
+RB-SEQ-037-T03,RB-SEQ-037,Sequential,3,T3,a != 0 && !(m % a == 0) && b != 0 && !(m % b == 0),return_value == false,
+RB-SEQ-038-T01,RB-SEQ-038,Sequential,1,T1,(a == 0) || (a != 0 && (m % a > 0) && b == 0),Exception,java.lang.ArithmeticException
+RB-SEQ-038-T02,RB-SEQ-038,Sequential,2,T2,(a != 0 && !(m % a > 0)) || (a != 0 && (m % a > 0) && b != 0 && !(m % b > 0)),return_value == false,
+RB-SEQ-038-T03,RB-SEQ-038,Sequential,3,T3,a != 0 && (m % a > 0) && b != 0 && (m % b > 0),return_value == true,
+RB-SEQ-039-T01,RB-SEQ-039,Sequential,1,T1,(a == 0) || (a != 0 && (m % a < 0) && b == 0),Exception,java.lang.ArithmeticException
+RB-SEQ-039-T02,RB-SEQ-039,Sequential,2,T2,(a != 0 && !(m % a < 0)) || (a != 0 && (m % a < 0) && b != 0 && !(m % b < 0)),return_value == false,
+RB-SEQ-039-T03,RB-SEQ-039,Sequential,3,T3,a != 0 && (m % a < 0) && b != 0 && (m % b < 0),return_value == true,
+RB-SEQ-040-T01,RB-SEQ-040,Sequential,1,T1,(a == 0) || (a != 0 && (m % a == 0) && b == 0),Exception,java.lang.ArithmeticException
+RB-SEQ-040-T02,RB-SEQ-040,Sequential,2,T2,(a != 0 && !(m % a == 0)) || (a != 0 && (m % a == 0) && b != 0 && !(m % b != 0)),return_value == false,
+RB-SEQ-040-T03,RB-SEQ-040,Sequential,3,T3,a != 0 && (m % a == 0) && b != 0 && (m % b != 0),return_value == true,
+RB-SEQ-041-T01,RB-SEQ-041,Sequential,1,T1,(a == 0) || (a != 0 && (m % a == 0) && b == 0),Exception,java.lang.ArithmeticException
+RB-SEQ-041-T02,RB-SEQ-041,Sequential,2,T2,a != 0 && !(m % a == 0),return_value == false,
+RB-SEQ-041-T03,RB-SEQ-041,Sequential,3,T3,a != 0 && (m % a == 0) && b != 0 && (m % b == 0),return_value == true,
+RB-SEQ-041-T04,RB-SEQ-041,Sequential,4,T4,a != 0 && (m % a == 0) && b != 0 && !(m % b == 0),return_value == false,
+RB-SEQ-042-T01,RB-SEQ-042,Sequential,1,T1,factor == 0,Exception,java.lang.ArithmeticException
+RB-SEQ-042-T02,RB-SEQ-042,Sequential,2,T2,factor != 0 && (a % factor == 0 || b % factor != 0),return_value == true,
+RB-SEQ-042-T03,RB-SEQ-042,Sequential,3,T3,factor != 0 && !(a % factor == 0 || b % factor != 0),return_value == false,
+RB-SEQ-043-T01,RB-SEQ-043,Sequential,1,T1,factor == 0,Exception,java.lang.ArithmeticException
+RB-SEQ-043-T02,RB-SEQ-043,Sequential,2,T2,factor != 0 && (a % factor != 0 && b % factor != 0),return_value == true,
+RB-SEQ-043-T03,RB-SEQ-043,Sequential,3,T3,factor != 0 && !(a % factor != 0 && b % factor != 0),return_value == false,
+RB-SEQ-044-T01,RB-SEQ-044,Sequential,1,T1,factor == 0,Exception,java.lang.ArithmeticException
+RB-SEQ-044-T02,RB-SEQ-044,Sequential,2,T2,factor != 0 && (a % factor != 0 || b % factor == 0),return_value == true,
+RB-SEQ-044-T03,RB-SEQ-044,Sequential,3,T3,factor != 0 && !(a % factor != 0 || b % factor == 0),return_value == false,
+RB-SEQ-045-T01,RB-SEQ-045,Sequential,1,T1,factor == 0,Exception,java.lang.ArithmeticException
+RB-SEQ-045-T02,RB-SEQ-045,Sequential,2,T2,factor != 0 && (a % factor != 0 || b % factor != 1),return_value == true,
+RB-SEQ-045-T03,RB-SEQ-045,Sequential,3,T3,factor != 0 && !(a % factor != 0 || b % factor != 1),return_value == false,
+RB-SEQ-046-T01,RB-SEQ-046,Sequential,1,T1,factor == 0,Exception,java.lang.ArithmeticException
+RB-SEQ-046-T02,RB-SEQ-046,Sequential,2,T2,factor != 0 && (a % factor != 1 || b % factor != 0),return_value == true,
+RB-SEQ-046-T03,RB-SEQ-046,Sequential,3,T3,factor != 0 && !(a % factor != 1 || b % factor != 0),return_value == false,
+RB-SEQ-047-T01,RB-SEQ-047,Sequential,1,T1,(n >= 0 && (n & (n - 1)) == 0),return_value == true,
+RB-SEQ-047-T02,RB-SEQ-047,Sequential,2,T2,!(n >= 0 && (n & (n - 1)) == 0),return_value == false,
+RB-SEQ-048-T01,RB-SEQ-048,Sequential,1,T1,(n > 1 && (n & (n - 1)) == 0),return_value == true,
+RB-SEQ-048-T02,RB-SEQ-048,Sequential,2,T2,!(n > 1 && (n & (n - 1)) == 0),return_value == false,
+RB-SEQ-049-T01,RB-SEQ-049,Sequential,1,T1,(n > 0 && (n & (n - 1)) == 0),return_value == true,
+RB-SEQ-049-T02,RB-SEQ-049,Sequential,2,T2,!(n > 0 && (n & (n - 1)) == 0),return_value == false,
+RB-SEQ-050-T01,RB-SEQ-050,Sequential,1,T1,x > 0.0,Double.doubleToLongBits(return_value) == Double.doubleToLongBits(x),
+RB-SEQ-050-T02,RB-SEQ-050,Sequential,2,T2,!(x > 0.0),Double.doubleToLongBits(return_value) == Double.doubleToLongBits(0.0),
+RB-SEQ-051-T01,RB-SEQ-051,Sequential,1,T1,x >= 0.0,Double.doubleToLongBits(return_value) == Double.doubleToLongBits(x),
+RB-SEQ-051-T02,RB-SEQ-051,Sequential,2,T2,!(x >= 0.0),Double.doubleToLongBits(return_value) == Double.doubleToLongBits(-1.0),
+RB-SEQ-052-T01,RB-SEQ-052,Sequential,1,T1,x <= 0.0,Double.doubleToLongBits(return_value) == Double.doubleToLongBits(x),
+RB-SEQ-052-T02,RB-SEQ-052,Sequential,2,T2,!(x <= 0.0),Double.doubleToLongBits(return_value) == Double.doubleToLongBits(0.0),
+RB-SEQ-053-T01,RB-SEQ-053,Sequential,1,T1,true,Double.doubleToLongBits(return_value) == Double.doubleToLongBits(0.0),
+RB-SEQ-054-T01,RB-SEQ-054,Sequential,1,T1,x >= 0.0,Double.doubleToLongBits(return_value) == Double.doubleToLongBits(x),
+RB-SEQ-054-T02,RB-SEQ-054,Sequential,2,T2,!(x >= 0.0),Double.doubleToLongBits(return_value) == Double.doubleToLongBits(1.0),
+RB-SEQ-055-T01,RB-SEQ-055,Sequential,1,T1,x >= 0.0,Double.doubleToLongBits(return_value) == Double.doubleToLongBits(x),
+RB-SEQ-055-T02,RB-SEQ-055,Sequential,2,T2,!(x >= 0.0),Double.doubleToLongBits(return_value) == Double.doubleToLongBits(0.0),
+RB-SEQ-056-T01,RB-SEQ-056,Sequential,1,T1,true,Double.doubleToLongBits(return_value) == Double.doubleToLongBits(x),
+RB-SEQ-057-T01,RB-SEQ-057,Sequential,1,T1,raw < 0,return_value == 0,
+RB-SEQ-057-T02,RB-SEQ-057,Sequential,2,T2,raw >= 0 && raw <= 255,return_value == raw,
+RB-SEQ-057-T03,RB-SEQ-057,Sequential,3,T3,raw > 255,return_value == 255,
+RB-SEQ-058-T01,RB-SEQ-058,Sequential,1,T1,n % 2 != 0,return_value == (n),
+RB-SEQ-058-T02,RB-SEQ-058,Sequential,2,T2,!(n % 2 != 0),return_value == (2 * n),
+RB-SEQ-059-T01,RB-SEQ-059,Sequential,1,T1,true,return_value == n,
+RB-SEQ-060-T01,RB-SEQ-060,Sequential,1,T1,n / 2 == 0,return_value == (n),
+RB-SEQ-060-T02,RB-SEQ-060,Sequential,2,T2,!(n / 2 == 0),return_value == (2 * n),
+RB-SEQ-061-T01,RB-SEQ-061,Sequential,1,T1,true,return_value == 0,
+RB-SEQ-062-T01,RB-SEQ-062,Sequential,1,T1,n % 2 == 0,return_value == (n),
+RB-SEQ-062-T02,RB-SEQ-062,Sequential,2,T2,!(n % 2 == 0),return_value == (2 * n),
+RB-SEQ-063-T01,RB-SEQ-063,Sequential,1,T1,n % 2 == 0,return_value == (n),
+RB-SEQ-063-T02,RB-SEQ-063,Sequential,2,T2,!(n % 2 == 0),return_value == (2 * n),
+RB-SPL-001-T01,RB-SPL-001,Single-path-Loop,1,T1,x <= 0 || x > 784,return_value == -1,
+RB-SPL-001-T02,RB-SPL-001,Single-path-Loop,2,T2,x == 1,return_value == 1,
+RB-SPL-001-T03,RB-SPL-001,Single-path-Loop,3,T3,x > 1 && x <= 784,return_value >= 2 && return_value <= 7 && (return_value - 1) * (return_value - 1) * return_value * return_value / 4 < x && x <= return_value * return_value * (return_value + 1) * (return_value + 1) / 4,
+RB-SPL-002-T01,RB-SPL-002,Single-path-Loop,1,T1,x < 0,return_value == 0,
+RB-SPL-002-T02,RB-SPL-002,Single-path-Loop,2,T2,x >= 0 && x < Integer.MAX_VALUE,return_value == x + 1,
+RB-SPL-002-T03,RB-SPL-002,Single-path-Loop,3,T3,x == Integer.MAX_VALUE,Diverges,The inclusive counter wraps and the test always holds.
+RB-SPL-003-T01,RB-SPL-003,Single-path-Loop,1,T1,x <= 0,return_value == (1),
+RB-SPL-003-T02,RB-SPL-003,Single-path-Loop,2,T2,!(x <= 0),return_value == (x + 1),
+RB-SPL-004-T01,RB-SPL-004,Single-path-Loop,1,T1,x <= 1,return_value == (0),
+RB-SPL-004-T02,RB-SPL-004,Single-path-Loop,2,T2,!(x <= 1),return_value == (x - 1),
+RB-SPL-005-T01,RB-SPL-005,Single-path-Loop,1,T1,x <= 0,return_value == (0),
+RB-SPL-005-T02,RB-SPL-005,Single-path-Loop,2,T2,!(x <= 0),return_value == (2 * x),
+RB-SPL-006-T01,RB-SPL-006,Single-path-Loop,1,T1,x <= 0,return_value == (0),
+RB-SPL-006-T02,RB-SPL-006,Single-path-Loop,2,T2,!(x <= 0),return_value == (-x),
+RB-SPL-007-T01,RB-SPL-007,Single-path-Loop,1,T1,x <= 0,return_value == (0),
+RB-SPL-007-T02,RB-SPL-007,Single-path-Loop,2,T2,!(x <= 0),return_value == (x),
+RB-SPL-008-T01,RB-SPL-008,Single-path-Loop,1,T1,processSize <= 10,return_value == 5,
+RB-SPL-008-T02,RB-SPL-008,Single-path-Loop,2,T2,processSize > 10 && processSize < 50,return_value == processSize * 2 - 15,
+RB-SPL-008-T03,RB-SPL-008,Single-path-Loop,3,T3,processSize >= 50 && processSize <= 75,return_value == 0,
+RB-SPL-008-T04,RB-SPL-008,Single-path-Loop,4,T4,processSize > 75 && processSize < 100,return_value == processSize * 2 - 150,
+RB-SPL-008-T05,RB-SPL-008,Single-path-Loop,5,T5,processSize == 100,Exception,java.lang.IndexOutOfBoundsException
+RB-SPL-008-T06,RB-SPL-008,Single-path-Loop,6,T6,processSize > 100 && processSize < 500,return_value == processSize * 2 - 15,
+RB-SPL-008-T07,RB-SPL-008,Single-path-Loop,7,T7,processSize >= 500,return_value == 985,
+RB-SPL-009-T01,RB-SPL-009,Single-path-Loop,1,T1,(((limit <= 0 ? 0 : value == Integer.MIN_VALUE ? 1 : (64 - Long.numberOfLeadingZeros(((long) limit + Math.abs(value)) / ((long) Math.abs(value) + 1L)))) - 26) % 10) == 0,Exception,java.lang.ArithmeticException
+RB-SPL-009-T02,RB-SPL-009,Single-path-Loop,2,T2,(((limit <= 0 ? 0 : value == Integer.MIN_VALUE ? 1 : (64 - Long.numberOfLeadingZeros(((long) limit + Math.abs(value)) / ((long) Math.abs(value) + 1L)))) - 26) % 10) != 0,"Double.compare(return_value, (double) ((Math.abs(value) / (((limit <= 0 ? 0 : value == Integer.MIN_VALUE ? 1 : (64 - Long.numberOfLeadingZeros(((long) limit + Math.abs(value)) / ((long) Math.abs(value) + 1L)))) - 26) % 10)) + (((limit <= 0 ? 0 : value == Integer.MIN_VALUE ? 1 : (64 - Long.numberOfLeadingZeros(((long) limit + Math.abs(value)) / ((long) Math.abs(value) + 1L)))) - 26) % 10) + ((value + 1) - (limit + 2) + (limit <= 0 ? 0 : value == Integer.MIN_VALUE ? 1 : (64 - Long.numberOfLeadingZeros(((long) limit + Math.abs(value)) / ((long) Math.abs(value) + 1L)))) * ((Math.abs(value) + (value < 0 ? -1 : 1)) % 3) + (limit <= 0 ? 0 : value == Integer.MIN_VALUE ? 1 : (64 - Long.numberOfLeadingZeros(((long) limit + Math.abs(value)) / ((long) Math.abs(value) + 1L)))) * ((limit <= 0 ? 0 : value == Integer.MIN_VALUE ? 1 : (64 - Long.numberOfLeadingZeros(((long) limit + Math.abs(value)) / ((long) Math.abs(value) + 1L)))) - 1) / 2) + ((Math.abs(value) / (((limit <= 0 ? 0 : value == Integer.MIN_VALUE ? 1 : (64 - Long.numberOfLeadingZeros(((long) limit + Math.abs(value)) / ((long) Math.abs(value) + 1L)))) - 26) % 10)) + value - limit))) == 0",
+RB-SPL-010-T01,RB-SPL-010,Single-path-Loop,1,T1,b == Integer.MIN_VALUE,return_value == 0,
+RB-SPL-010-T02,RB-SPL-010,Single-path-Loop,2,T2,b < 0 && b != Integer.MIN_VALUE,return_value == a * b,
+RB-SPL-010-T03,RB-SPL-010,Single-path-Loop,3,T3,b == 0,return_value == 0,
+RB-SPL-010-T04,RB-SPL-010,Single-path-Loop,4,T4,b > 0,return_value == a * b,
+RB-SPL-011-T01,RB-SPL-011,Single-path-Loop,1,T1,(y == Integer.MIN_VALUE || y == 0) && x == 0 || y != Integer.MIN_VALUE && y != 0 && x + Math.abs(y) == 0,Exception,ArithmeticException
+RB-SPL-011-T02,RB-SPL-011,Single-path-Loop,2,T2,(y == Integer.MIN_VALUE || y == 0) && x != 0,return_value == 0,
+RB-SPL-011-T03,RB-SPL-011,Single-path-Loop,3,T3,y != Integer.MIN_VALUE && y != 0 && x + Math.abs(y) != 0 && ((int) ((long) Math.abs(y) * (Math.abs(y) - 1) / 2 + 1)) <= 10,return_value == 0,
+RB-SPL-011-T04,RB-SPL-011,Single-path-Loop,4,T4,y != Integer.MIN_VALUE && y != 0 && x + Math.abs(y) != 0 && ((int) ((long) Math.abs(y) * (Math.abs(y) - 1) / 2 + 1)) > 10,return_value == ((x * Math.abs(y)) / (x + Math.abs(y))) * Integer.toString(((int) ((long) Math.abs(y) * (Math.abs(y) - 1) / 2 + 1)) / 11).length(),
+RB-SPL-012-T01,RB-SPL-012,Single-path-Loop,1,T1,true,return_value == 0,
+RB-SPL-013-T01,RB-SPL-013,Single-path-Loop,1,T1,n <= 0,return_value == 1,
+RB-SPL-013-T02,RB-SPL-013,Single-path-Loop,2,T2,n > 0 && n < Integer.MAX_VALUE,"return_value == java.math.BigInteger.valueOf(x).modPow(java.math.BigInteger.valueOf(n), java.math.BigInteger.ONE.shiftLeft(32)).intValue()",
+RB-SPL-013-T03,RB-SPL-013,Single-path-Loop,3,T3,n == Integer.MAX_VALUE,Diverges,The inclusive counter wraps and the test always holds.
+RB-SPL-014-T01,RB-SPL-014,Single-path-Loop,1,T1,n <= 0,return_value == (1),
+RB-SPL-014-T02,RB-SPL-014,Single-path-Loop,2,T2,!(n <= 0),return_value == (1 + n * x),
+RB-SPL-015-T01,RB-SPL-015,Single-path-Loop,1,T1,n < 0,return_value == 1,
+RB-SPL-015-T02,RB-SPL-015,Single-path-Loop,2,T2,n >= 0 && n < Integer.MAX_VALUE,"return_value == java.math.BigInteger.valueOf(x).modPow(java.math.BigInteger.valueOf((long) n + 1L), java.math.BigInteger.ONE.shiftLeft(32)).intValue()",
+RB-SPL-015-T03,RB-SPL-015,Single-path-Loop,3,T3,n == Integer.MAX_VALUE,Diverges,The inclusive counter wraps and the test always holds.
+RB-SPL-016-T01,RB-SPL-016,Single-path-Loop,1,T1,n <= 0,return_value == (0),
+RB-SPL-016-T02,RB-SPL-016,Single-path-Loop,2,T2,!(n <= 0),"return_value == (java.math.BigInteger.valueOf(x).modPow(java.math.BigInteger.valueOf(n), java.math.BigInteger.ONE.shiftLeft(32)).intValue() - 1)",
+RB-SPL-017-T01,RB-SPL-017,Single-path-Loop,1,T1,n <= 0,return_value == (1),
+RB-SPL-017-T02,RB-SPL-017,Single-path-Loop,2,T2,!(n <= 0),"return_value == (java.math.BigInteger.valueOf(x).modPow(java.math.BigInteger.valueOf(n), java.math.BigInteger.ONE.shiftLeft(32)).intValue())",
+RB-SPL-018-T01,RB-SPL-018,Single-path-Loop,1,T1,true,return_value == 200,
+RB-SPL-019-T01,RB-SPL-019,Single-path-Loop,1,T1,true,return_value == 100,
+RB-SPL-020-T01,RB-SPL-020,Single-path-Loop,1,T1,score < 40 && score % 2 == 0,"""f: 41"".equals(return_value)",
+RB-SPL-020-T02,RB-SPL-020,Single-path-Loop,2,T2,score < 40 && score % 2 != 0,"""f: 40"".equals(return_value)",
+RB-SPL-020-T03,RB-SPL-020,Single-path-Loop,3,T3,score >= 40 && score < 90,"("""" + (char) ('f' - ((score - 31) / 10)) + "": "" + (score - 10 * ((score - 31) / 10) + 1)).equals(return_value)",
+RB-SPL-020-T04,RB-SPL-020,Single-path-Loop,4,T4,score == 90,Exception,
+RB-SPL-020-T05,RB-SPL-020,Single-path-Loop,5,T5,score > 90,"""A - 90"".equals(return_value)",
+RB-SPL-021-T01,RB-SPL-021,Single-path-Loop,1,T1,((modifier + 91) * 2) > 50 && ((double) (((modifier + 91) * 2) - 10) / (modifier - 1) + (((modifier + 91) * 2) - 10) * 0.1) > 30.0,"Double.compare(return_value, (((double) (((modifier + 91) * 2) - 10) / (modifier - 1) + (((modifier + 91) * 2) - 10) * 0.1) + (1.0 + 0 * 0.05 + 1 * 0.05 + 2 * 0.05 + 3 * 0.05) + (((modifier + 91) * 2) - 10) - 3) + 2.0) == 0",
+RB-SPL-021-T02,RB-SPL-021,Single-path-Loop,2,T2,((modifier + 91) * 2) > 50 && ((double) (((modifier + 91) * 2) - 10) / (modifier - 1) + (((modifier + 91) * 2) - 10) * 0.1) <= 30.0,"Double.compare(return_value, (((double) (((modifier + 91) * 2) - 10) / (modifier - 1) + (((modifier + 91) * 2) - 10) * 0.1) + (1.0 + 0 * 0.05 + 1 * 0.05 + 2 * 0.05 + 3 * 0.05) + (((modifier + 91) * 2) - 10) - 3) - 1.0) == 0",
+RB-SPL-021-T03,RB-SPL-021,Single-path-Loop,3,T3,((modifier + 91) * 2) <= 50 && ((((modifier + 91) * 2) + 15) * 0.2) < 10.0,"Double.compare(return_value, (((((modifier + 91) * 2) + 15) * 0.2) + (1.0 + 0 * 0.05 + 1 * 0.05 + 2 * 0.05 + 3 * 0.05) + (((modifier + 91) * 2) + 15) - 3) + 2.0) == 0",
+RB-SPL-021-T04,RB-SPL-021,Single-path-Loop,4,T4,((modifier + 91) * 2) <= 50 && ((((modifier + 91) * 2) + 15) * 0.2) >= 10.0,"Double.compare(return_value, (((((modifier + 91) * 2) + 15) * 0.2) + (1.0 + 0 * 0.05 + 1 * 0.05 + 2 * 0.05 + 3 * 0.05) + (((modifier + 91) * 2) + 15) - 3) - 1.0) == 0",
+RB-MPL-001-T01,RB-MPL-001,Multi-path-Loop,1,T1,x == Integer.MIN_VALUE,return_value == Integer.MAX_VALUE,
+RB-MPL-001-T02,RB-MPL-001,Multi-path-Loop,2,T2,x < 0 && x != Integer.MIN_VALUE,return_value == x + x / 2 - 1,
+RB-MPL-001-T03,RB-MPL-001,Multi-path-Loop,3,T3,(x >= 0) && (x == 0),return_value == x + x / 2 + 1,
+RB-MPL-001-T04,RB-MPL-001,Multi-path-Loop,4,T4,(x >= 0) && !(x == 0),return_value == x + x / 2 + 1,
+RB-MPL-002-T01,RB-MPL-002,Multi-path-Loop,1,T1,x == Integer.MIN_VALUE,return_value == Integer.MIN_VALUE,
+RB-MPL-002-T02,RB-MPL-002,Multi-path-Loop,2,T2,x < 0 && x != Integer.MIN_VALUE,return_value == x + x / 2 + x % 2,
+RB-MPL-002-T03,RB-MPL-002,Multi-path-Loop,3,T3,(x >= 0) && (x == 0),return_value == x + x / 2 + x % 2,
+RB-MPL-002-T04,RB-MPL-002,Multi-path-Loop,4,T4,(x >= 0) && !(x == 0),return_value == x + x / 2 + x % 2,
+RB-MPL-003-T01,RB-MPL-003,Multi-path-Loop,1,T1,x == Integer.MIN_VALUE,return_value == 1073741824,
+RB-MPL-003-T02,RB-MPL-003,Multi-path-Loop,2,T2,x < 0 && x != Integer.MIN_VALUE,return_value == x + x / 2,
+RB-MPL-003-T03,RB-MPL-003,Multi-path-Loop,3,T3,(x >= 0) && (x == 0),return_value == x + x / 2,
+RB-MPL-003-T04,RB-MPL-003,Multi-path-Loop,4,T4,(x >= 0) && !(x == 0),return_value == x + x / 2,
+RB-MPL-004-T01,RB-MPL-004,Multi-path-Loop,1,T1,x == Integer.MIN_VALUE,return_value == Integer.MIN_VALUE,
+RB-MPL-004-T02,RB-MPL-004,Multi-path-Loop,2,T2,x < 0 && x != Integer.MIN_VALUE,return_value == x + 2 * (x / 2),
+RB-MPL-004-T03,RB-MPL-004,Multi-path-Loop,3,T3,(x >= 0) && (x == 0),return_value == x + 2 * (x / 2),
+RB-MPL-004-T04,RB-MPL-004,Multi-path-Loop,4,T4,(x >= 0) && !(x == 0),return_value == x + 2 * (x / 2),
+RB-MPL-005-T01,RB-MPL-005,Multi-path-Loop,1,T1,x == Integer.MIN_VALUE,return_value == Integer.MIN_VALUE,
+RB-MPL-005-T02,RB-MPL-005,Multi-path-Loop,2,T2,x < 0 && x != Integer.MIN_VALUE,return_value == x + x / 2,
+RB-MPL-005-T03,RB-MPL-005,Multi-path-Loop,3,T3,x >= 0,return_value == x + x / 2,
+RB-MPL-006-T01,RB-MPL-006,Multi-path-Loop,1,T1,count <= 0,return_value == 0,
+RB-MPL-006-T02,RB-MPL-006,Multi-path-Loop,2,T2,count > 0 && count <= 24 && count % 2 == 0,return_value == -(count / 2),
+RB-MPL-006-T03,RB-MPL-006,Multi-path-Loop,3,T3,count > 0 && count <= 24 && count % 2 != 0,return_value == (count + 1) / 2,
+RB-MPL-006-T04,RB-MPL-006,Multi-path-Loop,4,T4,count > 24,return_value == -12,
+RB-MPL-007-T01,RB-MPL-007,Multi-path-Loop,1,T1,n == 0,return_value == 0,
+RB-MPL-007-T02,RB-MPL-007,Multi-path-Loop,2,T2,n < 0,return_value == (n | 0xAAAAAAAA),
+RB-MPL-007-T03,RB-MPL-007,Multi-path-Loop,3,T3,n > 0,return_value == (n | (0xAAAAAAAA & ((Integer.highestOneBit(n) << 1) - 1))),
+RB-MPL-008-T01,RB-MPL-008,Multi-path-Loop,1,T1,(c < 'F' || c > 'Z') && (c < 'F'),return_value == 0,
+RB-MPL-008-T02,RB-MPL-008,Multi-path-Loop,2,T2,(c < 'F' || c > 'Z') && !(c < 'F'),return_value == 0,
+RB-MPL-008-T03,RB-MPL-008,Multi-path-Loop,3,T3,c >= 'F' && c <= 'Z',return_value == (char) (c - 'A' + 'a'),
+RB-MPL-009-T01,RB-MPL-009,Multi-path-Loop,1,T1,(c < 'A' || c > 'F') && (c < 'A'),return_value == 0,
+RB-MPL-009-T02,RB-MPL-009,Multi-path-Loop,2,T2,(c < 'A' || c > 'F') && !(c < 'A'),return_value == 0,
+RB-MPL-009-T03,RB-MPL-009,Multi-path-Loop,3,T3,c >= 'A' && c <= 'F',return_value == (char) (c - 'A' + 'a'),
+RB-MPL-010-T01,RB-MPL-010,Multi-path-Loop,1,T1,(c < 'A' || c > 'Z') && (c < 'A'),return_value == 0,
+RB-MPL-010-T02,RB-MPL-010,Multi-path-Loop,2,T2,(c < 'A' || c > 'Z') && !(c < 'A'),return_value == 0,
+RB-MPL-010-T03,RB-MPL-010,Multi-path-Loop,3,T3,c >= 'A' && c <= 'Z',return_value == (char) (c - 'A' + 'a'),
+RB-MPL-011-T01,RB-MPL-011,Multi-path-Loop,1,T1,(c < 'F' || c > 'Z') && (c < 'F'),return_value == 0,
+RB-MPL-011-T02,RB-MPL-011,Multi-path-Loop,2,T2,(c < 'F' || c > 'Z') && !(c < 'F'),return_value == 0,
+RB-MPL-011-T03,RB-MPL-011,Multi-path-Loop,3,T3,c >= 'F' && c <= 'Z',return_value == (char) (c - 'A' + 'a'),
+RB-MPL-012-T01,RB-MPL-012,Multi-path-Loop,1,T1,c < 'A' || c > 'Z',return_value == 0,
+RB-MPL-012-T02,RB-MPL-012,Multi-path-Loop,2,T2,c >= 'A' && c <= 'Z',return_value == (char) (c - 'A' + 'a'),
+RB-MPL-013-T01,RB-MPL-013,Multi-path-Loop,1,T1,length <= 0,return_value == 0,
+RB-MPL-013-T02,RB-MPL-013,Multi-path-Loop,2,T2,length > 0 && upperBand <= 0,"return_value == -Math.min(length, 12)",
+RB-MPL-013-T03,RB-MPL-013,Multi-path-Loop,3,T3,"length > 0 && upperBand >= Math.min(length, 12)","return_value == 2 * Math.min(length, 12)",
+RB-MPL-013-T04,RB-MPL-013,Multi-path-Loop,4,T4,"length > 0 && upperBand > 0 && upperBand < Math.min(length, 12)","return_value == 3 * upperBand - Math.min(length, 12)",
+RB-MPL-014-T01,RB-MPL-014,Multi-path-Loop,1,T1,n1 == n2,return_value == 0,
+RB-MPL-014-T02,RB-MPL-014,Multi-path-Loop,2,T2,n1 == ~n2,return_value == 32,
+RB-MPL-014-T03,RB-MPL-014,Multi-path-Loop,3,T3,n1 != n2 && n1 != ~n2,return_value == Integer.bitCount(n1 ^ n2),
+RB-MPL-015-T01,RB-MPL-015,Multi-path-Loop,1,T1,x < 195,"Double.compare(return_value, 0.0) == 0",
+RB-MPL-015-T02,RB-MPL-015,Multi-path-Loop,2,T2,x >= 195 && x < 200,"Double.compare(return_value, (x - 194) * (x + 193) / 2) == 0",
+RB-MPL-015-T03,RB-MPL-015,Multi-path-Loop,3,T3,x >= 200 && x <= 220,"Double.compare(return_value, 49 + (x - 200) * (x + 199) / 2) == 0",
+RB-MPL-015-T04,RB-MPL-015,Multi-path-Loop,4,T4,x > 220,"Double.compare(return_value, 4239.0) == 0",
+RB-MPL-016-T01,RB-MPL-016,Multi-path-Loop,1,T1,x < 1000,"Double.compare(return_value, 0.0) == 0",
+RB-MPL-016-T02,RB-MPL-016,Multi-path-Loop,2,T2,x >= 1000 && x <= 3000,"Double.compare(return_value, ((x - 1000) / 100 + 1) * x - 50 * ((x - 1000) / 100 + 1) * (((x - 1000) / 100 + 1) + 1)) == 0",
+RB-MPL-016-T03,RB-MPL-016,Multi-path-Loop,3,T3,x > 3000,"Double.compare(return_value, 39900.0) == 0",
+RB-MPL-017-T01,RB-MPL-017,Multi-path-Loop,1,T1,x <= 0,return_value == -1,
+RB-MPL-017-T02,RB-MPL-017,Multi-path-Loop,2,T2,(x > 0) && (x == 1),return_value >= 0 && (long) return_value * return_value <= x && (return_value + 1L) * (return_value + 1L) > x,
+RB-MPL-017-T03,RB-MPL-017,Multi-path-Loop,3,T3,(x > 0) && !(x == 1),return_value >= 0 && (long) return_value * return_value <= x && (return_value + 1L) * (return_value + 1L) > x,
+RB-MPL-018-T01,RB-MPL-018,Multi-path-Loop,1,T1,x < 0,return_value == 0,
+RB-MPL-018-T02,RB-MPL-018,Multi-path-Loop,2,T2,(x >= 0) && (x == 0),return_value >= 0 && (long) return_value * return_value <= x && (return_value + 1L) * (return_value + 1L) > x,
+RB-MPL-018-T03,RB-MPL-018,Multi-path-Loop,3,T3,(x >= 0) && !(x == 0),return_value >= 0 && (long) return_value * return_value <= x && (return_value + 1L) * (return_value + 1L) > x,
+RB-MPL-019-T01,RB-MPL-019,Multi-path-Loop,1,T1,x <= 0,return_value == -1,
+RB-MPL-019-T02,RB-MPL-019,Multi-path-Loop,2,T2,(x > 0) && (x == 1),return_value >= 0 && (long) return_value * return_value < x && (return_value + 1L) * (return_value + 1L) >= x,
+RB-MPL-019-T03,RB-MPL-019,Multi-path-Loop,3,T3,(x > 0) && !(x == 1),return_value >= 0 && (long) return_value * return_value < x && (return_value + 1L) * (return_value + 1L) >= x,
+RB-MPL-020-T01,RB-MPL-020,Multi-path-Loop,1,T1,x < 0,return_value == -1,
+RB-MPL-020-T02,RB-MPL-020,Multi-path-Loop,2,T2,(x >= 0) && (x == 0),return_value >= 0 && (long) return_value * return_value <= x && (return_value + 1L) * (return_value + 1L) > x,
+RB-MPL-020-T03,RB-MPL-020,Multi-path-Loop,3,T3,(x >= 0) && !(x == 0),return_value >= 0 && (long) return_value * return_value <= x && (return_value + 1L) * (return_value + 1L) > x,
+RB-MPL-021-T01,RB-MPL-021,Multi-path-Loop,1,T1,x < 0,return_value == -1,
+RB-MPL-021-T02,RB-MPL-021,Multi-path-Loop,2,T2,(x >= 0) && (x == 0),return_value >= 0 && (long) return_value * return_value <= x && (return_value + 1L) * (return_value + 1L) > x,
+RB-MPL-021-T03,RB-MPL-021,Multi-path-Loop,3,T3,(x >= 0) && !(x == 0),return_value >= 0 && (long) return_value * return_value <= x && (return_value + 1L) * (return_value + 1L) > x,
+RB-MPL-022-T01,RB-MPL-022,Multi-path-Loop,1,T1,count <= 0,return_value == 0,
+RB-MPL-022-T02,RB-MPL-022,Multi-path-Loop,2,T2,count > 0 && count <= 16,return_value == ((count + 1) / 2) * ((count + 1) / 2),
+RB-MPL-022-T03,RB-MPL-022,Multi-path-Loop,3,T3,count > 16,return_value == 64,
+RB-MPL-023-T01,RB-MPL-023,Multi-path-Loop,1,T1,n == Integer.MIN_VALUE,Exception,
+RB-MPL-023-T02,RB-MPL-023,Multi-path-Loop,2,T2,n >= -2 && n <= 2,return_value == 1,
+RB-MPL-023-T03,RB-MPL-023,Multi-path-Loop,3,T3,n != Integer.MIN_VALUE && (n < -2 || n > 2),return_value == 2,
+RB-MPL-024-T01,RB-MPL-024,Multi-path-Loop,1,T1,(n & (n + 1)) == 0,return_value == n,
+RB-MPL-024-T02,RB-MPL-024,Multi-path-Loop,2,T2,n < 0 && (n & (n + 1)) != 0,return_value == (n | Integer.highestOneBit(~n)),
+RB-MPL-024-T03,RB-MPL-024,Multi-path-Loop,3,T3,n > 0 && (n & (n + 1)) != 0,return_value == (n | Integer.highestOneBit(~n & (Integer.highestOneBit(n) - 1))),
+RB-MPL-025-T01,RB-MPL-025,Multi-path-Loop,1,T1,num < 0,return_value == -1,
+RB-MPL-025-T02,RB-MPL-025,Multi-path-Loop,2,T2,num == 0,return_value == 0,
+RB-MPL-025-T03,RB-MPL-025,Multi-path-Loop,3,T3,num > 0,return_value >= 1 && (long) return_value * return_value <= num && num < (return_value + 1L) * (return_value + 1L),
+RB-MPL-026-T01,RB-MPL-026,Multi-path-Loop,1,T1,count < 3,return_value == 0,
+RB-MPL-026-T02,RB-MPL-026,Multi-path-Loop,2,T2,count >= 3 && count <= 18,return_value == 3 * (count / 3) * (count / 3 + 1) / 2,
+RB-MPL-026-T03,RB-MPL-026,Multi-path-Loop,3,T3,count > 18,return_value == 63,
+RB-MPL-027-T01,RB-MPL-027,Multi-path-Loop,1,T1,tons <= 0,return_value == 15,
+RB-MPL-027-T02,RB-MPL-027,Multi-path-Loop,2,T2,tons > 0 && tons <= 10,return_value == 15 + 3 * tons,
+RB-MPL-027-T03,RB-MPL-027,Multi-path-Loop,3,T3,tons > 10 && tons <= 30,return_value == 45 + 4 * (tons - 10),
+RB-MPL-027-T04,RB-MPL-027,Multi-path-Loop,4,T4,tons > 30,return_value == 125 + 5 * (tons - 30),
+RB-MPL-028-T01,RB-MPL-028,Multi-path-Loop,1,T1,tons <= 0,return_value == 0,
+RB-MPL-028-T02,RB-MPL-028,Multi-path-Loop,2,T2,tons > 0 && tons <= 3,return_value == 0 + 3 * tons,
+RB-MPL-028-T03,RB-MPL-028,Multi-path-Loop,3,T3,tons > 3 && tons <= 10,return_value == 9 + 4 * (tons - 3),
+RB-MPL-028-T04,RB-MPL-028,Multi-path-Loop,4,T4,tons > 10,return_value == 37 + 5 * (tons - 10),
+RB-MPL-029-T01,RB-MPL-029,Multi-path-Loop,1,T1,tons <= 0,return_value == 0,
+RB-MPL-029-T02,RB-MPL-029,Multi-path-Loop,2,T2,tons > 0 && tons <= 3,return_value == 0 + 1 * tons,
+RB-MPL-029-T03,RB-MPL-029,Multi-path-Loop,3,T3,tons > 3 && tons <= 10,return_value == 3 + 4 * (tons - 3),
+RB-MPL-029-T04,RB-MPL-029,Multi-path-Loop,4,T4,tons > 10,return_value == 31 + 5 * (tons - 10),
+RB-MPL-030-T01,RB-MPL-030,Multi-path-Loop,1,T1,tons <= 0,return_value == 0,
+RB-MPL-030-T02,RB-MPL-030,Multi-path-Loop,2,T2,tons > 0 && tons <= 2,return_value == 0 + 3 * tons,
+RB-MPL-030-T03,RB-MPL-030,Multi-path-Loop,3,T3,tons > 2 && tons <= 9,return_value == 6 + 4 * (tons - 2),
+RB-MPL-030-T04,RB-MPL-030,Multi-path-Loop,4,T4,tons > 9,return_value == 34 + 5 * (tons - 9),
+RB-MPL-031-T01,RB-MPL-031,Multi-path-Loop,1,T1,tons <= 0,return_value == 0,
+RB-MPL-031-T02,RB-MPL-031,Multi-path-Loop,2,T2,tons > 0 && tons <= 10,return_value == 0 + 3 * tons,
+RB-MPL-031-T03,RB-MPL-031,Multi-path-Loop,3,T3,tons > 10 && tons <= 30,return_value == 30 + 4 * (tons - 10),
+RB-MPL-031-T04,RB-MPL-031,Multi-path-Loop,4,T4,tons > 30,return_value == 110 + 5 * (tons - 30),
+RB-NL-001-T01,RB-NL-001,Nested-Loop,1,T1,pattern < 0 || pattern > 3,return_value == -1,
+RB-NL-001-T02,RB-NL-001,Nested-Loop,2,T2,pattern == 0,return_value == Integer.bitCount((~bits & ~(bits >>> 1)) & 127),
+RB-NL-001-T03,RB-NL-001,Nested-Loop,3,T3,pattern == 1,return_value == Integer.bitCount((bits & ~(bits >>> 1)) & 127),
+RB-NL-001-T04,RB-NL-001,Nested-Loop,4,T4,pattern == 2,return_value == Integer.bitCount((~bits & (bits >>> 1)) & 127),
+RB-NL-001-T05,RB-NL-001,Nested-Loop,5,T5,pattern == 3,return_value == Integer.bitCount((bits & (bits >>> 1)) & 127),
+RB-NL-002-T01,RB-NL-002,Nested-Loop,1,T1,num < 0 || num > 19,return_value == -1,
+RB-NL-002-T02,RB-NL-002,Nested-Loop,2,T2,num >= 0 && num <= 1,return_value == 1,
+RB-NL-002-T03,RB-NL-002,Nested-Loop,3,T3,num >= 2 && num <= 19,return_value == (num == 2 ? 2 : num == 3 ? 5 : num == 4 ? 14 : num == 5 ? 42 : num == 6 ? 132 : num == 7 ? 429 : num == 8 ? 1430 : num == 9 ? 4862 : num == 10 ? 16796 : num == 11 ? 58786 : num == 12 ? 208012 : num == 13 ? 742900 : num == 14 ? 2674440 : num == 15 ? 9694845 : num == 16 ? 35357670 : num == 17 ? 129644790 : num == 18 ? 477638700 : 1767263190),
+RB-NL-003-T01,RB-NL-003,Nested-Loop,1,T1,num < 10,return_value == num,
+RB-NL-003-T02,RB-NL-003,Nested-Loop,2,T2,num >= 10,return_value == (num - 1) % 9 + 1,
+RB-NL-004-T01,RB-NL-004,Nested-Loop,1,T1,number < 0 || number > 999,return_value == -1,
+RB-NL-004-T02,RB-NL-004,Nested-Loop,2,T2,number >= 0 && number < 10,return_value == 0,
+RB-NL-004-T03,RB-NL-004,Nested-Loop,3,T3,number >= 10 && number <= 999 && ((number / 100) + ((number / 10) % 10) + (number % 10)) < 10,return_value == 1,
+RB-NL-004-T04,RB-NL-004,Nested-Loop,4,T4,number >= 10 && number <= 999 && ((number / 100) + ((number / 10) % 10) + (number % 10)) >= 10 && ((number / 100) + ((number / 10) % 10) + (number % 10)) != 19,return_value == 2,
+RB-NL-004-T05,RB-NL-004,Nested-Loop,5,T5,number >= 10 && number <= 999 && ((number / 100) + ((number / 10) % 10) + (number % 10)) == 19,return_value == 3,
+RB-NL-005-T01,RB-NL-005,Nested-Loop,1,T1,!(a >= 10 && a <= 99 && b >= 10 && b <= 99),return_value == -1,
+RB-NL-005-T02,RB-NL-005,Nested-Loop,2,T2,a >= 10 && a <= 99 && b >= 10 && b <= 99 && a == b,return_value == (a / 10 == a % 10 ? 4 : 2),
+RB-NL-005-T03,RB-NL-005,Nested-Loop,3,T3,a >= 10 && a <= 99 && b >= 10 && b <= 99 && a != b,return_value == (a / 10 == b / 10 ? 1 : 0) + (a / 10 == b % 10 ? 1 : 0) + (a % 10 == b / 10 ? 1 : 0) + (a % 10 == b % 10 ? 1 : 0),
+RB-NL-006-T01,RB-NL-006,Nested-Loop,1,T1,!(a >= -1024 && a <= 1024 && b >= -1024 && b <= 1024),return_value == -1,
+RB-NL-006-T02,RB-NL-006,Nested-Loop,2,T2,(a >= -1024 && a <= 1024 && b >= -1024 && b <= 1024) && (a == 0 || b == 0),return_value == Math.abs(a) + Math.abs(b),
+RB-NL-006-T03,RB-NL-006,Nested-Loop,3,T3,(a >= -1024 && a <= 1024 && b >= -1024 && b <= 1024) && a != 0 && b != 0,return_value == java.math.BigInteger.valueOf(a).gcd(java.math.BigInteger.valueOf(b)).intValue(),
+RB-NL-007-T01,RB-NL-007,Nested-Loop,1,T1,rows < 0 || rows > 8 || cols < 0 || cols > 8 || index < 0 || index > 8,return_value == -1,
+RB-NL-007-T02,RB-NL-007,Nested-Loop,2,T2,rows >= 0 && rows <= 8 && cols >= 0 && cols <= 8 && index >= 0 && index <= 8 && index < rows && index < cols,return_value == 2 * cols + 3 * rows,
+RB-NL-007-T03,RB-NL-007,Nested-Loop,3,T3,rows >= 0 && rows <= 8 && cols >= 0 && cols <= 8 && index >= 0 && index <= 8 && index < rows && index >= cols,return_value == 2 * cols,
+RB-NL-007-T04,RB-NL-007,Nested-Loop,4,T4,rows >= 0 && rows <= 8 && cols >= 0 && cols <= 8 && index >= 0 && index <= 8 && index >= rows && index < cols,return_value == 3 * rows,
+RB-NL-007-T05,RB-NL-007,Nested-Loop,5,T5,rows >= 0 && rows <= 8 && cols >= 0 && cols <= 8 && index >= 0 && index <= 8 && index >= rows && index >= cols,return_value == 0,
+RB-NL-008-T01,RB-NL-008,Nested-Loop,1,T1,rows < 0 || rows > 8 || cols < 0 || cols > 8,return_value == -1,
+RB-NL-008-T02,RB-NL-008,Nested-Loop,2,T2,rows >= 0 && rows <= 8 && cols >= 0 && cols <= 8 && (rows == 0 || cols == 0),return_value == 0,
+RB-NL-008-T03,RB-NL-008,Nested-Loop,3,T3,rows > 0 && rows <= 8 && cols > 0 && cols <= 8 && (rows == 1 || cols == 1),return_value == rows * cols,
+RB-NL-008-T04,RB-NL-008,Nested-Loop,4,T4,rows > 0 && rows <= 8 && cols > 0 && cols <= 8 && rows >= 2 && cols >= 2,return_value == 2 * rows + 2 * cols - 4,
+RB-NL-009-T01,RB-NL-009,Nested-Loop,1,T1,rows < 0 || rows > 8 || cols < 0 || cols > 8,return_value == -1,
+RB-NL-009-T02,RB-NL-009,Nested-Loop,2,T2,rows >= 0 && rows <= 8 && cols >= 0 && cols <= 8 && (rows == 0 || cols == 0),return_value == 0,
+RB-NL-009-T03,RB-NL-009,Nested-Loop,3,T3,(rows > 0 && rows <= 8 && cols > 0 && cols <= 8) && (rows == 1),return_value == rows * cols,
+RB-NL-009-T04,RB-NL-009,Nested-Loop,4,T4,(rows > 0 && rows <= 8 && cols > 0 && cols <= 8) && !(rows == 1),return_value == rows * cols,
+RB-NL-010-T01,RB-NL-010,Nested-Loop,1,T1,rows < 0 || rows > 8 || cols < 0 || cols > 8,return_value == -1,
+RB-NL-010-T02,RB-NL-010,Nested-Loop,2,T2,rows >= 0 && rows <= 8 && cols >= 0 && cols <= 8 && (rows % 2 == 0 || cols % 2 == 0),return_value == rows * cols / 2,
+RB-NL-010-T03,RB-NL-010,Nested-Loop,3,T3,(rows >= 0 && rows <= 8 && cols >= 0 && cols <= 8 && rows % 2 == 1 && cols % 2 == 1) && (rows == 1),return_value == (rows * cols + 1) / 2,
+RB-NL-010-T04,RB-NL-010,Nested-Loop,4,T4,(rows >= 0 && rows <= 8 && cols >= 0 && cols <= 8 && rows % 2 == 1 && cols % 2 == 1) && !(rows == 1),return_value == (rows * cols + 1) / 2,
+RB-NL-011-T01,RB-NL-011,Nested-Loop,1,T1,rows < 0 || rows > 8 || cols < 0 || cols > 8 || width < 0 || width > 8,return_value == -1,
+RB-NL-011-T02,RB-NL-011,Nested-Loop,2,T2,rows >= 0 && rows <= 8 && cols >= 0 && cols <= 8 && width >= 0 && width <= 8 && (rows == 0 || cols == 0 || width == 0),return_value == 0,
+RB-NL-011-T03,RB-NL-011,Nested-Loop,3,T3,rows >= 0 && rows <= 8 && cols >= 0 && cols <= 8 && width >= 0 && width <= 8 && rows > 0 && cols > 0 && width > 0 && width < cols,return_value == rows * width * (width + 1) / 2,
+RB-NL-011-T04,RB-NL-011,Nested-Loop,4,T4,rows >= 0 && rows <= 8 && cols >= 0 && cols <= 8 && width >= 0 && width <= 8 && rows > 0 && cols > 0 && width > 0 && width >= cols,return_value == rows * cols * (cols + 1) / 2,
+RB-NL-012-T01,RB-NL-012,Nested-Loop,1,T1,rows < 0 || rows > 8 || cols < 0 || cols > 8,return_value == -1,
+RB-NL-012-T02,RB-NL-012,Nested-Loop,2,T2,rows >= 0 && rows <= 8 && cols >= 0 && cols <= 8 && rows <= cols,return_value == rows,
+RB-NL-012-T03,RB-NL-012,Nested-Loop,3,T3,rows >= 0 && rows <= 8 && cols >= 0 && cols <= 8 && rows > cols,return_value == cols,
+RB-NL-013-T01,RB-NL-013,Nested-Loop,1,T1,rows < 0 || rows > 8 || cols < 0 || cols > 8,return_value == -1,
+RB-NL-013-T02,RB-NL-013,Nested-Loop,2,T2,rows >= 0 && rows <= 8 && cols >= 0 && cols <= 8 && (rows == 0 || cols == 0),return_value == 0,
+RB-NL-013-T03,RB-NL-013,Nested-Loop,3,T3,rows > 0 && rows <= 8 && cols > 0 && cols <= 8,return_value == rows * cols * (rows + cols - 2) / 2,
+RB-NL-014-T01,RB-NL-014,Nested-Loop,1,T1,rows < 0 || rows > 8 || cols < 0 || cols > 8,return_value == -1,
+RB-NL-014-T02,RB-NL-014,Nested-Loop,2,T2,rows >= 0 && rows <= 8 && cols >= 0 && cols <= 8 && (rows == 0 || cols == 0),return_value == 0,
+RB-NL-014-T03,RB-NL-014,Nested-Loop,3,T3,rows > 0 && rows <= 8 && cols > 0 && cols <= 8,return_value == cols * rows * (rows + 1) / 2,
+RB-NL-015-T01,RB-NL-015,Nested-Loop,1,T1,rows < 0 || rows > 8 || cols < 0 || cols > 8,return_value == -1,
+RB-NL-015-T02,RB-NL-015,Nested-Loop,2,T2,rows >= 0 && rows <= 8 && cols >= 0 && cols <= 8 && rows >= cols,return_value == cols * (cols - 1) / 2,
+RB-NL-015-T03,RB-NL-015,Nested-Loop,3,T3,rows >= 0 && rows <= 8 && cols >= 0 && cols <= 8 && rows < cols,return_value == rows * (2 * cols - rows - 1) / 2,
+RB-NL-016-T01,RB-NL-016,Nested-Loop,1,T1,(bits & 255) == 0,return_value == 0,
+RB-NL-016-T02,RB-NL-016,Nested-Loop,2,T2,(bits & 255) != 0 && (bits & (bits >>> 1) & 127) == 0,return_value == 1,
+RB-NL-016-T03,RB-NL-016,Nested-Loop,3,T3,(bits & (bits >>> 1) & 127) != 0,return_value == 2 + ((bits & (bits >>> 1) & (bits >>> 2) & 63) != 0 ? 1 : 0) + ((bits & (bits >>> 1) & (bits >>> 2) & (bits >>> 3) & 31) != 0 ? 1 : 0) + ((bits & (bits >>> 1) & (bits >>> 2) & (bits >>> 3) & (bits >>> 4) & 15) != 0 ? 1 : 0) + ((bits & (bits >>> 1) & (bits >>> 2) & (bits >>> 3) & (bits >>> 4) & (bits >>> 5) & 7) != 0 ? 1 : 0) + ((bits & (bits >>> 1) & (bits >>> 2) & (bits >>> 3) & (bits >>> 4) & (bits >>> 5) & (bits >>> 6) & 3) != 0 ? 1 : 0) + ((bits & (bits >>> 1) & (bits >>> 2) & (bits >>> 3) & (bits >>> 4) & (bits >>> 5) & (bits >>> 6) & (bits >>> 7) & 1) != 0 ? 1 : 0),
+RB-NL-017-T01,RB-NL-017,Nested-Loop,1,T1,code < 0 || code > 999999,return_value == -1,
+RB-NL-017-T02,RB-NL-017,Nested-Loop,2,T2,code >= 0 && code <= 999999 && code % 100 == (code / 100) % 100 && code % 100 == code / 10000,return_value == 3,
+RB-NL-017-T03,RB-NL-017,Nested-Loop,3,T3,code >= 0 && code <= 999999 && !(code % 100 == (code / 100) % 100 && code % 100 == code / 10000),return_value == (code % 100 == (code / 100) % 100 || code % 100 == code / 10000 || (code / 100) % 100 == code / 10000 ? 1 : 0),
+RB-NL-018-T01,RB-NL-018,Nested-Loop,1,T1,limit < 0 || limit > 63,return_value == -1,
+RB-NL-018-T02,RB-NL-018,Nested-Loop,2,T2,limit == 0,return_value == 0,
+RB-NL-018-T03,RB-NL-018,Nested-Loop,3,T3,limit >= 1 && limit <= 63,"return_value == (limit + 1) / 2 * 1 + Math.max(0, (limit + 1) % 2 - 1) + (limit + 1) / 4 * 2 + Math.max(0, (limit + 1) % 4 - 2) + (limit + 1) / 8 * 4 + Math.max(0, (limit + 1) % 8 - 4) + (limit + 1) / 16 * 8 + Math.max(0, (limit + 1) % 16 - 8) + (limit + 1) / 32 * 16 + Math.max(0, (limit + 1) % 32 - 16) + (limit + 1) / 64 * 32 + Math.max(0, (limit + 1) % 64 - 32)",
+RB-NL-019-T01,RB-NL-019,Nested-Loop,1,T1,limit < 2,return_value == 0,
+RB-NL-019-T02,RB-NL-019,Nested-Loop,2,T2,limit >= 2 && limit <= 31,return_value == (limit >= 2 ? 1 : 0) + (limit >= 3 ? 1 : 0) + (limit >= 5 ? 1 : 0) + (limit >= 7 ? 1 : 0) + (limit >= 11 ? 1 : 0) + (limit >= 13 ? 1 : 0) + (limit >= 17 ? 1 : 0) + (limit >= 19 ? 1 : 0) + (limit >= 23 ? 1 : 0) + (limit >= 29 ? 1 : 0) + (limit >= 31 ? 1 : 0),
+RB-NL-019-T03,RB-NL-019,Nested-Loop,3,T3,limit > 31,return_value == -1,
+RB-NL-020-T01,RB-NL-020,Nested-Loop,1,T1,threshold <= 0,return_value == 0,
+RB-NL-020-T02,RB-NL-020,Nested-Loop,2,T2,threshold >= 1 && threshold <= 4096,return_value >= 1 && return_value <= 64 && (return_value - 1) * (return_value - 1) < threshold && threshold <= return_value * return_value,
+RB-NL-020-T03,RB-NL-020,Nested-Loop,3,T3,threshold > 4096,return_value == -1,
+RB-NL-021-T01,RB-NL-021,Nested-Loop,1,T1,limit < 11,return_value == 0,
+RB-NL-021-T02,RB-NL-021,Nested-Loop,2,T2,limit >= 11 && limit < 99,return_value == limit / 11,
+RB-NL-021-T03,RB-NL-021,Nested-Loop,3,T3,limit >= 99,return_value == 9,
+RB-NL-022-T01,RB-NL-022,Nested-Loop,1,T1,true,return_value == 90,
+RB-NL-023-T01,RB-NL-023,Nested-Loop,1,T1,true,return_value == 90,
+RB-NL-024-T01,RB-NL-024,Nested-Loop,1,T1,true,return_value == 200,
+RB-NL-025-T01,RB-NL-025,Nested-Loop,1,T1,true,return_value == 101,
+RB-NL-026-T01,RB-NL-026,Nested-Loop,1,T1,true,return_value == 100,
+RB-NL-027-T01,RB-NL-027,Nested-Loop,1,T1,true,return_value == 100,
+RB-NL-028-T01,RB-NL-028,Nested-Loop,1,T1,number < 2 || number > 100,return_value == -1,
+RB-NL-028-T02,RB-NL-028,Nested-Loop,2,T2,number >= 2 && number <= 100 && number % 2 == 0,return_value == 2,
+RB-NL-028-T03,RB-NL-028,Nested-Loop,3,T3,number >= 2 && number <= 100 && number % 2 != 0,return_value == (number % 3 == 0 ? 3 : number % 5 == 0 ? 5 : number % 7 == 0 ? 7 : number),
+RB-NL-029-T01,RB-NL-029,Nested-Loop,1,T1,rows < 0 || rows > 8 || cols < 0 || cols > 8,return_value == -1,
+RB-NL-029-T02,RB-NL-029,Nested-Loop,2,T2,rows >= 0 && rows <= 1 && cols >= 0 && cols <= 1 || rows >= 0 && rows <= 8 && cols >= 0 && cols <= 8 && (rows == 0 || cols == 0),return_value == 0,
+RB-NL-029-T03,RB-NL-029,Nested-Loop,3,T3,rows > 0 && rows <= 8 && cols > 0 && cols <= 8 && (rows >= 2 || cols >= 2),return_value == (rows * (rows + 1) / 2) * (cols * (cols + 1) / 2) - ((rows + 1) / 2) * ((rows + 1) / 2) * ((cols + 1) / 2) * ((cols + 1) / 2),
+RB-NL-030-T01,RB-NL-030,Nested-Loop,1,T1,rows < 0 || rows > 8 || cols < 0 || cols > 8,return_value == -1,
+RB-NL-030-T02,RB-NL-030,Nested-Loop,2,T2,rows >= 0 && rows <= 8 && cols >= 0 && cols <= 8 && (rows == 0 || cols == 0),return_value == 0,
+RB-NL-030-T03,RB-NL-030,Nested-Loop,3,T3,rows > 0 && rows <= 8 && cols > 0 && cols <= 8,return_value == (rows * (rows + 1) / 2) * (cols * (cols + 1) / 2),
+RB-NL-031-T01,RB-NL-031,Nested-Loop,1,T1,size < 0 || size > 12,return_value == -1,
+RB-NL-031-T02,RB-NL-031,Nested-Loop,2,T2,size == 0,return_value == 0,
+RB-NL-031-T03,RB-NL-031,Nested-Loop,3,T3,size == 1,return_value == 1,
+RB-NL-031-T04,RB-NL-031,Nested-Loop,4,T4,size >= 2 && size <= 12,return_value == 3 * size - 3,
+RB-NL-032-T01,RB-NL-032,Nested-Loop,1,T1,size < 0 || size > 12,return_value == -1,
+RB-NL-032-T02,RB-NL-032,Nested-Loop,2,T2,size == 0,return_value == 0,
+RB-NL-032-T03,RB-NL-032,Nested-Loop,3,T3,size > 0 && size <= 12,return_value == size * (size + 1) / 2,
+RB-NL-033-T01,RB-NL-033,Nested-Loop,1,T1,size < 0 || size > 12,return_value == -1,
+RB-NL-033-T02,RB-NL-033,Nested-Loop,2,T2,size >= 0 && size <= 12 && size % 2 == 0,return_value == (size / 2) * (size / 2),
+RB-NL-033-T03,RB-NL-033,Nested-Loop,3,T3,size >= 0 && size <= 12 && size % 2 == 1,return_value == ((size + 1) / 2) * ((size + 1) / 2),
+RB-NL-034-T01,RB-NL-034,Nested-Loop,1,T1,size < 0 || size > 12,return_value == -1,
+RB-NL-034-T02,RB-NL-034,Nested-Loop,2,T2,size == 0 || size == 1,return_value == 0,
+RB-NL-034-T03,RB-NL-034,Nested-Loop,3,T3,size >= 2 && size <= 12,return_value == size * (size + 1) * (size - 1) / 6,
+RB-NL-035-T01,RB-NL-035,Nested-Loop,1,T1,size < 0 || size > 12,return_value == -1,
+RB-NL-035-T02,RB-NL-035,Nested-Loop,2,T2,size == 0,return_value == 0,
+RB-NL-035-T03,RB-NL-035,Nested-Loop,3,T3,size > 0 && size <= 12,return_value == size * (size + 1) * (2 * size + 1) / 6,
