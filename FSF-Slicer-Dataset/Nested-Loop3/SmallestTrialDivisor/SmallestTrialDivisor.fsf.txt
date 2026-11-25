@@ -1,0 +1,8 @@
+T1: number < 2 || number > 100
+D1: return_value == -1
+
+T2: number >= 2 && number <= 100 && number % 2 == 0
+D2: return_value == 2
+
+T3: number >= 2 && number <= 100 && number % 2 != 0
+D3: return_value == (number % 3 == 0 ? 3 : number % 5 == 0 ? 5 : number % 7 == 0 ? 7 : number)

@@ -1,0 +1,14 @@
+T1: c > 'z'
+D1: return_value == c
+
+T2: c <= 'z' && c >= 'a'
+D2: return_value == (char)(c - 'a' + 'A')
+
+T3: c < 'a' && c > 'Z'
+D3: return_value == c
+
+T4: c <= 'Z' && c >= 'A'
+D4: return_value == (char)(c - 'A' + 'a')
+
+T5: c < 'A'
+D5: return_value == c

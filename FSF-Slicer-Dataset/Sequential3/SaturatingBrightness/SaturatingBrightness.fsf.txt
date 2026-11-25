@@ -1,0 +1,8 @@
+T1: raw < 0
+D1: return_value == 0
+
+T2: raw >= 0 && raw <= 255
+D2: return_value == raw
+
+T3: raw > 255
+D3: return_value == 255

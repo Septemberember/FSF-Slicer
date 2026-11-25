@@ -1,0 +1,8 @@
+T1: b1 == false
+D1: return_value == true
+
+T2: b1 == true && b2 == true
+D2: return_value == true
+
+T3: b1 == true && b2 == false
+D3: return_value == false

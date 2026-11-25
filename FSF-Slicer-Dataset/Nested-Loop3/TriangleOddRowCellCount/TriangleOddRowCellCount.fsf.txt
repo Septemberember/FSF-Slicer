@@ -1,0 +1,8 @@
+T1: size < 0 || size > 12
+D1: return_value == -1
+
+T2: size >= 0 && size <= 12 && size % 2 == 0
+D2: return_value == (size / 2) * (size / 2)
+
+T3: size >= 0 && size <= 12 && size % 2 == 1
+D3: return_value == ((size + 1) / 2) * ((size + 1) / 2)

@@ -1,0 +1,12 @@
+T1: time <= 5
+D1: return_value == 90
+
+T2: time >= 50
+D2: return_value == 0
+
+// D3: java.lang.ArrayIndexOutOfBoundsException
+T3: time == 38
+D3: Exception
+
+T4: time > 5 && time < 50 && time != 38
+D4: return_value == 100 - time * 2

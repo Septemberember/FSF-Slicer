@@ -1,0 +1,8 @@
+T1: count <= 0
+D1: return_value == 0
+
+T2: count > 0 && count <= 16
+D2: return_value == ((count + 1) / 2) * ((count + 1) / 2)
+
+T3: count > 16
+D3: return_value == 64

@@ -1,0 +1,5 @@
+T1: n <= 0
+D1: return_value == (1)
+
+T2: !(n <= 0)
+D2: return_value == (1 + n * x)

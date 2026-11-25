@@ -1,0 +1,8 @@
+T1: code < 0 || code > 999999
+D1: return_value == -1
+
+T2: code >= 0 && code <= 999999 && code % 100 == (code / 100) % 100 && code % 100 == code / 10000
+D2: return_value == 3
+
+T3: code >= 0 && code <= 999999 && !(code % 100 == (code / 100) % 100 && code % 100 == code / 10000)
+D3: return_value == (code % 100 == (code / 100) % 100 || code % 100 == code / 10000 || (code / 100) % 100 == code / 10000 ? 1 : 0)

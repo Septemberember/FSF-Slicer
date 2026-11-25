@@ -1,0 +1,8 @@
+T1: threshold <= 0
+D1: return_value == 0
+
+T2: threshold >= 1 && threshold <= 4096
+D2: return_value >= 1 && return_value <= 64 && (return_value - 1) * (return_value - 1) < threshold && threshold <= return_value * return_value
+
+T3: threshold > 4096
+D3: return_value == -1

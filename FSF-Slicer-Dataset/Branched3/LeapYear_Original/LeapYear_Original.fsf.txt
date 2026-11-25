@@ -1,0 +1,11 @@
+T1: year % 4 != 0
+D1: return_value == false
+
+T2: year % 4 == 0 && year % 100 != 0
+D2: return_value == true
+
+T3: year % 4 == 0 && year % 100 == 0 && year % 400 == 0
+D3: return_value == true
+
+T4: year % 4 == 0 && year % 100 == 0 && year % 400 != 0
+D4: return_value == false

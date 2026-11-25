@@ -1,0 +1,11 @@
+T1: rows < 0 || rows > 8 || cols < 0 || cols > 8
+D1: return_value == -1
+
+T2: rows >= 0 && rows <= 8 && cols >= 0 && cols <= 8 && (rows % 2 == 0 || cols % 2 == 0)
+D2: return_value == rows * cols / 2
+
+T3: (rows >= 0 && rows <= 8 && cols >= 0 && cols <= 8 && rows % 2 == 1 && cols % 2 == 1) && (rows == 1)
+D3: return_value == (rows * cols + 1) / 2
+
+T4: (rows >= 0 && rows <= 8 && cols >= 0 && cols <= 8 && rows % 2 == 1 && cols % 2 == 1) && !(rows == 1)
+D4: return_value == (rows * cols + 1) / 2

@@ -1,0 +1,17 @@
+T1: (resistance * 2 + 46) > 60 && ((double) ((resistance * 2 + 46) + 9) / (resistance - 8)) > 80.0
+D1: Double.compare(return_value, (((double) ((resistance * 2 + 46) + 9) / (resistance - 8)) * 0.88) * 1.12 + ((resistance * 2 + 46) + 9) * 0.04) == 0
+
+T2: (resistance * 2 + 46) > 60 && ((double) ((resistance * 2 + 46) + 9) / (resistance - 8)) <= 80.0
+D2: Double.compare(return_value, (((double) ((resistance * 2 + 46) + 9) / (resistance - 8)) + 12) * 1.12 + ((resistance * 2 + 46) + 9) * 0.04) == 0
+
+T3: (resistance * 2 + 46) <= 60 && resistance < 5 && (((resistance * 2 + 46) - 3) * 0.7) < 30.0
+D3: Double.compare(return_value, ((((resistance * 2 + 46) - 3) * 0.7) + 8) * 1.12 + ((resistance * 2 + 46) - 3) * 0.04) == 0
+
+T4: (resistance * 2 + 46) <= 60 && resistance < 5 && (((resistance * 2 + 46) - 3) * 0.7) >= 30.0
+D4: Double.compare(return_value, ((((resistance * 2 + 46) - 3) * 0.7) * 0.92) * 1.12 + ((resistance * 2 + 46) - 3) * 0.04) == 0
+
+T5: (resistance * 2 + 46) <= 60 && resistance >= 5 && (((resistance * 2 + 46) - 7) * 0.5) < 30.0
+D5: Double.compare(return_value, ((((resistance * 2 + 46) - 7) * 0.5) + 8) * 0.83 + ((resistance * 2 + 46) - 7) * 0.04) == 0
+
+T6: (resistance * 2 + 46) <= 60 && resistance >= 5 && (((resistance * 2 + 46) - 7) * 0.5) >= 30.0
+D6: Double.compare(return_value, ((((resistance * 2 + 46) - 7) * 0.5) * 0.92) * 0.83 + ((resistance * 2 + 46) - 7) * 0.04) == 0

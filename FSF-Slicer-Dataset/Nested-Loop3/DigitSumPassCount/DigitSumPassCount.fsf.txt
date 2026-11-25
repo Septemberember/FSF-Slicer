@@ -1,0 +1,14 @@
+T1: number < 0 || number > 999
+D1: return_value == -1
+
+T2: number >= 0 && number < 10
+D2: return_value == 0
+
+T3: number >= 10 && number <= 999 && ((number / 100) + ((number / 10) % 10) + (number % 10)) < 10
+D3: return_value == 1
+
+T4: number >= 10 && number <= 999 && ((number / 100) + ((number / 10) % 10) + (number % 10)) >= 10 && ((number / 100) + ((number / 10) % 10) + (number % 10)) != 19
+D4: return_value == 2
+
+T5: number >= 10 && number <= 999 && ((number / 100) + ((number / 10) % 10) + (number % 10)) == 19
+D5: return_value == 3

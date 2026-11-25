@@ -1,0 +1,8 @@
+T1: !(a >= -1024 && a <= 1024 && b >= -1024 && b <= 1024)
+D1: return_value == -1
+
+T2: (a >= -1024 && a <= 1024 && b >= -1024 && b <= 1024) && (a == 0 || b == 0)
+D2: return_value == Math.abs(a) + Math.abs(b)
+
+T3: (a >= -1024 && a <= 1024 && b >= -1024 && b <= 1024) && a != 0 && b != 0
+D3: return_value == java.math.BigInteger.valueOf(a).gcd(java.math.BigInteger.valueOf(b)).intValue()

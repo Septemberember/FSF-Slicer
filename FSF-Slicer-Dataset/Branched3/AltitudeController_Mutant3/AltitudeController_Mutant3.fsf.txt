@@ -1,0 +1,20 @@
+T1: ((targetHeight - currentHeight) < 0 ? -(targetHeight - currentHeight) : (targetHeight - currentHeight) + 10) > 30 && (targetHeight - currentHeight) > 0
+D1: return_value == 5
+
+T2: ((targetHeight - currentHeight) < 0 ? -(targetHeight - currentHeight) : (targetHeight - currentHeight) + 10) > 30 && (targetHeight - currentHeight) <= 0
+D2: return_value == -5
+
+T3: ((targetHeight - currentHeight) < 0 ? -(targetHeight - currentHeight) : (targetHeight - currentHeight) + 10) <= 30 && ((targetHeight - currentHeight) < 0 ? -(targetHeight - currentHeight) : (targetHeight - currentHeight) + 10) > 20 && (targetHeight - currentHeight) > 0
+D3: return_value == 3
+
+T4: ((targetHeight - currentHeight) < 0 ? -(targetHeight - currentHeight) : (targetHeight - currentHeight) + 10) <= 30 && ((targetHeight - currentHeight) < 0 ? -(targetHeight - currentHeight) : (targetHeight - currentHeight) + 10) > 20 && (targetHeight - currentHeight) <= 0
+D4: return_value == -3
+
+T5: ((targetHeight - currentHeight) < 0 ? -(targetHeight - currentHeight) : (targetHeight - currentHeight) + 10) <= 20 && ((targetHeight - currentHeight) < 0 ? -(targetHeight - currentHeight) : (targetHeight - currentHeight) + 10) > 10 && (targetHeight - currentHeight) > 0
+D5: return_value == 2
+
+T6: ((targetHeight - currentHeight) < 0 ? -(targetHeight - currentHeight) : (targetHeight - currentHeight) + 10) <= 20 && ((targetHeight - currentHeight) < 0 ? -(targetHeight - currentHeight) : (targetHeight - currentHeight) + 10) > 10 && (targetHeight - currentHeight) <= 0
+D6: return_value == -2
+
+T7: ((targetHeight - currentHeight) < 0 ? -(targetHeight - currentHeight) : (targetHeight - currentHeight) + 10) <= 10
+D7: return_value == (targetHeight - currentHeight)

@@ -1,0 +1,8 @@
+T1: n == 0
+D1: return_value == 0
+
+T2: n < 0
+D2: return_value == (n | 0xAAAAAAAA)
+
+T3: n > 0
+D3: return_value == (n | (0xAAAAAAAA & ((Integer.highestOneBit(n) << 1) - 1)))

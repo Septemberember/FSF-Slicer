@@ -1,0 +1,21 @@
+T1: usage < -99
+D1: return_value == 0
+
+T2: usage >= -99 && usage < 100
+D2: return_value == usage - 2 * usage / 10 + usage + 2 * (usage - 300)
+
+T3: usage >= 100 && usage < 200
+D3: return_value == (usage - 100) * 2 + 50 - 2 * usage / 30 + usage * 2 + 2 * (usage - 300)
+
+T4: usage >= 200 && usage < 300
+D4: return_value == (usage - 200) * 5 + 150 - 2 * usage / 50
+
+T5: usage >= 300 && usage < 400
+D5: return_value == usage * 6 + 2 * (usage - 300)
+
+// D6: ArrayIndexOutOfBoundsException
+T6: usage == 400
+D6: Exception
+
+T7: usage > 400
+D7: return_value == usage * 6

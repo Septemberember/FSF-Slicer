@@ -1,0 +1,8 @@
+T1: limit < 0 || limit > 63
+D1: return_value == -1
+
+T2: limit == 0
+D2: return_value == 0
+
+T3: limit >= 1 && limit <= 63
+D3: return_value == (limit + 1) / 2 * 1 + Math.max(0, (limit + 1) % 2 - 1) + (limit + 1) / 4 * 2 + Math.max(0, (limit + 1) % 4 - 2) + (limit + 1) / 8 * 4 + Math.max(0, (limit + 1) % 8 - 4) + (limit + 1) / 16 * 8 + Math.max(0, (limit + 1) % 16 - 8) + (limit + 1) / 32 * 16 + Math.max(0, (limit + 1) % 32 - 16) + (limit + 1) / 64 * 32 + Math.max(0, (limit + 1) % 64 - 32)

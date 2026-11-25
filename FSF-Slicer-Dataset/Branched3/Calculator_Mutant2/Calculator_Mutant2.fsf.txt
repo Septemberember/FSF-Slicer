@@ -1,0 +1,17 @@
+T1: operator == '+'
+D1: return_value == num1 + num2
+
+T2: operator == '-' || operator == '*'
+D2: return_value == num1 * num2
+
+T3: operator == '/' && num2 != 0
+D3: return_value == num1 / num2
+
+T4: operator == '%' && num2 != 0
+D4: return_value == num1 % num2
+
+T5: (operator == '/' || operator == '%') && num2 == 0
+D5: Exception
+
+T6: operator != '+' && operator != '-' && operator != '*' && operator != '/' && operator != '%'
+D6: return_value == -1

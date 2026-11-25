@@ -1,0 +1,12 @@
+// D1: ArithmeticException
+T1: (y == Integer.MIN_VALUE || y == 0) && x == 0 || y != Integer.MIN_VALUE && y != 0 && x + Math.abs(y) == 0
+D1: Exception
+
+T2: (y == Integer.MIN_VALUE || y == 0) && x != 0
+D2: return_value == 0
+
+T3: y != Integer.MIN_VALUE && y != 0 && x + Math.abs(y) != 0 && ((int) ((long) Math.abs(y) * (Math.abs(y) - 1) / 2 + 1)) <= 10
+D3: return_value == 0
+
+T4: y != Integer.MIN_VALUE && y != 0 && x + Math.abs(y) != 0 && ((int) ((long) Math.abs(y) * (Math.abs(y) - 1) / 2 + 1)) > 10
+D4: return_value == ((x * Math.abs(y)) / (x + Math.abs(y))) * Integer.toString(((int) ((long) Math.abs(y) * (Math.abs(y) - 1) / 2 + 1)) / 11).length()

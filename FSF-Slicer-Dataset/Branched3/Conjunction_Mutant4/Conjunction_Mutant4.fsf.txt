@@ -1,0 +1,5 @@
+T1: b1 == false || (b1 == true && b2 == true)
+D1: return_value == false
+
+T2: b1 == true && b2 == false
+D2: return_value == true

@@ -1,0 +1,12 @@
+// D1: java.lang.ArithmeticException
+T1: (a == 0) || (a != 0 && (m % a == 0) && b == 0)
+D1: Exception
+
+T2: a != 0 && !(m % a == 0)
+D2: return_value == false
+
+T3: a != 0 && (m % a == 0) && b != 0 && (m % b == 0)
+D3: return_value == true
+
+T4: a != 0 && (m % a == 0) && b != 0 && !(m % b == 0)
+D4: return_value == false

@@ -1,0 +1,8 @@
+T1: num < 0
+D1: return_value == -1
+
+T2: num == 0
+D2: return_value == 0
+
+T3: num > 0
+D3: return_value >= 1 && (long) return_value * return_value <= num && num < (return_value + 1L) * (return_value + 1L)

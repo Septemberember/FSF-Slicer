@@ -1,0 +1,8 @@
+T1: n1 == n2
+D1: return_value == 0
+
+T2: n1 == ~n2
+D2: return_value == 32
+
+T3: n1 != n2 && n1 != ~n2
+D3: return_value == Integer.bitCount(n1 ^ n2)

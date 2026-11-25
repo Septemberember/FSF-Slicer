@@ -1,0 +1,14 @@
+T1: rows < 0 || rows > 8 || cols < 0 || cols > 8 || index < 0 || index > 8
+D1: return_value == -1
+
+T2: rows >= 0 && rows <= 8 && cols >= 0 && cols <= 8 && index >= 0 && index <= 8 && index < rows && index < cols
+D2: return_value == 2 * cols + 3 * rows
+
+T3: rows >= 0 && rows <= 8 && cols >= 0 && cols <= 8 && index >= 0 && index <= 8 && index < rows && index >= cols
+D3: return_value == 2 * cols
+
+T4: rows >= 0 && rows <= 8 && cols >= 0 && cols <= 8 && index >= 0 && index <= 8 && index >= rows && index < cols
+D4: return_value == 3 * rows
+
+T5: rows >= 0 && rows <= 8 && cols >= 0 && cols <= 8 && index >= 0 && index <= 8 && index >= rows && index >= cols
+D5: return_value == 0

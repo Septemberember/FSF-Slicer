@@ -1,0 +1,11 @@
+T1: b == Integer.MIN_VALUE
+D1: return_value == 0
+
+T2: b < 0 && b != Integer.MIN_VALUE
+D2: return_value == a * b
+
+T3: b == 0
+D3: return_value == 0
+
+T4: b > 0
+D4: return_value == a * b

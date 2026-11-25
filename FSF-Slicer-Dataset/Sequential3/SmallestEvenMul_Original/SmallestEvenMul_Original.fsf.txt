@@ -1,0 +1,5 @@
+T1: n % 2 == 0
+D1: return_value == (n)
+
+T2: !(n % 2 == 0)
+D2: return_value == (2 * n)

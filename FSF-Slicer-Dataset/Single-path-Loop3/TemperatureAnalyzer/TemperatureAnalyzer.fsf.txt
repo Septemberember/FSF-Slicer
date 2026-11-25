@@ -1,0 +1,11 @@
+T1: ((modifier + 91) * 2) > 50 && ((double) (((modifier + 91) * 2) - 10) / (modifier - 1) + (((modifier + 91) * 2) - 10) * 0.1) > 30.0
+D1: Double.compare(return_value, (((double) (((modifier + 91) * 2) - 10) / (modifier - 1) + (((modifier + 91) * 2) - 10) * 0.1) + (1.0 + 0 * 0.05 + 1 * 0.05 + 2 * 0.05 + 3 * 0.05) + (((modifier + 91) * 2) - 10) - 3) + 2.0) == 0
+
+T2: ((modifier + 91) * 2) > 50 && ((double) (((modifier + 91) * 2) - 10) / (modifier - 1) + (((modifier + 91) * 2) - 10) * 0.1) <= 30.0
+D2: Double.compare(return_value, (((double) (((modifier + 91) * 2) - 10) / (modifier - 1) + (((modifier + 91) * 2) - 10) * 0.1) + (1.0 + 0 * 0.05 + 1 * 0.05 + 2 * 0.05 + 3 * 0.05) + (((modifier + 91) * 2) - 10) - 3) - 1.0) == 0
+
+T3: ((modifier + 91) * 2) <= 50 && ((((modifier + 91) * 2) + 15) * 0.2) < 10.0
+D3: Double.compare(return_value, (((((modifier + 91) * 2) + 15) * 0.2) + (1.0 + 0 * 0.05 + 1 * 0.05 + 2 * 0.05 + 3 * 0.05) + (((modifier + 91) * 2) + 15) - 3) + 2.0) == 0
+
+T4: ((modifier + 91) * 2) <= 50 && ((((modifier + 91) * 2) + 15) * 0.2) >= 10.0
+D4: Double.compare(return_value, (((((modifier + 91) * 2) + 15) * 0.2) + (1.0 + 0 * 0.05 + 1 * 0.05 + 2 * 0.05 + 3 * 0.05) + (((modifier + 91) * 2) + 15) - 3) - 1.0) == 0

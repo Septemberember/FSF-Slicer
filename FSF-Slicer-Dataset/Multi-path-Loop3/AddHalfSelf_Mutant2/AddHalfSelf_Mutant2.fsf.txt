@@ -1,0 +1,11 @@
+T1: x == Integer.MIN_VALUE
+D1: return_value == Integer.MIN_VALUE
+
+T2: x < 0 && x != Integer.MIN_VALUE
+D2: return_value == x + x / 2 + x % 2
+
+T3: (x >= 0) && (x == 0)
+D3: return_value == x + x / 2 + x % 2
+
+T4: (x >= 0) && !(x == 0)
+D4: return_value == x + x / 2 + x % 2

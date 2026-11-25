@@ -1,0 +1,9 @@
+T1: n < 0
+D1: return_value == 1
+
+T2: n >= 0 && n < Integer.MAX_VALUE
+D2: return_value == java.math.BigInteger.valueOf(x).modPow(java.math.BigInteger.valueOf((long) n + 1L), java.math.BigInteger.ONE.shiftLeft(32)).intValue()
+
+// D3: The inclusive counter wraps and the test always holds.
+T3: n == Integer.MAX_VALUE
+D3: Diverges

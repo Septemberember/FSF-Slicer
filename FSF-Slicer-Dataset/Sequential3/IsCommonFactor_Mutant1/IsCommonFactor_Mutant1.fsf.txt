@@ -1,0 +1,9 @@
+// D1: java.lang.ArithmeticException
+T1: factor == 0
+D1: Exception
+
+T2: factor != 0 && (a % factor == 0 || b % factor == 0)
+D2: return_value == true
+
+T3: factor != 0 && !(a % factor == 0 || b % factor == 0)
+D3: return_value == false

@@ -1,0 +1,5 @@
+T1: num < 10
+D1: return_value == num
+
+T2: num >= 10
+D2: return_value == (num - 1) % 9 + 1

@@ -1,0 +1,11 @@
+T1: size < 0 || size > 12
+D1: return_value == -1
+
+T2: size == 0
+D2: return_value == 0
+
+T3: size == 1
+D3: return_value == 1
+
+T4: size >= 2 && size <= 12
+D4: return_value == 3 * size - 3

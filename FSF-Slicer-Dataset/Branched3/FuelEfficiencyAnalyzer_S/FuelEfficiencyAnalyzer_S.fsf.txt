@@ -1,0 +1,14 @@
+T1: (2 * distance + 20) <= 100 && fuelUsed > 10
+D1: Double.compare(return_value, ((2 * distance + 20) + 20) * 0.5 * 1.2 + ((2 * distance + 20) + 20) * 0.05) == 0
+
+T2: (2 * distance + 20) <= 100 && fuelUsed <= 10
+D2: Double.compare(return_value, ((2 * distance + 20) + 20) * 0.3 * 0.8 + ((2 * distance + 20) + 20) * 0.05) == 0
+
+T3: (2 * distance + 20) > 100 && (fuelUsed - 3) <= 0
+D3: Double.compare(return_value, (((double) (2 * distance + 20)) * 0.9) * 0.8 + (2 * distance + 20) * 0.05) == 0
+
+T4: (2 * distance + 20) > 100 && (fuelUsed - 3) > 0 && ((double) (2 * distance + 20) / (fuelUsed - 3)) > 50
+D4: Double.compare(return_value, (((double) (2 * distance + 20) / (fuelUsed - 3)) * 0.9) * 1.2 + (2 * distance + 20) * 0.05) == 0
+
+T5: (2 * distance + 20) > 100 && (fuelUsed - 3) > 0 && ((double) (2 * distance + 20) / (fuelUsed - 3)) <= 50
+D5: Double.compare(return_value, (((double) (2 * distance + 20) / (fuelUsed - 3)) + 3.0) * 1.2 + (2 * distance + 20) * 0.05) == 0

@@ -1,0 +1,11 @@
+T1: tons <= 0
+D1: return_value == 0
+
+T2: tons > 0 && tons <= 10
+D2: return_value == 0 + 3 * tons
+
+T3: tons > 10 && tons <= 30
+D3: return_value == 30 + 4 * (tons - 10)
+
+T4: tons > 30
+D4: return_value == 110 + 5 * (tons - 30)

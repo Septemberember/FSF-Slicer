@@ -1,0 +1,15 @@
+T1: fileSize < 50
+D1: return_value.equals("ratio:42 level:7 overhead:1")
+
+T2: fileSize >= 50 && fileSize < 60 || fileSize >= 164 && fileSize <= 400
+D2: return_value.equals("ratio:" + (fileSize / 4 + 30) + " level:" + (5 + (fileSize / 4 + 30) % 5) + " overhead:1")
+
+T3: fileSize >= 60 && fileSize < 160
+D3: return_value.equals("ratio:" + (fileSize / 4 + 30) + " level:" + ((fileSize / 4 - 15) / 5) + " overhead:1")
+
+// D4: NullPointerException
+T4: fileSize >= 160 && fileSize < 164
+D4: Exception
+
+T5: fileSize > 400
+D5: return_value.equals("ratio:130 level:5 overhead:" + Math.min(100, (fileSize / 100 + 5) * 4) / 10)

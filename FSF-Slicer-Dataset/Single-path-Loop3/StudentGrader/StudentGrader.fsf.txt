@@ -1,0 +1,14 @@
+T1: score < 40 && score % 2 == 0
+D1: "f: 41".equals(return_value)
+
+T2: score < 40 && score % 2 != 0
+D2: "f: 40".equals(return_value)
+
+T3: score >= 40 && score < 90
+D3: ("" + (char) ('f' - ((score - 31) / 10)) + ": " + (score - 10 * ((score - 31) / 10) + 1)).equals(return_value)
+
+T4: score == 90
+D4: Exception
+
+T5: score > 90
+D5: "A - 90".equals(return_value)

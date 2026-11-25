@@ -1,0 +1,11 @@
+T1: rows < 0 || rows > 8 || cols < 0 || cols > 8 || width < 0 || width > 8
+D1: return_value == -1
+
+T2: rows >= 0 && rows <= 8 && cols >= 0 && cols <= 8 && width >= 0 && width <= 8 && (rows == 0 || cols == 0 || width == 0)
+D2: return_value == 0
+
+T3: rows >= 0 && rows <= 8 && cols >= 0 && cols <= 8 && width >= 0 && width <= 8 && rows > 0 && cols > 0 && width > 0 && width < cols
+D3: return_value == rows * width * (width + 1) / 2
+
+T4: rows >= 0 && rows <= 8 && cols >= 0 && cols <= 8 && width >= 0 && width <= 8 && rows > 0 && cols > 0 && width > 0 && width >= cols
+D4: return_value == rows * cols * (cols + 1) / 2

@@ -1,0 +1,5 @@
+T1: x >= 0.0
+D1: Double.doubleToLongBits(return_value) == Double.doubleToLongBits(x)
+
+T2: !(x >= 0.0)
+D2: Double.doubleToLongBits(return_value) == Double.doubleToLongBits(1.0)

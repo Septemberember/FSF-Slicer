@@ -1,0 +1,21 @@
+T1: processSize <= 10
+D1: return_value == 5
+
+T2: processSize > 10 && processSize < 50
+D2: return_value == processSize * 2 - 15
+
+T3: processSize >= 50 && processSize <= 75
+D3: return_value == 0
+
+T4: processSize > 75 && processSize < 100
+D4: return_value == processSize * 2 - 150
+
+// D5: java.lang.IndexOutOfBoundsException
+T5: processSize == 100
+D5: Exception
+
+T6: processSize > 100 && processSize < 500
+D6: return_value == processSize * 2 - 15
+
+T7: processSize >= 500
+D7: return_value == 985

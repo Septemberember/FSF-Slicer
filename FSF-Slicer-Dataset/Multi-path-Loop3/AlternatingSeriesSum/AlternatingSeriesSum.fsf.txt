@@ -1,0 +1,11 @@
+T1: count <= 0
+D1: return_value == 0
+
+T2: count > 0 && count <= 24 && count % 2 == 0
+D2: return_value == -(count / 2)
+
+T3: count > 0 && count <= 24 && count % 2 != 0
+D3: return_value == (count + 1) / 2
+
+T4: count > 24
+D4: return_value == -12

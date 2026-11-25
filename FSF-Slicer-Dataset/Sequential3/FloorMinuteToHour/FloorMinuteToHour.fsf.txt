@@ -1,0 +1,5 @@
+T1: minute % 1440 >= 0
+D1: return_value == (minute % 1440) / 60
+
+T2: minute % 1440 < 0
+D2: return_value == (minute % 1440 + 1440) / 60

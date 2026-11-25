@@ -1,0 +1,11 @@
+T1: n % 3 == 0 && n % 5 == 0
+D1: return_value == 8
+
+T2: n % 3 == 0 && n % 5 != 0
+D2: return_value == 3
+
+T3: n % 3 != 0 && n % 5 == 0
+D3: return_value == 5
+
+T4: n % 3 != 0 && n % 5 != 0
+D4: return_value == 0

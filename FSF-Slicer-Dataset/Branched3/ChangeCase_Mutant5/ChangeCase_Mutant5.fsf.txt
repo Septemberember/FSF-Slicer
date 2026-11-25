@@ -1,0 +1,14 @@
+T1: c > 122
+D1: return_value == c
+
+T2: c >= 97 && c <= 122
+D2: return_value == 32 + c
+
+T3: c > 90 && c < 97
+D3: return_value == c
+
+T4: c >= 65 && c <= 90
+D4: return_value == 32 + c
+
+T5: c < 65
+D5: return_value == c

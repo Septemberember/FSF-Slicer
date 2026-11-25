@@ -1,0 +1,8 @@
+T1: limit < 2
+D1: return_value == 0
+
+T2: limit >= 2 && limit <= 31
+D2: return_value == (limit >= 2 ? 1 : 0) + (limit >= 3 ? 1 : 0) + (limit >= 5 ? 1 : 0) + (limit >= 7 ? 1 : 0) + (limit >= 11 ? 1 : 0) + (limit >= 13 ? 1 : 0) + (limit >= 17 ? 1 : 0) + (limit >= 19 ? 1 : 0) + (limit >= 23 ? 1 : 0) + (limit >= 29 ? 1 : 0) + (limit >= 31 ? 1 : 0)
+
+T3: limit > 31
+D3: return_value == -1

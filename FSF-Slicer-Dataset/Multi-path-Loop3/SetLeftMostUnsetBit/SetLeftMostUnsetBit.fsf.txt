@@ -1,0 +1,8 @@
+T1: (n & (n + 1)) == 0
+D1: return_value == n
+
+T2: n < 0 && (n & (n + 1)) != 0
+D2: return_value == (n | Integer.highestOneBit(~n))
+
+T3: n > 0 && (n & (n + 1)) != 0
+D3: return_value == (n | Integer.highestOneBit(~n & (Integer.highestOneBit(n) - 1)))

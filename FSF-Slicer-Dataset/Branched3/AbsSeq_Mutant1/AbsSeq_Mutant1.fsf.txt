@@ -1,0 +1,5 @@
+T1: num <= 0
+D1: return_value == -num
+
+T2: num > 0
+D2: return_value == num

@@ -1,0 +1,20 @@
+T1: Math.abs((targetHeight - currentHeight)) >= 30 && (targetHeight - currentHeight) > 0
+D1: return_value == 5
+
+T2: Math.abs((targetHeight - currentHeight)) >= 30 && (targetHeight - currentHeight) <= 0
+D2: return_value == -5
+
+T3: Math.abs((targetHeight - currentHeight)) < 30 && Math.abs((targetHeight - currentHeight)) > 20 && (targetHeight - currentHeight) > 0
+D3: return_value == 3
+
+T4: Math.abs((targetHeight - currentHeight)) < 30 && Math.abs((targetHeight - currentHeight)) > 20 && (targetHeight - currentHeight) <= 0
+D4: return_value == -3
+
+T5: Math.abs((targetHeight - currentHeight)) <= 20 && Math.abs((targetHeight - currentHeight)) > 10 && (targetHeight - currentHeight) > 0
+D5: return_value == 2
+
+T6: Math.abs((targetHeight - currentHeight)) <= 20 && Math.abs((targetHeight - currentHeight)) > 10 && (targetHeight - currentHeight) <= 0
+D6: return_value == -2
+
+T7: Math.abs((targetHeight - currentHeight)) <= 10
+D7: return_value == (targetHeight - currentHeight)

@@ -1,0 +1,13 @@
+T1: length < 0
+D1: return_value == 0
+
+// D2: ArithmeticException
+T2: length == 0
+D2: Exception
+
+// D3: ArrayIndexOutOfBoundsException
+T3: length >= 7 && length * length <= 60 && length * length > 4
+D3: Exception
+
+T4: length > 0 && (length < 7 || length * length > 60 || length * length <= 4)
+D4: return_value == length * length

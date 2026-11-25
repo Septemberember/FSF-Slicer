@@ -1,0 +1,5 @@
+T1: satellites < 4 || signalStrength < 20
+D1: return_value == 1
+
+T2: satellites >= 4 && signalStrength >= 20
+D2: return_value == 0

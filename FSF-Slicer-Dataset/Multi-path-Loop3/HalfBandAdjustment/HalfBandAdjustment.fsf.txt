@@ -1,0 +1,11 @@
+T1: length <= 0
+D1: return_value == 0
+
+T2: length > 0 && upperBand <= 0
+D2: return_value == -Math.min(length, 12)
+
+T3: length > 0 && upperBand >= Math.min(length, 12)
+D3: return_value == 2 * Math.min(length, 12)
+
+T4: length > 0 && upperBand > 0 && upperBand < Math.min(length, 12)
+D4: return_value == 3 * upperBand - Math.min(length, 12)

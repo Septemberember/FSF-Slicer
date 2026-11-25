@@ -1,0 +1,8 @@
+T1: (bits & 255) == 0
+D1: return_value == 0
+
+T2: (bits & 255) != 0 && (bits & (bits >>> 1) & 127) == 0
+D2: return_value == 1
+
+T3: (bits & (bits >>> 1) & 127) != 0
+D3: return_value == 2 + ((bits & (bits >>> 1) & (bits >>> 2) & 63) != 0 ? 1 : 0) + ((bits & (bits >>> 1) & (bits >>> 2) & (bits >>> 3) & 31) != 0 ? 1 : 0) + ((bits & (bits >>> 1) & (bits >>> 2) & (bits >>> 3) & (bits >>> 4) & 15) != 0 ? 1 : 0) + ((bits & (bits >>> 1) & (bits >>> 2) & (bits >>> 3) & (bits >>> 4) & (bits >>> 5) & 7) != 0 ? 1 : 0) + ((bits & (bits >>> 1) & (bits >>> 2) & (bits >>> 3) & (bits >>> 4) & (bits >>> 5) & (bits >>> 6) & 3) != 0 ? 1 : 0) + ((bits & (bits >>> 1) & (bits >>> 2) & (bits >>> 3) & (bits >>> 4) & (bits >>> 5) & (bits >>> 6) & (bits >>> 7) & 1) != 0 ? 1 : 0)

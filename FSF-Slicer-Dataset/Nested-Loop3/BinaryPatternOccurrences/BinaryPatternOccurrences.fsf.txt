@@ -1,0 +1,14 @@
+T1: pattern < 0 || pattern > 3
+D1: return_value == -1
+
+T2: pattern == 0
+D2: return_value == Integer.bitCount((~bits & ~(bits >>> 1)) & 127)
+
+T3: pattern == 1
+D3: return_value == Integer.bitCount((bits & ~(bits >>> 1)) & 127)
+
+T4: pattern == 2
+D4: return_value == Integer.bitCount((~bits & (bits >>> 1)) & 127)
+
+T5: pattern == 3
+D5: return_value == Integer.bitCount((bits & (bits >>> 1)) & 127)

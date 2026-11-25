@@ -1,0 +1,6 @@
+// D1: java.lang.ArithmeticException
+T1: (nom) == 0
+D1: Exception
+
+T2: (nom) != 0
+D2: return_value == (denom / nom)

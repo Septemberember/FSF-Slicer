@@ -1,0 +1,8 @@
+T1: limit < 11
+D1: return_value == 0
+
+T2: limit >= 11 && limit < 99
+D2: return_value == limit / 11
+
+T3: limit >= 99
+D3: return_value == 9

@@ -1,0 +1,5 @@
+T1: celsius < 0.0
+D1: Double.compare(return_value, 0.0) == 0
+
+T2: !(celsius < 0.0)
+D2: Double.compare(return_value, celsius + 273.15) == 0

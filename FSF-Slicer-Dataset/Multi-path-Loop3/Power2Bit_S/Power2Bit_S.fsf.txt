@@ -1,0 +1,8 @@
+T1: n == Integer.MIN_VALUE
+D1: Exception
+
+T2: n >= -2 && n <= 2
+D2: return_value == 1
+
+T3: n != Integer.MIN_VALUE && (n < -2 || n > 2)
+D3: return_value == 2

@@ -1,0 +1,8 @@
+T1: a == 0
+D1: Exception
+
+T2: a != 0 && b == 0 && m % a == 0
+D2: Exception
+
+T3: a != 0 && (b != 0 || m % a != 0)
+D3: return_value == false

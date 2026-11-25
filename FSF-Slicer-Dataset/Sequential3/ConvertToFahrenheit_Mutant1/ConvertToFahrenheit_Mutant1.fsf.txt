@@ -1,0 +1,5 @@
+T1: Double.isNaN(celsius)
+D1: Double.isNaN(return_value)
+
+T2: !Double.isNaN(celsius)
+D2: Double.doubleToLongBits(return_value) == Double.doubleToLongBits(celsius * 1.80 - 32.00)

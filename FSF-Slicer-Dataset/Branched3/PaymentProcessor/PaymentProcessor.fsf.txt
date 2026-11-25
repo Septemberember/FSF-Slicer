@@ -1,0 +1,14 @@
+T1: payment < 20
+D1: "0".equals(return_value)
+
+T2: payment >= 20 && payment <= 30
+D2: String.valueOf(payment - 12).equals(return_value)
+
+T3: payment == 31 || (payment >= 32 && payment <= 100 && (payment - 15) % 8 == 0)
+D3: Exception
+
+T4: payment >= 32 && payment <= 100 && (payment - 15) % 8 != 0
+D4: String.valueOf(payment - 12).equals(return_value)
+
+T5: payment > 100
+D5: "91".equals(return_value)

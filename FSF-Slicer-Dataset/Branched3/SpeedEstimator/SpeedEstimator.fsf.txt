@@ -1,0 +1,17 @@
+T1: (distance * 2 + 23) <= -50 || (distance * 2 + 23) > 67
+D1: Double.compare(return_value, 0.0 + (distance * 2 + 23) * 0.04) == 0
+
+T2: (distance * 2 + 23) > -50 && (distance * 2 + 23) <= 67 && time >= 5
+D2: Double.compare(return_value, (((distance * 2 + 23) - 2) * 0.8) * 0.85 + ((distance * 2 + 23) - 2) * 0.04) == 0
+
+T3: (distance * 2 + 23) > -50 && (distance * 2 + 23) <= 67 && time < 5 && distance <= 20
+D3: Double.compare(return_value, (((distance * 2 + 23) + 2 * time + 7) * 1.1) * 0.85 + ((distance * 2 + 23) + 2 * time + 7) * 0.04) == 0
+
+T4: (distance * 2 + 23) > -50 && (distance * 2 + 23) <= 67 && time < 5 && distance > 20 && time <= 0
+D4: Double.compare(return_value, ((((distance * 2 + 23) + 2 * time + distance) - 2) * 0.6) * 1.1 + (((distance * 2 + 23) + 2 * time + distance) - 2) * 0.04) == 0
+
+T5: (distance * 2 + 23) > -50 && (distance * 2 + 23) <= 67 && time < 5 && distance > 20 && time == 1
+D5: Double.compare(return_value, ((double) (((distance * 2 + 23) + 2 * time + distance) - 3) / (time - 1)) * 1.1 + (((distance * 2 + 23) + 2 * time + distance) - 3) * 0.04) == 0
+
+T6: (distance * 2 + 23) > -50 && (distance * 2 + 23) <= 67 && time < 5 && distance > 20 && time > 1
+D6: Double.compare(return_value, ((double) (((distance * 2 + 23) + 2 * time + distance) - 3) / (time - 1)) * 1.1 + (((distance * 2 + 23) + 2 * time + distance) - 3) * 0.04) == 0
